@@ -1,0 +1,11 @@
+model_name,True Term Num,Extracted Term Num,True positive,True positive + split terms,Too Long,Cut Off,precision /correct rate,recall,f1
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_1,1552,2364,839,1145,129,1726,0.4843485617597293,0.7377577319587629,0.5847803881511747
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_2,1552,2777,895,1298,242,1746,0.4674108750450126,0.836340206185567,0.5996765996765997
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_3,1552,2495,871,1190,156,1669,0.47695390781563124,0.7667525773195877,0.5880899431677786
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_4,1552,2461,860,1218,187,1624,0.4949207639171069,0.7847938144329897,0.6070271617243957
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_5,1552,2737,873,1228,165,1887,0.44866642309097554,0.7912371134020618,0.5726276521333644
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_6,1552,2593,896,1233,175,1667,0.4755109911299653,0.7944587628865979,0.5949336550060315
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_7,1552,2436,873,1207,175,1496,0.4954844006568144,0.7777061855670103,0.6053159478435306
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_8,1552,2335,833,1156,151,1644,0.49507494646680944,0.7448453608247423,0.594803190120916
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_9,1552,2223,835,1114,132,1490,0.5011246063877642,0.7177835051546392,0.5901986754966887
+ner_model/allenai/scibert_scivocab_uncased_ft_5ep_train_size_2048_trainset_10,1552,2391,857,1227,200,1540,0.5131744040150564,0.7905927835051546,0.6223687547552624

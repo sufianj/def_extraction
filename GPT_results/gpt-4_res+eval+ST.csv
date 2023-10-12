@@ -1,0 +1,1025 @@
+True Term Num,Extracted Term Num,TP,Cut Off,Too Long,Split Term,expected,extracted
+1,1,1,0,0,1,Compatibility graph,compatibility graph
+1,1,1,0,0,1,Strong compatibility graph,strong compatibility graph
+2,2,2,0,0,2,good pair;bad pair,good pair###bad pair
+1,1,1,0,0,1,multiplicative,multiplicative
+2,2,1,0,1,2,ergodic;limit shape,ergodic###limit shape of partitions
+2,2,1,0,2,2,simplicial map;nondegenerate,simplicial map###nondegenerate simplicial map
+4,4,3,0,1,4,filling diagram;minimal;nondegenerate;locally k-large,filling diagram for γ###minimal###nondegenerate###locally k-large
+1,1,1,0,0,1,t-uniform,t-uniform
+1,5,0,0,1,1,planar,triangulation###planar double edge###face###edge###double edge
+1,1,0,0,1,1,nearly orthogonal array,"nearly orthogonal array NOA(n,d)"
+1,1,0,0,1,1,exceptional,exceptional interval-poset
+1,1,1,0,0,1,new,new
+1,1,1,0,0,1,new,new
+1,3,0,0,1,1,Composition tableau,semistandard composition tableau (SSCT)###standard (an SCT)###attacks
+1,1,1,0,0,1,Skew quasisymmetric Schur functions,skew quasisymmetric Schur functions
+1,4,0,0,1,1,C-equivalence,C-equivalent ### C-equivalence class ### rectified shape ### complete
+3,4,3,0,0,3,descent Pieri operator;descent set;descent composition,"descent Pieri operator###descent set###descent composition###K_[x,y]"
+1,5,0,1,0,0,γ covers β,composition poset###covers###partial order###transitive closure###cover relations
+2,2,2,0,0,2,vertical strip;horizontal strip,Vertical strip###Horizontal strip
+3,3,1,3,1,1,attacks;semistandard composition tableau T  (SSCT) of shape γβ;standard,Composition tableau###semistandard composition tableau###standard
+3,2,1,0,0,1,C-equivalent;rectified shape;rectified shape;complete,C-equivalence###complete
+1,1,1,0,0,1,rigidly related,rigidly related
+2,2,1,0,1,2,dotted composition tableau;quasisymmetric Schur function in noncommuting variables,quasisymmetric Schur function in noncommuting variables _α###dotted composition tableau
+2,2,1,0,1,2,half-pairing;through strings,non-crossing half-pairing ### through strings
+3,4,0,0,3,1,out;not;out;in,orientation###singleton###non-crossing half-pairing###cyclic intervals
+1,1,0,0,1,1,standard,standard cyclic reduction
+1,2,1,0,0,1,m-composition of ∈ G over G,m-composition of ∈ G over G ### weak compositions over G
+1,3,0,0,1,1,recurrent,recurrent vertices###class of locally restricted compositions###span of (G;D)
+4,4,3,0,1,4,transfer matrix;weight;start vector;finish vector,Transfer matrix###weights###start vector###finish vector
+1,1,1,0,0,1,threshold graph,threshold graph
+1,1,1,0,0,1,d-expands,d-expands
+1,1,1,0,0,1,strictly balanced,strictly balanced
+1,1,1,0,0,1,k-matching,k-matching
+3,3,1,0,4,3,absorber;size;ends,absorber###size of the absorber###ends of the absorber
+1,1,1,0,0,1,pseudodeterminant,pseudodeterminant
+3,3,2,0,1,3,(i-1)-acyclic;i-dimensional (spanning) tree;i-tree,(i-1)-acyclic CW-complex###i-dimensional (spanning) tree###i-tree
+1,2,1,0,0,1,blocker,Alexander dual###blocker
+1,1,1,0,0,1,double dominating set,double dominating set
+1,3,0,0,1,1,generalised Petersen graph,"generalised Petersen graph P_n,k###V(P_n,k)###E(P_n,k)"
+1,2,1,0,0,1,lattice sierpinskisation,lattice sierpinskisation###𝒮_Lat(α)
+1,3,1,0,0,1,k-partition,k-partition###r-partite r-graphs###r-polyad
+1,3,1,0,0,1,k-partition,k-partition###r-partite r-graphs###r-polyad
+1,1,0,0,1,1,⟨⟩̣-good;⟨⟩̣-good,⟨⟩̣-good partition
+2,2,0,0,0,0,"(,d)-regular—or;-regular—in",-regular k-graph###k-partite k-graph
+1,1,0,0,1,1,-regular,-regular partition
+1,2,0,0,1,1,f-equitable,"f-equitable partition###(r,a_1,…,a_r)-partition"
+1,3,1,0,0,1,k-complex,k-complex###k-partite hypergraph###rank
+1,1,1,0,0,1,fair win,fair win
+1,1,1,0,0,1,early win,early win
+1,1,1,0,0,1,humiliating win,humiliating win
+1,1,1,0,0,1,simplicial,simplicial
+6,6,6,3,3,6,nice;good;weakly good;weakly bad of type 1;weakly bad of type 2;bad,nice###good###weakly good###weakly bad of type 1###weakly bad of type 2###bad
+1,1,1,0,0,1,Betti poset,Betti poset
+1,1,1,0,0,1,rigid ideal,rigid ideal
+1,4,1,0,0,1,rigid deformation,rigid deformation###rigid ideal###resolution of J###minimally resolve I
+1,2,0,1,0,0,maximal ranked subposet of,maximal ranked subposet###C
+1,3,0,0,0,0,A Fractional Repetition,"Fractional Repetition (FR) code###repetition degree###(n,k,d) DSS"
+1,1,1,0,0,1,benign tableau,benign tableau
+3,3,1,0,0,1,pencil;parabolic congruence;axis,parabolic congruence###linear complex###incidence structure
+2,2,2,0,0,2,Parikh matrix mapping;Parikh matrices,Parikh matrix mapping###Parikh matrices
+1,1,1,0,0,1,v-core,v-core
+2,1,0,0,1,1,print;print word;print,print of w
+1,3,0,1,0,0,M-ambiguity sequence corresponding to φ,M-ambiguity sequence###M-ambiguous###M-unambiguous
+1,1,1,0,0,1,rational polyhedron,rational polyhedron
+3,2,2,0,0,2,M-equivalent;M-ambiguous;M-unambiguous,M-equivalent###M-ambiguous
+1,2,1,0,0,1,Dobrushin coefficient,Dobrushin coefficient###total variation distance of probability distributions
+1,1,1,0,0,1,Configuration entropy,configuration entropy
+1,2,1,1,0,1,flip in row k,flip in row k###l
+3,5,0,0,3,3,dimension vector;indecomposable;representation-finite,quiver###representation of Q###dimension vector of a representation V###indecomposable representation###representation-finite quiver
+1,2,1,0,0,1,contour,"contour###G_C=(I_C,E_C)"
+1,6,0,0,1,1,Polynomial nilsequence,filtration G_ ### polynomial sequence adapted to G_ ### lattice ### filtered nilmanifold ### polynomial orbit ### polynomial nilsequence of degree d
+1,5,0,0,0,0,Lipschitz functions,(G/Γ→^D) ### ((G/Γ) →^D) ### ((G/Γ) →S^2D-1) ### ((G/Γ) →^ω) ### ((G/Γ) →S^ω)
+1,3,0,0,1,1,Nilsequence,nilsequence of degree ≤ s###standard filtered nilmanifold of degree ≤ s###limit polynomial sequence
+1,3,1,0,0,1,Nilcharacter,nilcharacter ### vertical frequency ### Ξ^d([N])
+1,3,0,0,1,1,Symbol,symbol of χ###nilcharacters###abelian multiplicative group
+1,2,1,0,0,1,Ordering,ordering###finite downset
+1,3,0,0,2,1,Polynomial map,derivative###polynomial maps###limit polynomial maps
+1,5,1,0,0,1,Universal nilmanifold,dimension vector###universal nilpotent group###degree-rank filtration###universal nilmanifold###universal vertical frequency
+1,1,0,0,1,1,Representation,total frequency representation of the nilcharacter χ
+1,3,0,0,0,0,Limit objects,ultralimit###limit natural number###limit real number
+1,1,0,0,1,1,σ-limit,σ-limit set
+1,3,1,0,1,1,Polynomial map,derivative ∂_h g : H → G ### polynomial map ### space of all polynomial maps
+1,7,0,0,1,1,rational,Factorisation theorem###dense arithmetic subprogressions###polynomial sequence###standard rational subgroup###totally equidistributed###horizontal Taylor coefficients###conjugate
+6,5,4,0,1,5,filtration;polynomial sequence;rational;filtered nilmanifold;polynomial orbit;polynomial nilsequence,Polynomial nilsequence###filtration G_###polynomial sequence###filtered nilmanifold###polynomial orbit
+1,3,1,0,0,1,nilsequence,Nilsequence###standard filtered nilmanifold###limit polynomial sequence
+3,3,3,0,0,3,d-correlate;d-biased;d-unbiased,d-correlate###d-biased###d-unbiased
+2,3,2,0,1,2,nilcharacter;vertical frequency,nilcharacter###vertical frequency###The space of all nilcharacters of degree d on [N]
+2,5,1,0,0,1,equivalent;symbol,symbol###nilcharacters###nilsequence###equivalence class###abelian multiplicative group
+2,2,2,0,0,2,ordering;finite downset,Ordering###finite downset
+2,2,2,0,0,2,I-filtration;degree;degree,I-filtration###degree
+2,6,2,0,0,2,"nilpotent Lie group of multi-degree ≤ (d_1,…,d_k);nilpotent Lie group of degree-rank ≤ (d,r)","nilpotent Lie group of multi-degree ≤ (d_1,…,d_k) ### nilpotent Lie group of multidegree ⊆ J ### nilpotent Lie group of degree-rank ≤ (d,r) ### filtered nilmanifold of multidegree ≤ (d_1,…,d_k) ### filtered nilmanifold of multidegree ⊆ J ### filtered nilmanifold of degree-rank ≤ (d,r)"
+3,4,3,0,0,3,I-filtered quotient space;I-filtered homomorphism;I-filtered nilmanifold,I-filtered quotient space###I-filtered homomorphism###I-filtered nilmanifold###degree
+3,3,3,1,1,3,degree filtration;multidegree filtration;degree-rank filtration,degree filtration###multidegree filtration###degree-rank filtration
+1,5,0,0,4,1,polynomial,Polynomial map###derivative###limit polynomial maps###space of all polynomial maps###space of all limit polynomial maps
+3,7,2,0,1,3,limit polynomial orbit;degree d nilcharacter;vertical frequency,"nilsequence of degree ⊂ J###nilsequence of degree ≤ d###limit polynomial orbit###degree d nilcharacter###vertical frequency of F###multidegree (d_1,…,d_k) nilcharacter###degree-rank (d,r) nilcharacter"
+2,3,2,0,0,2,equivalent;symbol,equivalent###symbol###space of all such equivalence classes
+1,4,1,0,0,1,"linearised (1,s-1)-function","linearised (1,s-1)-function###limit function###factorisation###degree ≤ s-2 nilsequence"
+4,5,4,0,0,4,dimension vector;universal nilpotent group;universal nilmanifold;universal vertical frequency,Universal nilmanifold###Universal vertical frequency###Dimension vector###Universal nilpotent group###Degree-rank filtration
+3,2,0,0,3,2,representation;horizontal frequency vector;total frequency representation,representation of χ###total frequency representation of the nilcharacter χ
+1,2,1,0,0,1,independent modulo O(),Linear independence###independent modulo O()
+5,5,1,0,4,5,independent;rational;small;disjoint union;represented,independent horizontal frequency vector###rational horizontal frequency vector###small horizontal frequency vector###disjoint union###represented horizontal frequency vector
+3,4,3,0,0,3,ultralimit;limit natural number;limit real number,ultralimit###limit natural number###limit real number###limit objects
+9,7,7,0,0,7,ultrapower;ultrapower;limit set;limit group;limit finite set;limit subset;ultralimit;limit function;limit map;in a limit fashion,ultrapower ### limit set ### limit group ### limit finite set ### limit subset ### limit function ### limit map
+3,10,3,1,2,3,bounded;infinitesimal;unbounded;bounded;unbounded,Asymptotic notation###bounded###unbounded###infinitesimal###limit complex number###limit non-negative number###limit element###standard topological space###standard compact subset###bounded elements
+3,4,3,1,1,3,correlate;biased;unbiased,correlate###biased###unbiased###L^p norms
+7,4,2,0,3,4,dense;many;sparse;few;co-sparse;almost all;almost bounded,dense###sparse subset###co-sparse subset###almost bounded
+2,1,0,0,1,1,σ-limit;standard,σ-limit set
+2,2,0,0,2,2,derivative;polynomial,Polynomial map###derivative ∂_h g
+5,3,1,0,5,5,Host-Kra cube group;order;cubes;dimension;degrees,"Host-Kra cube group ### order of the Host-Kra cube groups ### cubes of dimension m and degrees i_1,…,i_m"
+2,2,1,0,1,2,equidistributed;totally equidistributed,Equidistribution###totally equidistributed
+1,1,1,0,0,1,arc elimination polynomial,arc elimination polynomial
+4,1,0,0,4,4,fan;f;a;n,fan (= far-apart nine)
+1,5,0,0,0,0,generically satisfy,"property P###words of reduced length m=2n###submodules W_1,...,W_l###ranks###property P(ϕ(x,y))"
+1,4,1,0,1,1,abstract,abstract###MD-graph###underlying abstract graph###support of a flow
+1,2,1,0,0,1,reduced wordlength,reduced wordlength###reduced length
+2,2,2,1,1,2,commutator length;stable commutator length,commutator length ### stable commutator length
+2,6,2,0,3,2,complete digraph;flow,flow###inflow###outflow###complete digraph###nonnegative map###cone of such flows
+2,3,1,0,1,2,weight-function;disc-vectors,weight-function h_z ### cone V(z) ### disc-vectors
+3,3,0,0,3,3,a posteriori;sail;Klein-function,"rational, a posteriori finite sided flow-polyhedron P(z)###sail S(z)###Klein-function κ_z"
+2,2,0,0,2,2,paired vectors;unit-outflow vectors,set of paired vectors###compact set of unit-outflow vectors
+1,1,1,0,0,1,extremal point of S,extremal point of S
+1,4,1,0,0,1,polyhedron associated to w,MD-graph###edge-weights###nonzero (nonnegative) integral flows###polyhedron associated to w
+1,1,1,0,0,1,essential disc-vector,essential disc-vector
+1,1,1,0,0,1,distance-hereditary,distance-hereditary
+2,5,2,1,0,2,chordal;triangulated,connected graph###chordal###triangulated###C_⩾ 4-free###chord
+1,1,1,0,0,1,al­ter­na­ted path,al­ter­na­ted path
+2,2,2,0,0,2,original graph;accessibility graph,original graph###accessibility graph
+1,1,1,0,0,1,split,split
+1,3,1,0,0,1,center-center path,center-center path###totally decomposable graph###reduced clique-star split-decomposition tree
+1,7,1,0,0,1,clique-center path,clique-center path###totally decomposable graph###reduced clique-star split-decomposition tree###star-node###marker vertex###clique-node###interior edge
+1,1,1,0,0,1,weakly geodetic,weakly geodetic
+1,1,1,0,0,1,ptolemaic,ptolemaic
+1,1,1,0,0,1,cactus,cactus
+1,1,1,0,0,1,Region vector,region vector
+3,3,3,1,1,3,Type 1;Type 2;Type 2.i,Type 1###Type 2###Type 2.i
+1,2,1,0,0,1,Schnyder wood,Schnyder wood###Schnyder property
+1,3,0,0,0,0,(toroidal) Schnyder wood,Toroidal Schnyder wood###Schnyder property###monochromatic cycle
+2,3,0,0,0,0,suspension;(planar) Schnyder wood,Planar Schnyder wood###Schnyder property###monochromatic cycle
+1,1,1,0,0,1,region vector,region vector
+1,4,0,0,0,0,labeled,Euler system###ϕ_C###χ_C###ψ_C
+1,1,1,0,0,1,labeled local complement,labeled local complement
+1,1,1,0,0,1,labeled local complement,labeled local complement
+1,1,1,0,0,1,labeled interlace polynomial,labeled interlace polynomial
+1,2,1,0,0,1,simplification,simplification###labeled simple graph G_simp
+1,1,1,0,0,1,2-label interlace polynomial,2-label interlace polynomial
+1,1,1,0,0,1,vertex-nullity interlace polynomial,vertex-nullity interlace polynomial
+1,1,1,0,0,1,interlace polynomial,interlace polynomial
+2,2,0,0,2,2,join;split,"join of H and K with respect to S and T###split of (H,S)∗(K,T)"
+1,1,1,0,0,1,split reduction,split reduction
+2,5,0,0,2,2,type;labels,"type of P∈ P_λ(H)###labels of H###ϕ(H,S)###χ(H,S)###ψ(H,S)"
+1,2,0,0,1,1,split width,split width of a graph G###sw(G)
+1,1,1,0,0,1,"even [a,b]-factor","even [a,b]-factor"
+1,1,1,0,0,1,special;special,special
+1,8,0,0,1,1,butterfly,"red butterfly###|AB|_r###|AB|_b###|ABC|_r###|ABC|_b###G_v,W^blue###G_v,W^red###complete directed bipartite graph K_t,t"
+4,3,3,1,0,3,satisfactory;sink;D is a simple directed graph with no satisfactory vertices;minimal criminal,satisfactory ### sink ### minimal criminal
+5,5,4,0,2,5,walkable neighborhood;anti-satisfaction;base of a transitive triangle;2-directed diamond;bases,walkable neighborhood###anti-satisfaction###base of a transitive triangle###2-directed diamond###bases of the 2-directed diamond
+3,3,3,1,1,3,tight;tight clique;cluster,tight###tight clique###cluster
+1,2,1,0,0,1,folding of G at T,folding of G at T###R_T
+2,2,1,0,1,2,triangles;cherries,triples inducing triangles ### cherries
+1,1,1,0,0,1,foldable,foldable
+2,2,2,0,0,2,lex graph;lex order,lex graph###lex order
+3,3,1,0,3,3,threshold graph;code;join,threshold graph###code of a threshold graph###join of graphs
+1,1,0,1,0,0,compression of G from x to y,compression
+1,1,1,0,0,1,dischargeable,dischargeable
+4,2,1,0,2,3,generalized;tableau;content;semistandard,generalized α-tableau###semistandard
+4,3,1,0,1,2,cell complex;faces;edges;boundary function,cell complex K###boundary function###boundary of the face
+1,1,0,1,0,0,an elementary subdivision of,elementary subdivision
+3,3,2,1,2,3,connected map;faces;map,connected map###faces of M###map
+1,3,0,0,3,1,genus,genus g(M) of M ### Euler genus s(M) of M ### signed genus g̅(M) of M
+1,1,0,0,0,0,deleting,Map edge deletion
+1,1,0,0,0,0,contracting,Map edge contraction
+1,2,1,0,0,1,surface Tutte polynomial,surface Tutte polynomial###signed genus
+1,6,1,0,0,1,canonical subgeometry,_q^t(V)###_q-vector subspace###_ _q(W)###_ _q^t(V)###W _q^t###canonical subgeometry
+1,1,1,0,0,1,linear set of pseudoregulus type,linear set of pseudoregulus type
+1,1,1,0,0,1,(Hasse) Derivative,(Hasse) derivative
+1,1,0,0,1,1,Multiplicity,multiplicity of P at
+1,2,0,0,1,1,Extractor,"(k,)-extractor###explicit"
+3,3,3,0,0,3,k-correspondence assignment;C-coloring;correspondence chromatic number,k-correspondence assignment###C-coloring###correspondence chromatic number
+1,3,0,0,1,1,supportive restriction,supportive restriction of π###tropical torus###left diagonal ^d action on tropical matrices
+3,6,3,1,1,3,categorical product;lexicographic product;deleted lexicographic product,categorical product###lexicographic product###deleted lexicographic product###Kronecker product###direct product###tensor product
+2,2,0,1,0,0,irreducibly;primitively,primitive###basic
+2,2,0,0,3,2,feasible cone;pointed feasible cone,feasible cone of P at F ### pointed feasible cone of P at F
+4,3,2,1,2,3,double graph;Jigsaw percolation;percolation;solved,double graph###percolation###the double graph is solved
+1,2,0,0,1,1,internally spanned,"internally spanned set###I(G,m)"
+2,10,2,0,0,2,rounds;steps,1-by-1 algorithm###rounds###steps###active vertices###discarded vertices###trial vertices###edges###red edges###blue edges###sprinkling
+2,6,2,0,0,2,trial set;active set,trial set###active set###B_t###C_t###X_t+1###A_t+1
+1,2,1,0,0,1,decomposition point,decomposable at j###decomposition point
+1,1,1,0,0,1,marked point,marked point
+1,1,1,0,0,1,special,special
+1,2,1,1,0,1,good pair of edges,good pair of edges###good pair
+2,8,2,1,1,2,parallel class;parallel,Hamiltonian alternating cycles###c.g.s.###good pair###exterior edge###sequence of edges###parallel class###exterior edges###parallel
+3,3,3,2,2,3,red-singular;blue-singular;singular;red-singular;blue-singular;singular,red-singular ### blue-singular ### singular
+1,1,1,0,0,1,good cycle,good cycle
+2,2,1,0,1,2,quantum c-coloring;quantum chromatic number,quantum c-coloring###quantum chromatic number χ_q(G)
+3,3,1,0,2,3,orthogonal representation;orthogonal rank;flat,(complex) orthogonal representation ### (complex) orthogonal rank ### flat
+1,2,1,0,0,1,aperiodic,span of d ### aperiodic
+2,2,1,1,0,1,the smooth inverse-function schema;aperiodic,smooth inverse-function schema###aperiodic
+4,5,3,0,0,3,a weight;regular;inversive;C-acceptable,weight of a vertex###regular###inversive###sign###C-acceptable
+2,5,0,0,2,1,v;w;v;w;w;v,eigenvalue###right and left eigenvectors###normalized###small perturbation###condition number
+2,2,0,0,2,2,parent;child,parent of p###child of a position p
+1,1,1,0,0,1,child-bijective,child-bijective
+1,2,1,0,0,1,bidirectional ballot sequence,bidirectional ballot sequence###B_n
+2,2,1,0,2,2,atom;contents,atom###contents of an atom
+1,3,1,0,0,1,Wilf-equivalent,Wilf-equivalent###generating functions F_A###generating functions F_B
+1,6,1,0,0,1,cohorts,cohorts###binary relation###equivalence relation###arch systems###atoms###empty arch systems
+1,2,0,0,0,0,bipartite,c-bicluster fan###c-biCambrian fan
+1,2,0,0,0,0,bipartite,c-bisortable elements###twin c-clusters
+1,2,0,0,0,0,disjoint,Coxeter group W with simple generators S###(W;q)
+3,3,2,1,0,2,circuit walk of length k;circuit distance;circuit diameter,circuit walk###circuit distance###circuit diameter
+1,1,0,0,1,1,stoss;stoss,stoss complex
+1,1,1,0,0,1,rank,rank
+1,1,1,0,0,1,Scarf complex,Scarf complex
+1,1,1,0,0,1,maximal,maximal
+1,1,0,0,1,1,stoss;stoss,stoss complex
+1,1,0,0,1,1,amalgamation,amalgamation of L_1 and L_2
+1,1,1,0,0,1,axial function,axial function
+2,3,2,0,0,2,k-independent;effective,k-independent###effective###1-skeleton
+1,1,0,0,1,1,embedding,embedding of a 1 skeleton
+1,1,0,0,1,1,trivial normal holonomy,subskeleton with trivial normal holonomy
+2,2,1,1,0,1,polarizing;admits a polarization,polarizing###polarization
+1,1,1,0,0,1,Morse function,Morse function
+1,1,1,0,0,1,non-cyclic,non-cyclic
+1,1,1,0,0,1,compatibility system,compatibility system
+1,1,1,0,0,1,generalized axial function,generalized axial function
+3,4,3,2,2,3,path-connection number;normal path-connection number;local path-connection number,path-connection number###normal path-connection number###local path-connection number###holonomy
+1,1,0,0,1,1,level,level subskeleton
+1,1,1,0,0,1,blow-up,blow-up
+1,3,1,0,0,1,k-face,k-face###generalized 1-skeleton###k-valent subskeleton
+1,2,1,0,0,1,enough k-faces,(polarized) generalized 1-skeleton###enough k-faces
+1,1,1,0,0,1,reducible,reducible
+1,1,1,0,0,1,dependency graph,dependency graph
+1,1,1,0,0,1,"(k,d)-expander","(k,d)-expander"
+1,1,1,0,0,1,k-rainbow-pseudorandom,k-rainbow-pseudorandom
+1,2,0,0,1,1,Stanley sequence,Stanley sequence S(A)###3-free set of nonnegative integers
+3,4,2,0,1,3,independent;character;repeat factor,Stanley sequence###independent Stanley sequences###character###repeat factor
+4,5,2,0,2,4,regular;core;shift index;character,Stanley sequence###regular###core of S(A)###shift index###character of (a_n)
+2,2,0,0,3,2,covered;covered;modulo N,covered by A###covered by A modulo N
+2,2,2,0,0,2,modular set modulo N;modular Stanley sequence modulo N,modular set modulo N ### modular Stanley sequence modulo N
+3,4,3,0,0,3,modular;character;repeat factor,Stanley sequence S(A)###modular###character###repeat factor
+3,3,2,0,1,3,pseudomodular;core;shift index,pseudomodular###core of S(A)###shift index
+2,3,1,0,1,2,basic;basis,Stanley sequence S(A)###basic###basis of S(A)
+1,2,1,0,0,1,p-Stanley sequence,p-Stanley sequence###p-free set
+2,2,2,1,1,2,p-covered by A;p-covered by A modulo N,p-covered by A###p-covered by A modulo N
+2,2,0,0,2,2,modular p-free set;modular p-Stanley sequence,modular p-free set modulo N ### modular p-Stanley sequence modulo N
+2,3,2,0,0,2,basic;basis,p-Stanley sequence###basic###basis
+2,2,2,0,0,2,elementary dual equivalence;dual equivalent;dual equivalent,elementary dual equivalence###dual equivalent
+1,4,1,0,0,1,"signed, colored graph of type (n,N)","signed, colored graph of type (n,N)###finite vertex set V###signature function σ###collection E_i"
+1,2,0,1,0,0,"dual equivalence graph of type (n,N)","signed, colored graph###dual equivalence graph"
+2,2,2,1,1,2,morphism;isomorphism,morphism###isomorphism
+1,1,0,1,0,0,admits an i-neighbor,i-neighbor
+1,1,1,0,0,1,k-ribbon word,k-ribbon word
+1,1,0,1,0,0,i-package of w,i-package
+2,2,2,0,0,2,i-incompatible;i-compatible,i-incompatible###i-compatible
+1,4,0,1,0,0,satisfies axiom 4',axiom 4'###ax4'a###ax4'b###ax4'c
+1,1,1,0,0,1,D graph,D graph
+1,2,0,0,1,1,Multiplicative Derivative,multiplicative derivative in direction h of f###Δ_hf
+1,1,0,0,1,1,Gowers norm,Gowers norm of order d
+1,1,1,0,0,1,Additive Derivative,additive derivative
+1,1,1,0,0,1,d-tiling,d-tiling
+1,2,0,0,1,1,fractional part,floor of x ### fractional part of x
+1,5,0,0,1,1,(intermediate) inhomogeneous random graph,"(intermediate) inhomogeneous random graph with kernel###G(n,)###V_n###p_ij###p_n"
+1,1,1,0,0,1,isolation parameter,isolation parameter
+2,3,2,1,1,2,reducible;irreducible,kernel###reducible###irreducible
+2,2,2,0,0,2,lower approximation kernels;partition graphs,lower approximation kernels###partition graphs
+1,1,1,0,0,1,special,special
+1,1,1,0,0,1,arc,arc
+1,1,1,0,0,1,"(T,)-path","(T,)-path"
+1,2,1,0,0,1,movement vector,movement vector###set of neighbors of vertex v
+1,4,1,0,0,1,shape,"shape ### neighborhood ^+_s^+,r ### movement vectors v⃗ ### s^+(v)"
+1,2,0,0,1,1,inverse,inverse ^- ### s^-
+1,2,0,0,2,1,transporter,transporter from west to east with vectors###transporter from north to south with vectors
+1,3,0,0,1,1,bad,absolute constant ### special m-colouring ### bad colouring
+5,5,4,2,3,4,Δ-floor diagram;divergence condition;toric floor diagram;floor diagram;divergence sequence,"Δ-floor diagram###toric floor diagram###floor diagram###(≪,,ß)-floor diagram###divergence sequence"
+2,2,1,0,1,2,marking;marked floor diagram;marking,marked floor diagram###marking of the original floor diagram
+1,1,1,0,0,1,template,template
+1,1,0,0,1,1,Adjacency matrix,adjacency matrix A(G)
+1,4,0,0,2,1,Degree,degree d_i of a vertex v_i of a graph G ### Minimum and maximum degree of a graph G ### δ(G) ### △(G)
+1,2,0,0,2,1,Volume,volume of a graph###volume of a subset
+1,4,1,0,0,1,Edge Connectivity,edge connectivity###k-edge connected###1-edge connected graph###connected graph
+1,1,0,0,1,1,Cartesian product,Cartesian product of graphs
+1,2,1,0,1,1,Path,path###length of the path
+1,4,1,0,0,1,Shortest Path,weighted graph###paths###length of the path###shortest path
+1,2,0,0,1,1,Distance,"distance between two vertices###dist(i,j)"
+1,1,0,0,1,1,Diameter,diameter of a graph
+1,3,1,1,0,1,Permutation matrix,permutation matrix###graph###permutation
+1,2,0,0,1,1,Automorphism,automorphism of G###permutations of vertex set V
+1,1,1,0,0,1,Weighted graph,weighted graph
+1,1,1,0,0,1,Weighted adjacency matrix,weighted adjacency matrix
+1,1,1,0,0,1,Graph cut,graph cut
+1,1,0,0,1,1,Isoperimetric number,isoperimetric number i(G)
+1,2,0,0,1,1,Weighted difference Laplacian,weighted difference Laplacian L(G)###l_ij
+1,3,0,0,1,1,Signless Laplacian,weighted signless Laplacian SL(G)###sl_ij###SL(G)
+1,3,0,0,1,1,Path graph,path graph P_n###vertex set V_n###edge set E_n
+1,2,1,0,0,1,Weighted Path,adjacency matrix###weighted path
+1,3,0,1,1,1,Complete binary tree,"complete binary tree T_n=(V,E)###V###E"
+1,1,1,0,0,1,Double tree,double tree
+1,1,0,0,1,1,Cycle,cycle C_n
+1,1,0,0,1,1,Complete graph,complete graph K_n
+1,1,1,0,0,1,Normalized cut,normalized cut
+1,2,1,0,0,1,Mcut(G),Mcut(G)###Mcut_j(G)
+1,4,1,0,0,1,Lcut(G),"Lcut(G)###λ_2###U_2###G=(V,E)"
+3,1,0,0,3,3,proximity;neighborhood;graph,proximity (or neighborhood ) graph
+2,2,0,0,2,2,proximity map;proximity region,proximity map N(·)###proximity region of x
+1,4,0,0,1,1,PCD,"PCD D=(,)###vertex set###arc set###N(p_i)"
+1,1,1,0,0,1,superset region,superset region
+1,1,1,0,0,1,vertex regions,vertex regions
+1,1,1,0,0,1,edge regions,edge regions
+1,1,0,0,1,1,active set,active set of points
+3,3,3,0,0,3,minimal active subset;η-value;minimum active subset,minimal active subset###η-value###minimum active subset
+1,2,0,0,1,1,edge extrema;edge extrema,closest edge extrema###x_e_i
+2,2,2,0,0,2,_2-region;_k-region,_2-region ### _k-region
+1,1,1,0,0,1,κ-value,κ-value
+2,2,0,2,0,0,"PB-deletion    of (B, x^B);PB-contraction of (B,x^B)",PB-deletion###PB-contraction
+1,3,0,0,0,1,reduced vertex-weighted block  graph,Reduced vertex-weighted block graph###PB-deletions###PB-contractions
+1,3,1,0,0,1,B^3_1  block  graph,B^3_1  block  graph###block graph###non-cut-vertex
+2,4,2,0,0,2,skeleton edge;skeleton vertices,"tree of G_1, …, G_k ### skeleton edge ### skeleton vertices ### pendant"
+1,1,1,0,0,1,First common ancestor,first common ancestor
+1,4,0,0,0,0,Hypothesis (CS),dominant singularity###family of simple permutations 𝒮###pattern θ###corresponding series _θ(z)
+1,1,0,1,0,0,called the Brownian separable permuton,Brownian separable permuton
+2,2,0,0,3,2,substitution;skeleton,"substitution of π^(1),…,π^(d) in θ###skeleton of the substitution"
+1,1,1,0,0,1,substitution-closed,substitution-closed
+2,1,1,0,0,1,simple permutation;i.e.,simple permutation
+2,1,1,0,0,1,canonical tree;degree,canonical tree
+1,1,1,0,0,1,consistent,consistent
+2,3,1,0,1,2,rooted planar tree;size,rooted planar tree###size of a tree###number of nodes of t
+1,3,0,0,1,1,substitution tree,substitution tree of size n###internal node with k ≥ 2 children###Internal nodes with only one child
+1,1,1,0,0,1,first common ancestor,First common ancestor
+1,3,1,0,0,1,decorated tree,decorated tree###substitution tree###nonlinear nodes
+4,4,4,0,0,4,1-codimension;1-codimension;2-codimension;level 1 adjacency;level 2 adjacency,1-codimension###2-codimension###level 1 adjacency###level 2 adjacency
+2,2,2,0,0,2,level of adjacency;dominating parameter,level of adjacency###dominating parameter
+4,4,4,1,1,4,clockwise biased;anti-clockwise biased;equivocal;ultimately equitable,clockwise biased###anti-clockwise biased###equivocal###ultimately equitable
+1,1,1,0,0,1,monopoly state,monopoly state
+1,6,0,1,1,1,Generalized Quiver,generalized quiver Q###Laurent polynomial label###v###2-cycles###matrix B###skew-symmetrizable
+1,3,0,0,1,1,Generalized Quiver Mutation,generalized quiver mutation at vertex i###Laurent polynomial at vertex i###P
+1,2,1,0,0,1,Framed Generalized Quiver,framed generalized quiver###base vertex
+1,3,1,0,0,1,D-Matrix,"D-matrix###D_m,n###D_n"
+1,2,0,0,0,0,r_i,green###red
+1,4,1,1,0,1,"δ_i,j","δ_i,j###Mutation 0###δ_0,i###δ"
+1,4,0,0,1,1,Quiver,quiver Q###Laurent polynomial label###variable v###2-cycles
+1,3,0,0,1,1,Quiver Mutation,quiver mutation at vertex i###Laurent polynomial###P
+1,2,1,0,0,1,Framed Quiver,framed quiver###base vertex
+1,3,1,0,0,1,C-matrix,"C-matrix###C_n###C_m,n"
+1,3,1,1,0,1,Fundamental r_i,fundamental r_i ### M_n ### M
+1,2,1,0,0,1,Basic,basic###P_n
+1,1,1,0,0,1,expander,expander
+1,1,1,0,0,1,expander,expander
+1,2,0,0,0,0,compatible,Cluster complex of type A_n###clusters
+1,4,0,0,1,1,associahedron,associahedron Ass_n###face lattice###polyhedral subdivisions###convex (n+3)-gon
+2,2,2,0,0,2,GKZ vector;secondary polytope,GKZ vector###secondary polytope
+2,3,1,0,1,2,cluster complex;clusters,Cluster complex of type A_n###compatible###clusters
+2,2,2,0,0,2,perfect decomposition;partial decomposition,perfect decomposition###partial decomposition
+4,3,3,0,0,3,"(W,V)-path system;extend;source;sink","(W,V)-path system###source###sink"
+1,1,0,0,1,1,partition,partition of n
+1,3,1,0,0,1,"(X,σ)","(X,σ)###(σ, -)-constant###(σ, +)-proper vertex-2-colourings"
+1,1,1,0,0,1,lazy coin flip distribution,lazy coin flip distribution
+1,1,1,0,0,1,Chio set,Chio set
+1,3,1,0,0,1,matrix-l-circuit,"matrix-l-circuit###(l,s,t)###(l,n)"
+1,2,0,2,0,0,"(σ, -)-constant, (σ, +)-proper","(σ, -)-constant###(σ, +)-proper"
+2,2,0,0,2,2,positive;negative,positive path###negative path
+1,1,1,0,0,1,Periodic Graph,periodic graph
+4,4,0,0,4,4,without inversions;discretely;with bounded co-volume;co-finitely,act without inversions###act discretely###act with bounded co-volume###act co-finitely
+1,1,1,0,0,1,periodic graph,Periodic Graph
+5,5,4,0,1,5,backtracking;proper;primitive;tail;reduced,backtracking###proper###primitive###tail###reduced closed paths
+1,1,1,0,0,1,redundant,redundant
+1,2,0,0,2,1,Complexity,complexity of ψ at i###complexity of ψ
+1,4,1,0,0,1,regular,Bohr set###dimension d###ρ-dilate B_| ρ of a Bohr set B###regular
+1,2,0,0,1,1,exact,exact s-normal form###s-normal form
+1,1,1,0,0,1,shape,shape
+2,3,1,0,1,2,support;Hamming weight,support of a code word###Hamming weight###minimum distance
+1,1,1,0,0,1,quasi-square grid,quasi-square grid
+1,1,0,1,0,0,"x nondecreasingly sorted with respect to the lattice (X,,)",nondecreasingly sorted
+1,3,0,0,0,0,(A Poincaré,Poincaré lemma###reduced homologies###(inverse) star-shaped digraph
+2,1,0,0,2,2,elementary;path,elementary p-path
+1,1,1,0,0,1,boundary operator,boundary operator
+1,2,0,0,1,1,non-,non-regular###regular
+1,2,0,0,2,1,regular,regular p-paths###regularized p-paths
+2,3,1,0,3,2,regular;non-regular,regular boundary operator###regular join###non-regular
+1,1,0,0,1,1,concatenation,concatenation φψ
+1,1,0,0,1,1,regular,regular p-forms
+1,1,1,0,0,1,path complex,path complex
+1,1,0,0,1,1,perfect,perfect path complex
+1,2,1,0,0,1,monotone,monotone###path complex P
+1,1,0,0,1,1,allowed,allowed n-paths
+1,1,1,0,0,1,regular,regular
+2,2,2,1,1,2,path homology groups;reduced path homology groups,path homology groups###reduced path homology groups
+1,2,0,0,1,1,exterior differential,d-invariant n-forms of the path complex P ### the exterior differential
+1,3,1,0,1,1,star-shaped,star-shaped ### inverse star-shaped ### star center
+1,1,0,0,1,1,join,"join of P( X) ,P( Y)"
+1,2,0,0,2,1,cone,cone over a digraph X###cone vertex
+1,2,0,0,2,1,suspension,suspension over a digraph X###suspension vertices
+1,1,1,0,0,1,depth,depth
+1,1,0,0,1,1,level,i^th level
+1,1,1,0,0,1,equivalent,equivalent
+1,2,1,0,0,1,to the right of,to the right of###semiorder
+1,1,1,0,0,1,bad,bad
+2,3,0,1,2,1,maximal cone;has good maximal cones,maximal cone associated to Δ ### good maximal cone ### Δ-maximal fan
+1,1,1,0,0,1,GKZ cone,GKZ cone
+1,1,1,0,0,1,Growth point,growth point
+1,2,1,0,0,1,cell complex,cell complex###finite CW complex
+1,1,1,0,0,1,concrete simplicial complex,concrete simplicial complex
+1,1,0,0,1,1,star,star of v
+1,1,1,0,0,1,abstract simplicial complex,abstract simplicial complex
+1,1,1,0,0,1,vertex scheme,vertex scheme
+1,2,0,0,1,1,nerve,nerve of 𝒰###abstract simplicial complex
+1,2,1,1,0,1,real hyperplane arrangement,real hyperplane arrangement###hyperplane arrangement
+1,1,1,0,0,1,finite reflection group,finite reflection group
+1,1,0,0,1,1,Salvetti complex,abstract Salvetti complex
+1,1,1,0,0,1,FQ-legal decomposition,FQ-legal decomposition
+1,2,1,0,0,1,Fibonacci Quilt Sequence,Fibonacci Quilt sequence###FQ-legal decomposition
+1,2,0,0,1,1,increasing,discrete cube ### increasing family
+2,2,0,0,0,0,influence;total influence,I_k() ### I()
+2,1,1,0,0,1,weakly symmetric;regular,regular
+1,1,1,0,0,1,fully symmetric,fully symmetric
+1,3,0,0,1,1,level,Fourier-Walsh expansion###coefficients α_S###level of the coefficient f̂(S)
+1,2,1,0,0,1,linear threshold function,linear threshold function###sign
+2,2,2,0,0,2,edge labeling;spline,edge labeling###spline
+2,2,2,0,0,2,constant spline;rank one,constant spline###rank one
+1,1,1,0,0,1,direct product,direct product
+1,1,1,0,0,1,lexicographic product,lexicographic product
+2,2,2,1,1,2,basic admissible vector;admissible,basic admissible vector###admissible
+1,1,0,0,1,1,Reverse Multiple,"(g, k) reverse multiple"
+1,3,0,0,0,1,Pivot Nodes,even pivot node###odd pivot node###starting node
+1,1,1,0,0,1,Young Graph,Young graph
+1,4,0,0,1,1,Isomorphism,isomorphic as Young graphs###even pivot node###odd pivot node###pivot node-preserving isomorphism of the underlying directed graphs
+1,1,1,0,0,1,1089 Graph,1089 graph
+1,1,1,0,0,1,"(g, k) reverse multiple","(g, k) reverse multiple"
+2,3,2,2,0,2,even pivot node;odd pivot node,even pivot node###odd pivot node###pivot node
+1,1,1,0,0,1,Young graph,Young graph
+1,4,0,0,0,0,isomorphic as Young graphs,Isomorphism###even pivot node###odd pivot node###pivot node-preserving isomorphism
+1,1,1,0,0,1,1089 graph,1089 graph
+1,2,0,1,0,0,complete Young graph on m nodes,Complete Young graph###K_m
+1,2,0,1,0,0,cyclic Young graph on n nodes,Cyclic Young graph###Z_n
+2,2,2,0,0,2,"ξ-absorbing;(S, t)-absorbing","ξ-absorbing###(S, t)-absorbing"
+1,1,1,0,0,1,μ-regular,μ-regular
+2,2,0,0,3,2,decomposable;indecomposable,decomposable permutation###indecomposable permutation
+2,1,1,1,0,1,Dyck path;elevated Dyck path,Dyck path
+1,8,1,0,1,1,t-Lattice Graph,"t-Lattice Graph###Vertices V_N of the t-Lattice Graph###E_N###e^1_x,y###e^2_x,y###e^3_x,y###e^4_x,y###e^5_x,y"
+1,1,0,0,0,0,Wep,Y_k(t)
+1,0,0,0,0,0,Wep,
+1,1,0,0,0,0,wep,expected degree of a vertex
+1,1,0,0,0,0,wep,Z_≥ k
+1,3,0,0,1,1,wep,"expected degree of a vertex v_i###(v_i,n)###wep (v_i,n)"
+1,1,0,0,0,0,wep,Z_≥ k
+1,2,0,0,0,0,wep,"l(v_i)###r(v_i,t)"
+1,2,0,0,1,1,wep,"(v_i,n)###wep(v_i,n)"
+1,1,0,0,0,0,wep,Z_≥ k
+1,0,0,0,0,0,wep,
+1,0,0,0,0,0,wep;wep,
+1,0,0,0,0,0,wep,
+1,4,1,0,0,1,Ramanujan graphs,Ramanujan graphs###Legendre symbol###girth###chromatic number
+1,2,1,0,0,1,effective girth,effective girth###g(k)
+1,3,0,0,1,1,periodic,PST###G(C)###periodic with period
+1,1,1,0,0,1,M-convex,M-convex
+1,1,1,0,0,1,L-convex,L-convex
+1,1,1,0,0,1,exchange,exchange
+5,5,3,2,4,5,elementary of dimension n and depth 0;elementary of dimension n and depth d;elementary of dimension n;projection map;normal,elementary of dimension n and depth 0###elementary of dimension n and depth d###elementary of dimension n###projection map on an elementary set of dimension n###sijection ψT̆⇒T̆ between elementary signed sets T̆ and T̆ of the same dimension is normal
+3,3,1,0,2,3,interlaces;monotone triangle of size n;sign,l interlaces k ### monotone triangle of size n ### sign of a monotone triangle
+1,2,1,0,0,1,shifted Gelfand-Tsetlin patterns,shifted Gelfand-Tsetlin patterns###SGT patterns
+1,3,1,0,0,1,collapsible,free face of Δ ### collapse of Δ ### collapsible
+1,4,0,0,0,0,vertex decomposable,vertex-decomposable###simplex###_Δ(v)###Del_Δ (v)
+1,1,1,0,0,1,Simplicial Join,simplicial join
+1,1,1,0,0,1,Gröbner basis,Gröbner basis
+1,2,0,0,1,1,k-piercing,"(λ, σ, τ) pierceable###k-piercing of λ"
+1,2,1,0,0,1,inductively k-pierced,inductively k-pierced###k-pierced code
+2,3,2,0,0,2,collapse;collapsible,free face###collapse###collapsible
+1,1,0,0,1,1,polar complex,polar complex of a neural code
+1,1,1,0,0,1,shellable,shellable
+1,1,1,0,0,1,l-system,l-system
+1,1,1,0,0,1,B'-compatible,B'-compatible
+1,1,1,0,0,1,Interlacing Family,interlacing family
+1,1,1,0,0,1,r-Riordan array,r-Riordan array
+1,1,1,0,0,1,r-Catalan triangle,r-Catalan triangle
+1,4,1,0,0,1,Reduced graph,reduced graph###exceptional cluster###non-exceptional clusters###ε-regular pair
+3,3,0,0,4,3,Kneser graph;stable Kneser graph;stable,"Kneser graph KG_n,k ### stable Kneser graph SG_n,k ### Schrijver graph"
+1,1,1,0,0,1,independence complex,independence complex
+2,2,2,0,0,2,partial matching;acyclic,partial matching###acyclic
+1,3,1,0,0,1,Schrijver graph,"Kneser graph KG_n,k ### stable Kneser graph SG_n,k ### Schrijver graph"
+7,4,1,0,4,4,matching tree;free vertex;matching vertex;splitting vertex;root;matching site;splitting site,matching tree###root of the matching tree###matching site of M(G)###splitting site of M(G)
+3,3,3,0,0,3,alternating end vertex;bipartite end vertex;middle vertex,alternating end vertex###bipartite end vertex###middle vertex
+1,1,1,0,0,1,Weyl alternation set,Weyl alternation set
+1,1,0,1,0,0,"Refine(ϕ,ψ)",Refine
+1,2,1,0,1,1,anchor,anchor###opposite anchors
+1,1,1,0,0,1,similarity partition,similarity partition
+1,1,0,1,0,0,image zeta function of _n(),image zeta function
+1,2,1,0,0,1,T-critical,ϕ-critical###T-critical
+4,2,2,1,0,2,ϕ extends to an L-coloring of G;ϕ-critical;T-critical with respect to the list assignment L;T-critical,ϕ-critical###T-critical
+2,2,2,0,0,2,canvas;critical,canvas###critical
+1,1,0,0,1,1,S-component,S-component with respect to T of G
+1,2,1,0,0,1,subcanvas,subcanvas###T[G']
+1,4,0,0,1,1,deficiency,internal vertex###deficiency of G###v(T)###def(T)
+2,9,0,0,6,2,boundary;quasi-boundary,boundary of G ### quasi-boundary of G ### B(G) ### Q(G) ### b(G) ### q(G) ### boundary of T ### quasi-boundary of T ### B(T)
+3,6,0,0,10,3,dividing;strong dividing;true dividing;dividing,dividing vertex of G_0###strong dividing vertex of G_0###true dividing vertex of G_0###dividing vertex of T_0###strong dividing vertex of T_0###true dividing vertex of T_0
+2,2,0,0,2,2,0-relaxation;k-relaxation,0-relaxation of T_0 ### k-relaxation of T_0
+1,3,1,0,0,1,Stanley-Reisner ring,Stanley-Reisner ring###face ring###I_Δ
+1,1,0,0,1,1,link,link of σ in Δ
+1,1,1,0,0,1,sequentially Cohen-Macaulay,sequentially Cohen-Macaulay
+1,1,1,0,0,1,Alexander dual,Alexander dual
+1,1,1,0,0,1,componentwise linear,componentwise linear
+1,1,1,0,0,1,Ferrers graph,Ferrers graph
+1,1,1,0,0,1,Ferrers invariant,Ferrers invariant
+1,8,1,0,0,1,nilsequence,s-step filtered###nilpotent Lie group###lattice###left-invariant Riemannian metric###polynomial map###automorphic###nilsequence###correlates
+1,1,1,0,0,1,N-periodic,N-periodic
+1,1,1,0,0,1,C-normal,C-normal
+1,3,1,0,0,1,Γ-distance magic labeling,Γ-distance magic labeling ### Γ-distance magic graph ### magic constant
+3,4,3,0,0,3,capacity;source;sink,network Δ ### capacity ### source ### sink
+5,6,4,0,1,5,decomposable;primitive;primitive element;irreducible element;atom,decomposable ### primitive element ### irreducible element ### atom ### D(S) ### P(S)
+1,1,0,0,1,1,profile,profile of S
+1,1,1,0,0,1,Apéry element,Apéry element
+1,1,1,0,0,1,standard graded algebra,standard graded algebra
+1,2,1,0,0,1,Hilbert function,Hilbert function###standard graded algebra
+1,1,1,0,0,1,outside decomposition,outside decomposition
+2,4,2,0,0,2,content;subribbon,"content###subribbon###R_Θ###R_Θ(i,j)"
+1,1,1,0,0,1,admissible,admissible
+1,6,1,0,0,1,n-dimensional finite projective space,(n+1)-dimensional vector space over GF(q)###n-dimensional finite projective space###1-dimensional subspaces of V###2-dimensional subspaces of V###k-dimensional projective subspaces###Incidence
+1,1,0,1,0,0,(Bounded difference assumption),bounded difference assumption
+3,6,0,0,5,3,partition;parts;multiplicity,subset of _+^2###partition of n with parts in X###multiplicity function ω X →_+###multiplicity of the part x in the partition###Ω_(n)###p_X(n)
+1,1,0,0,1,1,local limit theorem with rate,Gaussian local limit theorem with rate a_k
+1,1,1,0,0,1,"(L,R)-quasi-identifying code","(L,R)-quasi-identifying code"
+1,1,1,0,0,1,homotopy moves,homotopy moves
+1,1,1,0,0,1,homotopic,homotopic
+2,2,1,0,2,2,occurrence;classical pattern,classical pattern###occurrence of the classical pattern
+3,2,1,0,1,2,occurrence;vincular pattern;adjacencies,vincular pattern ### set of adjacencies
+1,1,0,0,1,1,composition,composition of an integer n
+2,1,1,0,0,1,reduction;i.e.,reduction
+1,1,1,0,0,1,dependency graph,dependency graph
+2,3,0,0,2,2,order;asymptotically equivalent,𝒪(g)###of order g###asymptotically equivalent to g
+1,1,0,0,0,0,sorted,sort(x_1… x_n)
+3,4,3,1,1,3,one-factor;perfect matching;one-factorisation,one-factor ### perfect matching ### one-factorisation ### regular of degree k
+1,1,1,0,0,1,front divisor,front divisor
+2,2,2,0,0,2,N-bi-invariant;Gelfand pair,N-bi-invariant###Gelfand pair
+1,1,0,1,0,0,"The LCM lattice, LCM(M), of a monomial ideal M is the set of least common multiples of minimal generators of M, partially ordered by divisibility.",LCM lattice
+2,3,0,0,3,2,alphabet;size,alphabet Σ ### size of an alphabet ### string S
+3,3,0,0,2,1,i;substring;length,"S[i] ### S[i,j] ### n(S)"
+3,6,2,0,2,3,suffix tree;label;path label,suffix tree###edge label###path label###root###leaf###path from the root to the leaf j
+1,1,1,0,0,1,compact suffix tree,compact suffix tree
+4,3,2,0,0,2,natural direction;descendant;ancestor;the growth of,growth of S###descendant###ancestor
+3,3,3,1,1,3,periodic;aperiodic;minimal period,periodic ### aperiodic ### minimal period
+1,2,1,0,0,1,ribbon graph polynomial,ribbon graph polynomial###Bollobás-Riordan polynomial
+1,2,0,0,1,1,topological transition polynomial,"topological transition polynomial Q(G, (α, β, γ), t)###medial weight system"
+1,1,1,0,0,1,outerhamiltonian,outerhamiltonian
+1,1,1,0,0,1,diagonal graph,diagonal graph
+1,1,0,0,1,1,thickness,thickness of a graph
+1,2,1,0,0,1,random semi-bar k-visibility graph on n vertices,random semi-bar k-visibility graph on n vertices###𝒢_n^k
+9,5,4,0,2,6,matroid;ground set;independent sets;independence augmentation;basis;closed sets;flats;partitioning;rank function,matroid###independent sets###basis###closed sets or flats###rank function
+3,3,3,0,0,3,loop;isthmus;parallel,loop###isthmus###parallel
+5,4,3,0,1,4,pointed;the point;loopless;simple;free,pointed matroid###loopless###simple###free
+2,2,1,0,2,2,strong map;pointed,strong map###pointed strong map
+5,5,1,0,4,5,deletion;embedded;embedding;contraction;minor,deletion of Y⊆ |M| from M###embedded in M###embedding###contraction of M by Z⊆ |M|###minor of M
+1,1,0,0,0,0,(matroid) quotient,matroid quotient
+3,2,2,0,0,2,weak factorization system;fill-in;orthogonal factorization system,weak factorization system###orthogonal factorization system
+1,6,1,0,0,1,nearly full,nearly full###functor F C→D###morphism g in D###objects in the image of F###g=F(f)###morphism f in C
+1,1,1,0,0,1,nearly faithful,nearly faithful
+1,1,1,0,0,1,simplification,simplification
+1,1,0,0,1,1,free extension,free extension of a matroid
+2,4,0,0,3,2,weight;optimization problem,"collection of subsets###weight function###optimization problem for the pair (,w)###maximal member B of  of maximum weight"
+1,2,1,0,0,1,greedy algorithm,greedy algorithm###B_G
+3,3,2,0,1,3,covers;square poset;square functor,element z in a partially ordered set covers x ### square poset ### square functor
+1,2,1,0,0,1,Stirling derangement,Stirling derangement###Stirling permutation
+1,2,1,0,1,1,Good set,good set###maximal good set
+2,2,1,0,2,2,good set;maximal,Good set###maximal good set
+2,2,2,0,0,2,Parikh matrix mapping;Parikh matrices,Parikh matrix mapping###Parikh matrices
+1,2,0,0,0,0,ME-equivalence),1-equivalent###ME-equivalent
+1,1,0,0,1,1,print,print of w
+2,2,2,0,0,2,right general print;left general print,right general print###left general print
+2,4,2,0,0,2,right core print;left core print,right core print###left core print###l_R(w)###l_L(w)
+1,1,0,0,1,1,core print characteristic function,core print characteristic function of order r
+1,1,1,0,0,1,k-spectrum,k-spectrum
+3,4,3,0,0,3,M-equivalent;M-ambiguous;M-unambiguous,M-equivalent###M-ambiguous###M-unambiguous###C_w
+1,2,1,0,0,1,r-isomorphic,r-isomorphic###Freiman isomorphism of order r
+3,4,2,0,2,3,rooted tree;root;functional digraph,rooted tree###functional digraph###root of the tree###𝒞_D
+3,3,2,0,1,3,restricted arc-cut;restricted arc-connectivity;λ'-connected,restricted arc-cut ### restricted arc-connectivity λ'(D) ### λ'-connected
+1,3,1,0,0,1,maximal point,composite step generating function###maximal point###ℳ
+1,1,1,0,0,1,triple of arrangements,triple of arrangements
+1,4,0,0,0,0,almost,commutative cancellative semigroup###cardinality###abelian group###colouring witnessing
+1,1,1,0,0,1,direct sum,direct sum
+2,2,1,0,1,2,Δ-system with root r;head-tail-tail,Δ-system with root r ### head-tail-tail form
+1,1,1,0,0,1,condensation,condensation
+1,2,1,0,0,1,canonical labeling,Canonical labeling###prequasifield
+2,2,1,0,2,2,shadow of Σ;shadow,shadow of Σ###shadow of the spread S
+1,2,1,0,0,1,λ-dilation of Σ,u-twist of Σ ### λ-dilation of Σ
+7,3,0,0,0,0,arrows;blanks;up-step;down-step;blank;arrow;arrow;blank;blank;arrow;checkmark,ϕ###bi-banded weighting###peak-counting weight
+4,4,4,1,1,4,north-west checkmark sequence;south-west checkmark sequence;checkmark pair;Dyck checkmark pair,north-west checkmark sequence###south-west checkmark sequence###checkmark pair###Dyck checkmark pair
+1,1,0,0,1,1,minimal,minimal for 𝒥
+1,1,0,0,1,1,minimal,"minimal for 𝒥^k_,̣"
+1,1,1,0,0,1,planar network of order n,planar network of order n
+1,1,1,0,0,1,weight matrix,weight matrix
+1,1,1,0,0,1,"(A,B)-minor matrix","(A,B)-minor matrix"
+1,2,1,0,0,1,chain,strongly connected###chain
+1,2,1,0,0,1,strongly connected,strongly connected###chain
+4,4,2,0,2,3,even;odd;evenly chained;closed tour,even chain ### evenly chained ### closed tour ### dual-colored edge
+1,1,1,0,0,1,module,module
+2,1,0,0,0,0,directed modular width at most;directed modular width,Directed Modular-Width
+2,3,2,0,0,2,directed clique width;Directed clique-width k-expressions,class CLW_k ### directed clique width ### Directed clique-width k-expressions
+2,2,2,0,0,2,N-colouring;N-colouring;N-dichromatic number,N-colouring###N-dichromatic number
+3,5,3,0,2,3,directed path decomposition;bags;width,directed path decomposition###bags###width###directed pathwidth###Directed PathwidthDPWprob:DPW
+3,3,2,0,1,3,n-w-evaluation;n-w-width;n-w-directed pathwidth,n-w-evaluation function###n-w-width###n-w-directed pathwidth
+1,1,1,0,0,1,cycle-rank,cycle-rank
+3,3,2,0,1,3,n-w-σ-evaluation;n-w-rank;n-w-cycle-rank,n-w-σ-evaluation function ### n-w-rank ### n-w-cycle-rank
+1,2,1,0,0,1,theta graph,"theta graph###θ_a,b,c"
+1,1,0,0,0,0,fundamental,local tropical linear space
+1,3,0,0,0,0,"(Bayer, Fine, Klapper)","Eulerian poset###Φ_P(c,d)###Ψ_P(a,b)"
+1,2,1,0,0,1,line shelling,boundary complex ∂ P###line shelling
+1,1,0,1,0,0,(The Dehn-Sommerville Equations),Dehn-Sommerville Equations
+1,6,0,1,0,0,(McMullen's Upper Bound Theorem),McMullen's Upper Bound Theorem###d-polytope###f_n-1 (P)###f_n-1 (C_d(k))###h_n(P)###h_n(C_d(k))
+1,3,0,1,0,0,(The Generalized Lower Bound Theorem),Generalized Lower Bound Theorem###simplicial d-polytope P###(r-1)-stacked
+1,1,0,1,0,0,(The Generalized Dehn-Sommerville Equations),Generalized Dehn-Sommerville Equations
+1,4,0,1,0,0,(Bayer and Ehrenborg),f ### g ### h-polynomial ### g-polynomial
+2,2,2,0,0,2,partially ordered set;poset,partially ordered set###poset
+1,1,1,0,0,1,covers,covers
+1,1,1,0,0,1,interval,interval
+2,1,0,0,2,2,graded;rank,graded with rank n
+1,1,1,0,0,1,Eulerian,Eulerian
+1,1,0,0,0,0,S-rank selected subposet,P_S
+1,2,0,0,1,1,flag f-vector,flag f-vector of P###α_P
+1,2,0,0,1,1,flag h-vector,flag h-vector of P###β_P(S)
+1,5,1,0,0,1,ab-index,"ab-index###graded poset P of rank n + 1 with 0̂ and 1̂###generating function###Ψ_P (a,b)###β_P (S) u_S"
+1,1,1,0,0,1,flag polynomial,flag polynomial
+1,1,1,0,0,1,polytopal complex,polytopal complex
+2,4,2,0,0,2,shellable;shelling,shellable###shelling###boundary complex###beginning segment
+2,2,1,0,2,2,cell;open cell,cell of dimension n ### open cell
+1,2,1,0,0,1,CW complex,CW complex###weak topology
+1,1,0,0,0,0,join,P * Q
+1,3,0,0,1,1,suspension,suspension of P###B_2###Σ P
+2,2,2,0,0,2,near-Eulerian;semisuspension,near-Eulerian###semisuspension
+1,3,1,0,0,1,spherically shellable,spherically shellable###near-Eulerian (n-1)-CW-complex###S-shellable with initial facet
+1,3,0,0,1,1,order complex,order complex of P###vertices of Δ(P)###faces of Δ(P)
+2,2,0,0,2,2,star;link,star of σ###link of σ
+1,1,1,0,0,1,Gorenstein,Gorenstein
+1,1,1,0,0,1,near-Gorenstein,near-Gorenstein
+2,4,0,0,2,2,boundary;interior,near-Eulerian poset###semisuspension###boundary of P###interior of P
+1,1,1,0,0,1,near-Gorenstein*,near-Gorenstein*
+1,1,1,0,0,1,local flag polynomial,local flag polynomial
+1,1,1,0,0,1,subdivision,subdivision
+1,3,1,0,0,1,strong Eulerian subdivision,strong Eulerian subdivision###near-Eulerian poset###rank
+1,2,0,0,2,1,Gorenstein*,Gorenstein* subdivision map###near-Gorenstein* poset
+2,1,1,0,0,1,carrier;carried,carrier
+1,2,0,0,1,1,skeletal posets,skeletal posets Π_i###strong Eulerian subdivision of rank n Eulerian posets ϕ: Π→Π
+4,4,0,0,4,4,old;new;switches;mixed;switches,old flag###new flag###mixed flag###switches at rank m
+1,3,0,0,1,1,pyramid,pyramid of P###graded poset of rank n+1###rank function
+1,1,1,0,0,1,triangulation,triangulation
+2,3,2,0,1,2,stacked polytope;stack subdivision,stacked polytope###(r-1)-stacked polytope###stack subdivision
+1,1,1,0,0,1,k-shellably triangulizable,k-shellably triangulizable
+1,2,1,0,0,1,g-polynomial,g-polynomial###Eulerian poset
+1,1,1,0,0,1,h-polynomial,h-polynomial
+1,1,1,0,0,1,toric h-vector,toric h-vector
+1,1,1,0,0,1,strongly surjective,strongly surjective
+1,1,1,0,0,1,strong formal subdivision,strong formal subdivision
+1,2,1,0,0,1,local h-polynomial,strong formal subdivision###local h-polynomial
+6,4,3,0,2,5,addible towards u;addible outwards u;with respect to ';A-transformation;towards;outwards,A-transformation###ux_1-transformation###addible towards u###addible outwards u
+1,4,1,0,0,1,Fan subgraph,Fan subgraph###star###null graph###triangle
+1,1,0,0,1,1,MSTD fringe pair,MSTD fringe pair of order k
+1,1,1,0,0,1,minimal MSTD fringe pair,minimal MSTD fringe pair
+2,2,1,0,2,2,rich MSTD set;order,rich MSTD set###order of the rich MSTD set
+2,2,0,0,2,2,k-semi-rich;prefix,k-semi-rich set###prefix (A;k)
+1,1,1,0,0,1,k-affluent,k-affluent
+1,2,0,0,2,1,fringe pair,fringe pair of order k###partial order on fringe pairs
+4,6,0,0,8,4,coloring;proper;ascent;chromatic quasisymmetric function,directed graph ### coloring of G ### proper coloring ### ascent of a coloring ### number of ascents of a coloring ### chromatic quasisymmetric function of G
+2,4,2,1,1,2,k-balanced;k-balanced chromatic quasisymmetric function,k-balanced###proper coloring###k-balanced chromatic quasisymmetric function###acyclic orientation
+1,3,1,0,0,1,unicellular graph LLT polynomial,directed graph###unicellular graph LLT polynomial###colorings
+1,1,1,0,0,1,vertical strip graph LLT polynomial,vertical strip graph LLT polynomial
+2,2,1,0,1,2,generic;matroid quasisymmetric function,M-generic###matroid quasisymmetric function
+3,3,2,0,1,3,locating-dominating;optimal;location-domination number,locating-dominating code ### optimal ### location-domination number
+3,3,2,0,1,3,self-locating-dominating;optimal;self-location-domination number,self-locating-dominating code###optimal###self-location-domination number
+3,3,2,0,1,3,solid-locating-dominating;optimal;solid-location-domination number,solid-locating-dominating code###optimal###solid-location-domination number
+1,1,1,0,0,1,pseudoclique,pseudoclique
+2,2,2,0,0,2,distinguishing set partition;distinguishing partition,distinguishing set partition###distinguishing partition
+1,1,1,0,0,1,consumes,consumes
+1,2,1,0,1,1,λ-extremal,"λ-extremal###λ-extremal for G⃗ or (G, c)"
+1,1,1,0,0,1,j-special,j-special
+1,1,1,0,0,1,elementary cycle,elementary cycle
+1,1,1,0,0,1,underlying backward graph,underlying backward graph
+3,3,2,0,1,3,i-th generation;i-th level;length,i-th generation ### i-th level ### length of T
+1,1,1,0,0,1,backward spine,backward spine
+1,1,1,0,0,1,condensation graph,condensation graph
+1,1,1,0,0,1,Cube representation,cube representation
+1,1,1,0,0,1,matrix representation,matrix representation
+1,1,1,0,0,1,equivalent,equivalent
+1,3,1,0,0,1,cube representation,cube representation###separating family###matrix representation
+1,1,1,0,0,1,separable,separable
+1,1,1,0,0,1,n-separating,n-separating
+1,1,1,0,0,1,"(i,j)-separating","(i,j)-separating"
+1,1,1,0,0,1,splitting family,splitting family
+1,1,1,0,0,1,splittable,splittable
+1,1,1,0,0,1,n-splitting,n-splitting
+1,4,0,0,1,1,co-compact,"faithful action by homeomorphisms on a planar surface###embedding###Cayley multi-graph###co-compact action by homeomorphisms on the sphere, the plane ^2, the open annulus, or the Cantor sphere"
+6,4,4,0,0,4,labeling;labeled graph;realization;compatible with;realizable;equivalent,labeled graph###realization###realizable###equivalent
+1,1,1,0,0,1,rigid,rigid
+2,2,2,0,0,2,generically realizable;generically rigid,generically realizable###generically rigid
+2,2,2,0,0,2,bigraph;biedges,biedges###bigraph
+1,1,1,0,0,1,pseudo-Laman,pseudo-Laman
+1,1,1,0,0,1,greedoid,greedoid
+2,1,0,0,0,0,Accessibility:;Exchange:,greedoid
+4,2,0,0,4,4,uniform definability of types over finite sets;UDTFS;uniform definition of Δ(x;B)-types over finite sets,uniform definability of types over finite sets (UDTFS)###uniform definition of Δ(x;B)-types over finite sets
+1,1,0,1,0,0,T has  dp-rank at least n,dp-rank
+2,2,1,0,1,2,cylindric plane partition;horizontal strip,cylindric plane partition with profile π###horizontal strip
+1,1,0,0,1,1,weight,weight of the cylindric partition
+1,1,1,0,0,1,inversion,inversion
+4,2,0,0,5,4,occupied;black;unoccupied;white,occupied or black###unoccupied or white
+1,1,1,0,0,1,surface cube,surface cube
+1,1,0,0,1,1,level,level of a surface cube
+1,1,0,1,0,0,"path associated to the cube (u,v)",path associated to the cube
+1,1,0,0,1,1,valley,valley cube
+1,1,0,0,1,1,peak,peak cube
+1,2,1,0,0,1,cylinder of period T,cylinder of period T###triangular lattice
+1,1,0,0,1,1,path,path on the cylinder of period T
+1,1,0,0,1,1,family of non-intersecting lattice paths,family of non-intersecting lattice paths on the cylinder of period T
+1,1,1,0,0,1,minimal with m paths,minimal with m paths
+1,1,0,0,1,1,profile,profile of a minimal family of m non-intersecting lattice paths
+1,1,0,0,1,1,vertical reading,vertical reading of a minimal family of m non-intersecting lattice paths
+1,1,1,0,0,1,singular value decomposition,singular value decomposition
+1,1,1,0,0,1,lexicographic extension,lexicographic extension
+1,1,1,0,0,1,neighborly,neighborly
+2,1,1,0,0,1,balanced;halving,balanced
+1,3,0,0,1,1,sewn,sewn onto###lexicographic extension###extension
+2,2,2,0,0,2,universal face;universal flag,universal face###universal flag
+1,1,1,0,0,1,premetric,premetric
+1,1,1,0,0,1,polytrope,polytrope
+1,2,1,0,0,1,strongly edge decomposable,strongly edge decomposable###Link condition
+1,3,1,0,0,1,lattice path,lattice path###east-step###north-step
+6,5,2,0,2,5,2 → 1 directed hypergraph;vertices;edges;head;tail set;oriented,2 → 1 directed hypergraph###oriented###vertex and edge sets###head vertex###tail set of the edge
+4,3,2,0,1,3,nth extremal number;nth oriented extremal number;standard;standard version,nth extremal number###nth oriented extremal number###standard extremal number
+1,1,1,0,0,1,degenerate,degenerate
+4,4,0,0,4,4,tail link graph;tail degree;directed link graph;total link graph,tail link graph of x T_x ### tail degree of x ### directed link graph of x D_x ### total link graph of x L_x
+1,1,1,0,0,1,cross-dependent,cross-dependent
+1,5,0,0,1,1,complementary,"complementary at (q,v)###A^+###B^-###A^-###B^+"
+1,1,1,0,0,1,primal cardinality vector,primal cardinality vector
+1,2,1,0,0,1,partial order,partial order###strict
+2,3,0,0,0,0,true;false,Conjunctive Normal Form (CNF)###satisfying assignment of CNF###SAT solver
+2,2,1,1,2,2,neighborhood;neighborhood checking,neighborhood###neighborhood checking nc(v)
+1,2,1,0,0,1,rich;rich,rich###infinite word
+2,2,0,0,2,2,left special letter;right special letter,left special letter of w###right special letter of w
+1,2,0,0,0,0,strictly,support entries###support set
+1,4,0,0,1,1,locally green-dominated,S-Chromatic Nim###locally green-dominated (lgd)###local green-domination###maximal local green-domination
+1,1,1,0,0,1,(stack-size) invariant,(stack-size) invariant
+3,6,2,0,1,3,starting position;moves;normal play,"(ℳ,ℬ)-invariant###starting position###set of moves###legal move###game###normal play"
+1,3,0,0,1,1,weight,"vertices of the digraph G_n###arc###weight f_n(α,α ')"
+2,2,1,0,1,2,segment-simple;s-simple,segment-simple permutation###s-simple
+2,2,1,0,1,2,cycle-simple;c-simple,cycle-simple permutation###c-simple
+2,2,1,0,1,2,group-simple;g-simple,group-simple permutation###g-simple
+2,1,0,0,2,2,braid-simple;b-simple,braid-simple permutation ( b-simple )
+2,2,1,0,1,2,tree-simple;t-simple,tree-simple permutation###t-simple
+1,1,1,0,0,1,exponential growth,exponential growth
+1,1,1,0,0,1,rare,rare
+3,4,3,0,0,3,connected;segment;proper;connected,connected ### segment ### proper ### permutation
+1,2,0,0,2,1,unimodal;unimodal,unimodal cycle###unimodal permutation
+1,1,1,0,0,1,correlation constant,correlation constant
+3,5,0,1,3,3,matroid;flats;cover,matroid M###flats of M###ground set E###flat###flat covering F
+1,6,0,0,1,1,Chow ring,variables x_F ### polynomial ring S(M) ### Chow ring A(M) ### linear forms ### quadratic monomials ### A^q(M)
+1,2,0,0,1,1,strictly submodular,strictly submodular function ### cone K(M)
+1,1,1,0,0,1,shadowable,shadowable
+5,5,4,0,1,5,matroid;independent sets;hereditary property;augmentation property;exchange property,"matroid ℳ=(X,ℐ)###independent sets###hereditary property###augmentation property###exchange property"
+1,1,1,0,0,1,"(n_0,n_1,…,n_ℓ)-regular","(n_0,n_1,…,n_ℓ)-regular"
+1,9,0,0,1,1,face graph,n-dimensional polytope###f-vector###f_k###face graph G(P)###vertex v###face F_v###F_v'###F_v+1###empty face ∅
+1,2,0,0,1,1,index,ṽ ### index P
+1,1,1,0,0,1,vertex average,vertex average
+1,3,1,0,0,1,vertex–facet pairing matrix,lattice polytope###supporting hyperplanes###vertex–facet pairing matrix
+1,1,0,0,1,1,normal form,normal form of P
+1,3,0,0,1,1,normal form,Laurent polynomial###normal form for f###P
+3,2,0,1,0,0,r-(vertex-)matched graph;r-sets;underlying graph of G,r-matched graph###underlying graph
+1,1,1,0,0,1,deficiency,deficiency
+1,1,1,0,0,1,endo-trivial,endo-trivial
+1,1,1,0,0,1,retract-trivial,retract-trivial
+3,1,0,0,2,2,not;type;hidden tie,cone of type III with a hidden tie in τ
+2,2,2,1,1,2,"(α,β)-grouping for P;strong (α,β)-grouping for P","(α,β)-grouping for P###strong (α,β)-grouping for P"
+1,3,1,0,0,1,"abelian (n,f,c)-DRACKN","abelian (n,f,c)-DRACKN###polyphase matrix###geometric sum"
+1,1,1,0,0,1,phased BIBD ETF,phased BIBD ETF
+1,6,1,1,0,1,"(v,k,f)-polyphase BIBD ETF","(v,k,f)-polyphase BIBD ETF###abelian group###polyphase matrix###incidence matrix###ETF###nontrivial characters"
+1,1,1,0,0,1,abelian,abelian
+1,6,0,0,1,1,contracted graph,"equivalence relation ∼_u,v ### equivalence class ### quotient of V ### multiset E/_∼u,v ### contracted graph of G ### G/G^'"
+1,1,1,0,0,1,essential minor,essential minor
+1,2,0,0,1,1,meta graph,meta graph of G ### subgraph of all arc sensitive cycles containing c
+1,4,1,0,0,1,CUT,"FASP###(G,ω)###m###CUT"
+1,3,1,0,0,1,CUT,m ### CUT ### weighted FVSP
+2,2,1,0,1,2,line graph;natural hypergraph,directed line graph###natural hypergraph
+1,1,1,0,0,1,contracted graph,contracted graph
+1,1,1,0,0,1,essential minor,essential minor
+2,6,2,0,0,2,resolved graph;resolvable,maximal list of graphs###essential minor###maximal subset of pairwise different isolating arcs###weighted graph###resolved graph###resolvable
+1,2,0,0,0,0,arc sensitive,arc sensitivity###𝒩_↠(e)
+2,2,1,0,1,2,meta graph;meta graph;arc sensitive cycles,meta graph###subgraph of all arc sensitive cycles
+1,2,0,0,1,1,relative weight,"relative weight of G with respect to c,e,f###σ_G,M,e,f"
+1,1,1,0,0,1,relative weight,relative weight
+1,2,1,0,1,1,Singular series,singular series###W-tricked singular series
+1,4,1,0,0,1,Sieve factor,sieve factor###ψ###c_χ(h)###m(h)
+1,1,1,0,0,1,compactification degree,compactification degree
+1,3,0,0,1,1,M-direction,"M-direction GM###VGMv_1,…,v_M###EGMv_i,v_ja_ib_j"
+1,1,1,0,0,1,out-degeneracy,out-degeneracy
+1,2,1,0,0,1,strongly planar,"strongly planar###𝒟(G,M)"
+1,1,1,0,0,1,canonical,canonical
+1,2,0,0,2,1,degree,"Degree of a (m,k,s)-star###Degree of a set 𝒮 of (m,k,s)-stars"
+1,1,0,0,1,1,weight,"Weight of a (m,k,s)-star"
+1,1,0,0,1,1,central weight,"Central weight of a (m,k,s)-star"
+1,1,0,0,1,1,valuation,M-valued valuation
+1,1,1,0,0,1,linked,linked
+1,1,1,0,0,1,MSE-equivalent,MSE-equivalent
+3,2,2,0,1,3,scattered subword;subword;factor,scattered subword ### factor
+2,2,2,0,0,2,Parikh matrix mapping;Parikh matrices,Parikh matrix mapping###Parikh matrices
+1,1,1,0,0,1,strongly M-equivalent,strongly M-equivalent
+2,1,0,0,2,2,MSE;SE,strongly elementarily M-equivalent (MSE-equivalent)
+1,2,1,0,0,1,strong (3· t) transformation,strong (3· t) transformation###Rule S3· t
+2,2,0,0,3,2,reducible;irreducible,reducible transformation###irreducible transformation
+1,2,0,0,1,1,counter,αβ-transformation###counter Ω
+2,1,0,0,1,1,"almost strongly elementarily matrix equivalent;MSAE-equivalent),",almost strongly elementarily matrix equivalent ( MSAE-equivalent)
+1,1,1,0,0,1,(2· t) transformation,(2· t) transformation
+1,2,1,0,0,1,strong (2· t) transformation,strong (2· t) transformation###Rule S2· t
+1,1,0,0,1,1,triangle partition map,"triangle partition map T_σ, τ_0,τ_1"
+1,2,1,0,0,1,TRIP sequence,t_n###TRIP sequence
+2,2,1,0,1,1,triangle partition-Stern sequence;TRIP-Stern sequence,TRIP-Stern sequence###n^ th level of the TRIP-Stern sequence
+1,1,1,0,0,1,TRIP-Stern sequence,TRIP-Stern sequence
+1,2,0,0,0,0,maximum entry,TRIP-Stern sequence###m_n
+2,3,2,0,0,2,potential entries;forbidden triples,TRIP-Stern sequence ### potential entries ### forbidden triples
+1,1,0,0,1,1,inverse map,inverse map G
+1,2,1,0,0,1,germ,"germ###tree generated by (a,a,b)"
+1,2,0,0,1,1,germ of,germ of X###G^n(X)
+1,2,1,0,1,1,generalized TRIP-Stern sequence,generalized TRIP-Stern sequence###n^ th level of the generalized TRIP-Stern sequence
+1,2,0,0,0,0,maximum entry,generalized TRIP-Stern sequence###m_n
+2,2,2,0,0,2,3D Young diagram;3D diagram,3D Young diagram###3D diagram
+3,4,1,0,4,3,weighting;weight;weight;w-partition function,weighting of (_≥ 0)^3 ### weight of the lattice point p ### weight of a 3D diagram ### w-partition function
+3,3,1,0,2,3,matching;1-factor;dimers,matching or 1-factor###subgraph M###dimers
+1,2,1,0,0,1,S-block,S-block###representation vector
+1,1,0,0,1,1,resolves,resolves A
+1,2,1,0,0,1,S-cluster,S-cluster###resolves
+1,1,1,0,0,1,ϵ-Regular partition,ϵ-regular partition
+1,2,1,0,0,1,f-Regular partition,f-regular partition###f(k)-regular
+1,2,0,0,2,1,ϵ-good,ϵ-good for A with respect to B###ϵ-good for A
+1,1,1,0,0,1,Tree bound,tree bound
+1,2,1,0,0,1,k-order property,k-order property###k-stable
+2,2,2,1,1,2,ϵ-good for A with respect to B;ϵ-good for A,ϵ-good for A with respect to B###ϵ-good for A
+1,2,0,0,1,1,closure,Closure of a regular Bohr set###B^+
+1,1,1,0,0,1,tree bound,Tree bound
+1,1,1,0,0,1,Intriguing at infinity,intriguing at infinity
+1,1,1,0,0,1,intriguing at infinity,intriguing at infinity
+1,2,0,0,1,1,critical,discrete half-plane###critical model
+1,3,0,0,1,1,difficulty,difficulty of u###α^+(u)###α^-(u)
+2,2,0,0,3,2,balanced;unbalanced,balanced critical update family###unbalanced critical update family
+3,2,2,0,1,3,Duarte region;Duarte droplet;droplet,Duarte region###Duarte droplet
+1,2,1,0,0,1,internally spanned,internally spanned###(D)
+1,2,1,0,0,1,strongly connected;strongly connected,G_strong###strongly connected
+1,1,0,0,1,1,hierarchy,hierarchy for D
+1,1,1,0,0,1,t-good,t-good
+2,3,0,0,0,0,satisfied;disjointly,"hierarchy for D###internally spanned by A###Δ(D_v,D_u)"
+4,4,4,1,1,4,weak relation;weakly connected;D-rooted;root,weak relation ### weakly connected ### D-rooted ### root
+3,4,3,2,2,3,subcritical;critical;supercritical,d-dimensional update family###subcritical###critical###supercritical
+1,1,0,0,1,1,Throughput,"throughput δ(k,f)"
+1,2,0,0,0,0,Turncycles,C() ### C( f)
+1,1,1,0,0,1,Throughput,throughput
+1,1,1,0,0,1,hive flow,hive flow
+1,2,0,0,1,1,hive flow polytope,hive flow polytope P ### P_
+3,3,1,0,2,3,positive;negative;neutral slack contributions,positive slack contributions###negative slack contributions###neutral slack contributions
+3,3,1,0,2,3,neighbors;Littlewood-Richardson graph;LR graph,neighbors ### Littlewood-Richardson graph or LR graph ### neighborhood
+3,3,3,2,2,3,turn;turnvertices;turnedges,turn ### turnvertices ### turnedges
+1,2,0,0,2,1,ordinary,ordinary turnpaths ### ordinary turncycles
+1,1,1,0,0,1,critical,critical
+3,3,1,0,2,3,thin;thick;center curve,thin pipe###thick pipe###center curve
+1,1,1,0,0,1,almost ordinary,almost ordinary
+1,1,1,0,0,1,Tropical halfspace,tropical halfspace
+1,1,1,0,0,1,Tropical polyhedral cone,tropical polyhedral cone
+1,2,1,0,0,1,Extreme rays,tropical polyhedral cone###extreme rays
+1,1,1,0,0,1,Dissimilarity map,dissimilarity map
+1,2,1,0,0,1,Rooted tree,rooted tree###root(T)
+1,2,1,0,0,1,Ultrametric,ultrametric###𝒰_n
+1,1,1,0,0,1,Tangent directed hypergraph,tangent directed hypergraph
+1,3,1,0,0,1,mobile,mobile###sliding v down###sliding v all the way down
+2,2,2,1,1,2,line;line arrangement,line###line arrangement
+3,3,2,0,1,3,incidence structure;m-point;general position,incidence structure of a line arrangement###m-point###general position
+1,1,1,0,0,1,Chern numbers,Chern numbers
+1,2,1,0,0,1,asymptotically trivial,asymptotically trivial###trivial arrangement
+1,1,0,0,1,1,rectifiable,rectifiable simple closed curve
+13,3,0,0,1,1,Div;C;:;(i);(ii);UCSF;(iii);(iv);conv;(v);(vi) ;(vii);(viii),Neffity Criterion###basepoint free###nef
+10,7,1,0,3,3,Div;C;:;(i);(ii);SUCSF;(iii);(iv);Vert;(v),Ampleness Criterion###ample###SUCSF###P_D###M-polygon###Vert(P_D)###D·𝐕_Δ(ϱ)
+3,2,0,0,2,2,Div;C;area,self-intersection number###nef divisor
+6,1,0,0,0,0,: ;(i);(ii);gr.;gr;rev,Classification up to isomorphism
+4,1,0,0,0,0,(Kasprzyk & Nill;);Hom;(;);Hom,1-reflexive pairs
+3,3,0,0,4,3,lattice;basis;basis matrix,lattice in ℝ^2###(ℤ-)basis of N###corresponding basis matrix of N
+1,1,0,0,1,1,determinant,determinant of N
+1,4,1,0,0,1,dual lattice,dual lattice###basis matrix###determinant (M)###standard lattice
+1,1,0,0,1,1,standard model,standard model of P
+5,4,2,1,1,3,cone;rays;minimal generator;minimal generators;equivalent up to umimodular transformation,N-cone###minimal generator###equivalent up to umimodular transformation###equivalence class
+1,2,0,0,1,1,standard model,standard model of σ w.r.t. ℬ###ℤ^2-cone σ^st
+1,2,0,0,1,1,multiplicity,multiplicity of σ###mult_N(σ)
+2,2,0,0,2,1,of type;cone,"(p,q)-cone###N-cone"
+1,1,0,0,1,1,dual cone,dual cone of σ
+1,6,0,0,1,1,normal,U_σ###affine toric surface###coordinate ring###2-dimensional normal complex analytic variety###embedding of U_σ into an affine complex space of minimal dimension###Hilb_M(  σ^∨)
+1,3,0,0,1,1,normal fan,M-cone###normal fan of P###D_P
+1,2,0,0,1,1,combinatorial triples,combinatorial triples of Δ###additional characteristic integers r_i
+1,1,0,1,0,0,the auxiliary cone,auxiliary cone
+2,9,0,1,0,0,generic;the sectional genus,ℓ-reflexive pair###Cartier divisor###complete linear system###closed embedding###character###projective variety###semigroup algebra###Hyperplanes###sectional genus
+1,3,0,0,1,1,Cartesian product,Cartesian product G  H ### G^ 1 ### G^ k
+1,1,0,0,1,1,Influence,influence along the j^th coordinate
+1,1,1,0,0,1,Log-Sobolev Constant,Log-Sobolev constant
+1,1,1,0,0,1,uniform avoidance coupling,uniform avoidance coupling
+1,2,0,2,0,0,Forbidden States,forbidden state###F
+1,1,0,0,1,1,coupling,coupling of Markov chains
+1,1,1,0,0,1,avoidance coupling,avoidance coupling
+2,2,1,0,2,2,Markovian;Markovian avoidance coupling;Markovian,Markovian coupling###Markovian avoidance coupling
+1,2,1,0,0,1,super-Markovian,avoidance coupling###super-Markovian
+1,1,1,0,0,1,uniform avoidance coupling,uniform avoidance coupling
+1,2,0,0,0,0,uniform avoidance coupling of two simple random walks,uniform avoidance coupling of simple random walks###Markovian avoidance process
+1,1,0,0,1,1,forbidden state,Forbidden States
+1,1,1,0,0,1,strongly regular,strongly regular
+6,6,5,1,2,6,k-up;k-down;k-ascending;maximal k-ascending;k-valley;k-peak,k-up ### k-down ### k-ascending ### maximal k-ascending section ### k-valley ### k-peak
+1,2,1,0,0,1,neighborhood-equivalent,neighborhood-equivalent###class of x modulo ≡
+1,4,1,0,0,1,local completion of G at x,local completion of G at x###G_x###E_x###B_x
+1,1,1,0,0,1,2-weighted N-eligible (N2-eligible),2-weighted N-eligible (N2-eligible)
+2,2,2,1,1,2,standard Coxeter element;Coxeter element,standard Coxeter element###Coxeter element
+1,5,1,0,1,1,switching block,positive block###negative block###switching block###nonswitching block###single edge
+1,2,0,0,0,0,connected set,e_I###o_I
+1,1,1,0,0,1,chromatic sum,chromatic sum
+1,1,0,0,1,1,inductively free,inductively free arrangements
+1,3,1,0,0,1,hereditarily inductively free,hereditarily inductively free###^X###L()
+1,2,1,0,0,1,divisionally free,divisionally free###ℓ-arrangement
+1,2,1,1,0,1,hereditarily divisionally free,hereditarily divisionally free###divisionally free
+1,1,1,0,0,1,pure,pure
+1,1,1,0,0,1,AP-reduction,AP-reduction
+1,1,1,0,0,1,W-sound,W-sound
+2,2,2,0,0,2,h-power of a path;h-power of a cycle,h-power of a path###h-power of a cycle
+1,2,1,0,0,1,h-Fibonacci sequence,h-Fibonacci sequence###F_n^(h)
+1,4,0,0,1,1,partial bijection,partial bijection of n###domain###codomain###Q_n
+1,2,1,0,0,1,trivial extension,trivial extension###P_α(n)
+1,2,1,0,0,1,Inner vertex,inner vertex###subgraph
+1,2,0,0,1,1,Crossing,crosses the subgraph H###crossings of H
+1,1,1,0,0,1,Vital linkage,vital linkage
+1,1,1,0,0,1,inner vertex,Inner vertex
+2,1,0,0,0,0,crosses;crosses H,Crossing
+1,1,1,0,0,1,vital linkage,Vital linkage
+1,2,0,0,1,1,refined invariants,"refined invariants of S,L###Laurent polynomial"
+1,2,0,0,1,1,refined invariants,"refined invariants N^(S,L),δ###N^d,δ(y)"
+1,3,1,0,0,1,refined relative Severi degrees,quantum numbers ### refined relative Severi degrees ### Laurent polynomials
+3,2,2,0,0,2,metric graph;length;abstract tropical curve,metric graph###abstract tropical curve
+5,6,4,3,1,4,(parametrized) tropical curve of degree Δ;direction vector;weight;primitive direction vector;balanced,tropical curve of degree Δ###direction vector###weight###primitive direction vector###balanced###Degree
+8,6,0,0,6,6,irreducible;genus;dual subdivision;nodal;simple;number of nodes;number of nodes;mixed area;normalized,"irreducible tropical curve ### genus g(C,h) ### dual subdivision Δ_C ### nodal tropical curve ### simple tropical curve ### number of nodes δ(C, h)"
+2,2,2,0,0,2,refined vertex multiplicity;refined multiplicity,refined vertex multiplicity###refined multiplicity
+1,2,1,0,0,1,Δ-floor diagram,Δ-floor diagram###Divergence Condition
+1,1,1,0,0,1,refined multiplicity,refined multiplicity
+2,2,1,0,1,2,marking;marked floor diagram;marking,marking of a floor diagram###marked floor diagram
+1,1,1,0,0,1,template,template
+1,2,0,0,1,1,beta invariant,"beta invariant of 𝒜###T(𝒜; 1,0)"
+2,4,1,0,0,1,dependent;Orlik-Solomon algebra,central arrangement in ℂ^d###exterior algebra###ordered set of hyperplanes###dependent
+1,2,0,0,2,1,zonotope,zonotope of A###Ehrhart polynomial of the zonotope Z(A)
+3,7,2,0,2,3,toric arrangement;complement;arithmetic characteristic polynomial,toric arrangement###complementtoric arrangement###regions of R(A)###Poincaré polynomial of R(A)###number of elements of R(A)###arithmetic characteristic polynomial###number of hypertori of 𝒯(A)
+1,3,1,0,0,1,hyperplane arrangement,hyperplane arrangement###nonzero linear functionals###scalar
+1,2,1,0,0,1,intersection poset,intersection poset###ranked poset
+2,6,2,1,1,2,matroid;semimatroid,hyperplane arrangement###central###matroid###rank function###semimatroid###central subsets
+2,2,0,0,2,2,deletion;contraction;contraction,deletion hyperplane arrangement###contraction hyperplane arrangement
+2,2,0,0,2,2,centralization;cone,centralization of a hyperplane arrangement###cone of a hyperplane arrangement
+1,2,1,0,1,1,essentialization,essentialization hyperplane arrangement###essentialization
+2,2,2,0,0,2,Möbius function;characteristic polynomial,Möbius function###characteristic polynomial
+1,1,0,0,1,1,Tutte polynomial,Tutte polynomial of an arrangement
+2,2,2,1,1,2,generalized Tutte-Grothendieck invariant;Tutte-Grothendieck invariant,generalized Tutte-Grothendieck invariant###Tutte-Grothendieck invariant
+1,1,1,0,0,1,coboundary polynomial,coboundary polynomial
+1,1,0,0,1,1,multivariate Tutte polynomial,multivariate Tutte polynomial of a hyperplane arrangement
+3,2,2,0,0,2,arithmetic Tutte polynomial;multiplicity;arithmetic characteristic polynomial,arithmetic Tutte polynomial###arithmetic characteristic polynomial
+1,1,0,0,1,1,square,square of R
+1,2,1,0,0,1,half set,"half set###d(A,B)"
+2,2,0,0,2,2,embedding;realization,embedding of R in M'###realization of R in V
+8,6,5,1,1,6,_2-characteristic map;characteristic map;non-singularity condition;Davis-Januszkiewicz equivalent;D-J equivalent;Davis-Januszkiewicz classes;D-J classes;characteristic pair,2-characteristic map###non-singularity condition###Davis-Januszkiewicz equivalent###D-J equivalent###Davis-Januszkiewicz classes###D-J classes
+1,2,1,0,0,1,projection of λ with respect to σ,projection of λ with respect to σ###D-J equivalence
+4,7,3,6,1,4,diagram;nodes;edges;realizable squares,V###E###S###diagram of K###nodes###edges###realizable squares
+1,3,0,0,1,1,realizable puzzle,realizable puzzle over K###pseudograph homomorphism###realizable square in D(K)
+1,1,1,0,0,1,D-J class,D-J class
+1,2,0,0,1,1,support,support of p for λ###D-J class λ
+1,1,1,0,0,1,e-set,e-set
+2,1,1,1,0,1,e-set;empty e-set,e-set
+1,3,1,0,2,1,λ-related,type 1 λ-related ### type 2 λ-related ### λ-related
+2,2,1,0,1,2,height;Dirichlet function,height function###Dirichlet function
+1,1,0,0,1,1,optimal,optimal Dirichlet function
+1,2,0,1,0,0,intrinsic Dirichlet function on F,intrinsic Dirichlet function###Optimality of intrinsic Dirichlet functions
+1,1,0,1,0,0,badly symbolically approximable (with respect to ψ_*),badly symbolically approximable
+1,1,1,0,0,1,terminal face graph,terminal face graph
+1,3,1,0,0,1,separating cycle division,G_1###G_2###separating cycle division
+1,1,1,0,0,1,indivisible,indivisible
+1,1,1,0,0,1,critical girth cycle,critical girth cycle
+1,1,0,0,0,0,dominates,Dominance order
+4,2,1,0,2,3,generalized;tableau;content;semistandard,generalized λ-tableau###semistandard
+1,2,1,0,0,1,standard,λ-tableau###standard
+1,1,1,0,0,1,Vertex switching,vertex switching
+9,8,5,0,1,6,1-d Adinkra;underlying graph;coloring;simple;two-colored;dashing;parity;admissible;grading,1-d Adinkra###underlying graph of the Adinkra###coloring###dashing###admissible###grading###Hasse diagram###ranked poset
+2,1,0,2,0,0,vertex switching at v;vertex switching of A,Vertex switching
+5,5,4,1,0,4,"2-d Adinkra with (p,q) colors;left-moving edge;right-moving edge;left-moving colors;right-moving colors",2-d Adinkra###left-moving edge###right-moving edge###left-moving colors###right-moving colors
+2,4,1,0,1,2,weight;even-split doubly even (ESDE) code,weight of x⃗ ### _L(x⃗) ### _R(x⃗) ### even-split doubly even (ESDE) code
+1,1,1,0,0,1,finitely supported distribution,finitely supported distribution
+1,1,1,0,0,1,uniform rotation,uniform rotation
+1,4,1,0,1,1,uniform shift,Uniform shift model###rotor distribution###uniform shift###rotor sequence
+1,2,1,0,0,1,GFB tree,greedy from the bottom tree###GFB tree
+1,1,1,0,0,1,Colless index,Colless index
+2,2,2,0,0,2,greedy from the bottom tree;GFB tree,greedy from the bottom tree###GFB tree
+1,2,1,0,0,1,Sackin index,Sackin index###n_u
+1,5,0,0,0,0,odd,H^0(rω_1) ### one-dimensional trivial module ### H^0(rω_1)/L(rω_1) ### H^0(r_1ω_1) ### L(rω_1)
+1,4,0,0,0,0,even,H^0(rω_1)/L(rω_1)###H^0(r_1ω_1)###H^0(rω_1)###L(rω_1)
+1,1,1,0,0,1,Motion,motion
+1,1,1,0,0,1,line,line
+1,1,1,0,0,1,motion,motion
+1,1,1,0,0,1,edge-regular,edge-regular
+1,1,1,0,0,1,amply regular,amply regular
+1,1,1,0,0,1,line graph,line graph
+2,2,2,0,0,2,distance-regular;intersection array,distance-regular###intersection array
+1,1,1,0,0,1,standard sequence,standard sequence
+1,2,1,0,0,1,geometric,geometric###Delsarte cliques
+1,1,1,0,0,1,Johnson graph,Johnson graph
+1,2,1,0,0,1,Hamming graph,Hamming graph###Hamming distance
+1,1,1,0,0,1,Doob graph,Doob graph
+1,1,1,0,0,1,"generalized 2d-gon of order (s, t)","generalized 2d-gon of order (s, t)"
+2,2,1,0,1,2,coherent configuration;rank,coherent configuration###rank of 𝔛
+5,6,4,6,2,4,"x(p), y(p), Up-runs and down-runs.;n-up-run;up-run;n-down-run;down-run",x(p)###y(p)###n-up-run###up-run###n-down-run###down-run
+2,2,0,0,0,0,The Erdő;̋E̋r̋d̋ő̋,Erdős-Szekeres on-line game###Erdős-Szekeres on-line number
+5,4,2,2,0,2,Quadrants of a point.;north-east quadrant of p';north-west quadrant;south-west quadrant;south-east quadrant of p',north-east quadrant###north-west quadrant###south-west quadrant###south-east quadrant
+2,3,1,3,0,1,"Ł_x, _x, Separated;separated;separated",Ł_x ### _x ### separated
+3,1,0,0,0,0,"“f-Middling"" Strategy Mode;active segment;saved",f-Middling strategy mode
+8,7,7,4,3,7,"Barb, “Playing the Barb"" Strategy Mode;(s, t)-barb;barb;spikes;bottom wire;top wire;half-barb;plays the barb","(s, t)-barb###barb###spikes###bottom wire###top wire###half-barb###plays the barb"
+1,3,0,1,0,0,"“w-Barb"" Strategy Mode",w-Barb strategy mode###half-barb###barb
+1,3,1,0,0,1,f-Combined Strategy,f-Combined Strategy###f-Middling strategy mode###w-Barb strategy mode
+2,2,1,0,2,2,spread;components,spread###components of the spread
+1,1,0,1,0,0,"finite (right) quasifield,",finite (right) quasifield
+1,1,1,0,0,1,autotopism,autotopism
+2,4,2,0,0,2,isotopes;parastrophes,isotopes###parastrophes###isotopic###parastrophic
+1,1,1,0,0,1,permutation graph,permutation graph
+1,2,0,0,1,1,fingerprint,fingerprint of the spread set###spread set
+1,2,1,0,0,1,BEL-configuration,BEL-configuration###Desarguesian n-spread
+1,2,1,0,0,1,matrix rank,matrix rank###isotopy class
+2,2,2,0,0,2,local triangle count;local triangle bound,local triangle count###local triangle bound
+2,1,0,1,0,0,preferred direction;special claw corresponding to e,special claw
+1,1,1,0,0,1,Cyclicity classes,cyclicity classes
+1,1,1,0,0,1,Wielandt number,Wielandt number
+1,1,1,0,0,1,Girth,girth
+1,4,1,1,0,1,Critical graph,critical###N_c(A)###E_c(A)###critical graph

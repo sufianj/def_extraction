@@ -1,0 +1,4 @@
+model_name,True Term Num,Extracted Term Num,True positive,True positive + split terms,Too Long,Cut Off,precision /correct rate,recall,f1
+ner_model/InriaValda/cc_math_roberta_ep01_ft_10ep_train_size_2048_trainset_1,1552,1952,509,720,221,434,0.36885245901639346,0.4639175257731959,0.4109589041095891
+ner_model/InriaValda/cc_math_roberta_ep01_ft_10ep_train_size_2048_trainset_2,1552,2529,522,713,168,660,0.2819296164491894,0.45940721649484534,0.34942416074491545
+ner_model/InriaValda/cc_math_roberta_ep01_ft_10ep_train_size_2048_trainset_3,1552,2346,457,715,201,601,0.30477408354646207,0.46069587628865977,0.36685479733196513

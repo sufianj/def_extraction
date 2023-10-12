@@ -1,0 +1,1088 @@
+True Term Num,Extracted Term Num,TP,Cut Off,Too Long,extracted
+1,1,0,0,1, compatibility graph
+1,1,0,0,1, strong compatibility graph
+2,1,0,0,0, good
+1,1,1,0,0,multiplicative
+2,1,0,0,1, ergodic
+2,1,0,0,1, simplicial map
+4,1,0,0,1, filling diagram
+1,2,0,0,0, minimal### filling diagram
+1,1,0,0,1, planar double edge
+1,2,0,0,0, nearly### orthogonal array NO
+1,4,0,0,1,-### interval### exceptional interval-###poset
+1,0,0,0,0,
+1,1,0,0,1, new
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,0, rectified shape
+3,2,0,1,1, composition### descent Pieri operator
+1,0,0,0,0,
+2,2,0,0,0, skew### skew shape
+3,0,0,0,0,
+3,2,0,0,2, rectified shape### complete
+1,2,0,1,0, related### rigidly
+2,1,0,0,0, quasisymmetric Schur function
+2,0,0,0,0,
+3,2,0,0,0,"
+###orientation"
+1,1,0,0,0, cyclic reduction
+1,3,0,2,0,-### m###composition
+1,4,0,0,1, recurrent### class### restricted compositions### locally
+4,2,0,0,0, transfer### finish
+1,1,0,0,1, threshold graph
+1,4,0,3,0,ands###-### d###exp
+1,1,0,1,0, balanced
+1,0,0,0,0,
+3,8,0,4,1," absor###ber###-### size###,### an###s###path"
+1,1,0,0,0, pseudod
+3,0,0,0,0,
+1,2,0,0,0, Alexander### dual
+1,1,0,0,0, balanced
+1,1,0,0,1, generalised Petersen graph
+1,1,0,0,0, member
+1,3,0,1,0, r###-###partite r-graphs
+1,4,0,2,0, r###-###partite r-graphs###partition
+1,6,0,2,0,good###-### is### ⟨⟩### bipartite###�
+2,5,0,4,0," (,###)-###regular###d###�"
+1,1,0,1,0,regular
+1,4,0,3,0,equ###-### f###itable
+1,3,0,1,0,partite### k###-
+1,0,0,0,0,
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, simplicial
+6,1,0,0,0,"  
+  
+"
+1,1,0,0,1, Betti poset
+1,1,0,0,0," 
+"
+1,0,0,0,0,
+1,2,0,1,0, ranked subposet### maximal
+1,1,0,1,0, Fractional Repe
+1,1,0,0,1, benign tableau
+3,1,0,0,0, following incidence structure
+2,1,0,0,0, Parikh matrix
+1,3,0,2,0,-### v###core
+2,1,0,0,1, print
+1,4,0,3,0,ity sequence###-### M###ambigu
+1,2,0,0,1, rational polyhedron### positive
+3,4,0,6,0,-### M###ambiguous###equivalent
+1,1,0,0,1, Dobrushin coefficient
+1,1,0,1,0, entropy
+1,1,0,0,0,coordinate
+3,1,0,0,0, oriented
+1,0,0,0,0,
+1,2,0,0,0, polynomial### polynomial orbit
+1,1,0,0,0, bounded limit
+1,3,0,0,0, standard### filtered nilmanifold### limit polynomial sequence
+1,2,0,0,1, vertical### nilcharacter
+1,4,0,0,0, class### equivalence relation### group### abelian
+1,1,0,0,0, finite
+1,1,0,0,0, polynomial
+1,5,0,0,0,-### nilpotent group###rank### discrete group### universal
+1,1,0,0,0, filtered nilmanifold
+1,1,0,0,0, ultral
+1,3,0,1,0, σ###limit set###-
+1,2,0,0,0, polynomial### space
+1,0,0,0,0,
+6,2,0,0,2, polynomial sequence### polynomial orbit
+1,3,0,0,0, standard### filtered nilmanifold### limit polynomial sequence
+3,4,0,6,0,-### d###unbiased###biased
+2,2,0,0,1, vertical### nilcharacter
+2,2,0,0,0, class### equivalence relation
+2,1,0,0,1, finite downset
+2,4,0,2,0, I###-###filtration### downset
+2,3,0,2,0, filtered nilmanifold### Lie group### downset
+3,4,0,5,0, I###-###filtered homomorphism###filtered quotient space
+3,4,0,2,2, degree###-### multidegree filtration###rank
+1,1,0,0,1, polynomial
+3,2,0,0,0, subset### nilsequence
+2,0,0,0,0,
+1,0,0,0,0,
+4,7,0,2,0,rank filtration### frequency###-### group### discrete group### degree### universal
+3,2,0,0,1, horizontal frequency vector### universal vertical frequency
+1,1,0,0,0, independent
+5,3,0,0,1, horizontal### disjoint### independent
+3,2,0,0,1, ultralimit### ultral
+9,1,0,0,1, limit subset
+3,0,0,0,0,
+3,3,0,0,3, unbiased### is### biased
+7,4,0,1,2,-###sparse subset### co### sparse subset
+2,3,0,1,0, σ###limit set###-
+2,2,0,0,1, polynomial### space
+5,4,0,3,0,-### Host###Kra### cube
+2,3,0,1,1, is### standard nilmanifold### equidistributed
+1,1,0,0,0, arc elimination
+4,1,0,0,2, subset ℱ of nine points
+1,0,0,0,0,
+1,3,0,0,2, unique### abstract graph### abstract
+1,2,0,0,1, reduced### reduced wordlength
+2,1,0,0,2, stable commutator length
+2,3,0,0,2, and### outflow### inflow
+2,1,0,0,0, nonzero
+3,4,0,1,0, 1### unique###homogeneous function###-
+2,4,0,3,0,out###-### unit###flow vectors
+1,2,0,0,0,.### extremal point
+1,1,0,0,0, nonzero (nonnegative) integral flows
+1,2,0,0,1,.### essential disc-vector
+1,3,0,2,0,-### distance###hereditary
+2,0,0,0,0,
+1,2,0,2,0, path###ted
+2,1,0,0,1, accessibility graph
+1,1,0,0,0,"  
+  
+"
+1,3,0,2,0,center path###-### center
+1,3,0,2,0,center path###-### clique
+1,2,0,2,0,odetic### ge
+1,4,0,3,0,ma### p###tole###ic
+1,1,0,0,1, cactus
+1,4,0,0,0,th###-### coordinate### i
+3,0,0,0,0,
+1,1,0,0,1, Schnyder wood
+1,5,0,4,0, (###oidal###)###tor### Schnyder wood
+2,1,0,0,0, monochromatic
+1,4,0,0,0,th###-### coordinate### i
+1,1,0,0,0, Euler system
+1,2,1,0,0,"labeled local complement###
+"
+1,2,0,1,0, local complement### labeled
+1,2,0,1,0, interlace polynomial### labeled
+1,1,0,0,0, labeled
+1,4,0,3,0, interlace polynomial###-### 2###label
+1,4,0,3,0,-###ity interlace polynomial### vertex###null
+1,1,0,0,1, interlace polynomial
+2,2,1,0,0,"join###
+"
+1,3,1,0,0,"
+###split reduction### split
+reduction"
+2,2,0,0,2," labels###
+type"
+1,1,0,0,1, split width
+1,0,0,0,0,
+1,1,0,0,1, special
+1,4,0,0,1, red### complete directed bipartite graph### blue link graph### butterfly
+4,1,0,1,1, satisfactory
+5,5,0,3,0,-### anti###satisfaction### satisfactory### base
+3,4,0,1,3, tight clique### tight### clique### maximal
+1,4,0,0,0, tight clique### folding### maximal### new
+2,0,0,0,0,
+1,1,0,0,0, fold
+2,4,0,0,1, few### lex graph### first### lex
+3,2,0,0,0, threshold### binary
+1,1,0,0,0,"
+compression"
+1,2,0,1,0, discharge###able
+4,2,0,0,3, α-tableau### generalized α-tableau
+4,1,0,0,0, boundary
+1,3,0,1,0, face### elementary subdivision### an
+3,1,0,0,1, faces
+1,2,0,0,1, Euler genus### 
+1,3,0,0,0, cycle### minimum### positive integer
+1,0,0,0,0,
+1,3,0,1,0, Tutte polynomial### surface### signed
+1,1,0,0,1, canonical subgeometry
+1,2,0,1,0, linear set of### pseudoregulus type
+1,5,0,3,0, (### th###) derivative###asse###H
+1,1,0,0,1, multiplicity
+1,5,0,0,0,"close to###,###)-###(###
+"
+3,5,0,5,0,-### C###correspondence assignment###coloring### k
+1,2,0,1,0, suppor###tive restriction
+3,1,0,0,1, categorical product
+2,2,0,0,0, primitive### basic
+2,2,0,1,1, feasible cone### pointed
+4,2,0,1,1, double### percolation
+1,3,0,1,0, spanned### internally### edge
+2,2,0,0,0, red### blue edges
+2,2,0,0,0, trial### doubling
+1,2,0,0,0, is### decomposable
+1,1,0,0,1, marked point
+1,1,0,0,1, special
+1,5,0,1,0, vertex### good### disjoint### edge### good pair
+2,1,0,0,0,.
+3,3,1,4,0, red###-###singular
+1,1,0,0,1, good cycle
+2,3,0,2,0, quantum### number###coloring
+3,0,0,0,0,
+1,0,0,0,0,
+2,1,0,1,0, smooth inverse-function schema
+4,3,0,2,0,-###acceptable### C
+2,2,0,0,1, eigenvalue### an
+2,2,0,0,1, unique position### parent
+1,4,0,3,0,jective###-### child###bi
+1,2,0,0,1, bidirectional ballot### bidirectional ballot sequence
+2,2,0,0,0, unique### arch system
+1,3,0,2,0,-### Wilf###equivalent
+1,2,0,0,0, coh### finest equivalence relation
+1,3,0,0,0,-### c###bicluster fan
+1,0,0,0,0,
+1,0,0,0,0,
+3,1,0,0,0, circuit walk
+1,4,0,1,0, complex### st###acyclic###oss
+1,2,0,0,0,-### join
+1,1,0,0,1, Scarf complex
+1,0,0,0,0,
+1,4,0,1,0, complex### st###acyclic###oss
+1,1,0,0,1, amalgamation
+1,2,0,0,1, axial function### an
+2,5,0,2,0, *###independent###-### ### k
+1,2,0,0,1, embedding### positive
+1,1,0,0,1, trivial normal holonomy
+2,4,0,0,1, 1###skeleton###-### polarizing
+1,1,0,0,1, Morse function
+1,3,0,2,0,-###cyclic### non
+1,1,0,0,1, compatibility system
+1,1,0,0,0, generalized axial
+3,5,0,8,4, normal path-connection number###-###connection number### path### local path-connection number
+1,1,0,0,0, subs
+1,4,0,2,0, generalized 1-skeleton### blow###-###up
+1,0,0,0,0,
+1,1,0,0,0, generalized 1-skeleton
+1,0,0,0,0,
+1,2,1,0,0,"
+###dependency graph"
+1,6,0,5,0," (###,###)-###k###expander###d"
+1,0,0,0,0,
+1,1,0,0,1, Stanley sequence
+3,2,0,0,1, independent Stanley sequence### Stanley sequence
+4,1,0,0,0, Stanley
+2,2,0,0,1, is### covered
+2,6,0,0,0, modular Stanley###-### is### modular set### 3###free
+3,2,0,0,1, modular### Stanley
+3,1,0,0,0, Stanley
+2,1,0,0,1, basic
+1,4,0,3,0,-### p###Stan###ley sequence
+2,3,0,4,0,-### p###covered
+2,7,0,6,1, p### modular p-free set###-### is###ley sequence###free### modular p-Stan
+2,1,0,0,1, basic
+2,1,0,0,0, elementary dual
+1,0,0,0,0,
+1,0,0,0,0,
+2,1,0,0,0,"  
+  
+"
+1,2,0,2,0,-### i
+1,3,0,2,0, k###ribbon word###-
+1,5,0,3,0,"package###-### ###
+### i"
+2,5,0,7,0,-###atible###inc### i###omp
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, multiplicative derivative
+1,1,0,0,1, Gowers norm
+1,4,0,0,0,-###case letters###case Greek letters### upper
+1,0,0,0,0,
+1,2,0,1,0, fractional### part
+1,3,0,2,0, (###) inhomogeneous random graph###intermediate
+1,1,0,0,1, isolation parameter
+2,0,0,0,0,
+2,2,0,1,0, approximation kernels### lower
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,0, number
+1,3,0,0,0, set### neighbors### movement
+1,0,0,0,0,
+1,1,0,0,1, inverse
+1,1,0,0,0, north
+1,1,0,0,1, bad colouring
+5,6,0,7,0,-### Δ### toric###or diagram###flo### divergence
+2,1,0,0,0, linear
+1,1,0,0,0, directed graph
+1,1,0,0,1, adjacency matrix
+1,0,0,0,0,
+1,1,0,0,1, volume
+1,5,0,1,1,edge###-### edge connectivity### k### connected
+1,1,0,0,1, Cartesian product
+1,3,0,0,1, path### edges### number
+1,2,0,1,0, path### shortest
+1,0,0,0,0,
+1,1,0,0,1, diameter
+1,1,0,0,0, permutation
+1,1,0,0,1, automorphism
+1,1,0,0,1, weighted graph
+1,1,0,0,1, weighted adjacency matrix
+1,1,0,0,1, graph cut
+1,1,0,0,1, isoperimetric number
+1,2,0,1,0, difference Laplacian### weighted
+1,1,0,0,1, weighted signless Laplacian
+1,1,0,0,1, path graph
+1,1,0,0,0, adjacency
+1,0,0,0,0,
+1,2,0,1,0, double### tree
+1,1,0,0,0, edge
+1,2,0,0,0, edge### complete
+1,2,0,0,0, cut Ncut### normalized
+1,0,0,0,0,
+1,1,0,0,0, simple
+3,1,0,0,1, proximity
+2,1,0,0,1, proximity map
+1,0,0,0,0,
+1,1,0,0,1, superset region
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, active set
+3,6,0,6,0, minimal### η###-###value### ### active subset
+1,2,0,0,1, (###) edge extrema
+2,1,0,2,0,-
+1,3,0,2,0,-###value### κ
+2,5,0,4,0, PB###contraction### pendant###-###deletion
+1,1,0,0,1, reduced vertex-weighted block  graph
+1,1,0,1,0, block
+2,3,0,0,0, block graph### tree### block graphs
+1,2,0,1,0, first### common ancestor
+1,1,0,0,0, simple
+1,2,0,2,0, Brownian### separable permut
+2,2,0,0,2, skeleton### substitution
+1,3,0,2,0,-###closed### substitution
+2,1,0,0,1, simple permutation
+2,0,0,0,0,
+1,0,0,0,0,
+2,2,0,1,0, planar### rooted
+1,0,0,0,0,
+1,2,0,1,0, first### common ancestor
+1,1,0,0,0, decorated
+4,4,0,6,0, 2### 1###codimension###-
+2,4,0,2,1, dominating parameter### level### adjacency### of
+4,0,0,0,0,
+1,0,0,0,0,
+1,4,0,0,0, directed###-### skew###symmetrizable
+1,1,0,0,1, generalized quiver mutation
+1,3,0,1,0, base### framed### generalized quiver
+1,3,0,2,0,-### D###matrix
+1,1,0,0,0, green
+1,0,0,0,0,
+1,1,0,0,0, directed graph
+1,1,0,0,1, quiver mutation
+1,1,0,0,1, framed quiver
+1,3,0,2,0,-###matrix### C
+1,1,0,0,0, fundamental
+1,1,0,0,1, basic
+1,2,0,0,1, bicolored### expander
+1,2,0,0,1, expander### an
+1,2,0,0,0, clique### complex
+1,0,0,0,0,
+2,2,0,0,1," secondary polytope### 
+"
+2,2,0,1,0, clique### complex
+2,2,0,0,2, partial decomposition### perfect decomposition
+4,6,0,5,0," (###W###V###,###)-###path system"
+1,0,0,0,0,
+1,0,0,0,0,
+1,4,0,0,1, distributed### identically### lazy coin flip distribution### independent
+1,2,0,1,0, Ch###io set
+1,4,0,3,0, matrix###l###-###circuit
+1,10,0,9,0,"constant, (### -###,###σ###)-###(### ###proper###
+### +"
+2,2,0,0,2, negative path### positive path
+1,1,0,1,0, graph
+4,0,0,0,0,
+1,1,0,0,1,"
+periodic graph"
+5,1,0,0,1, primitive
+1,1,0,0,0, satisfiability
+1,1,0,0,1, complexity
+1,3,0,0,0, ρ###-### Bohr
+1,5,0,0,1,-###normal form### s### in### exact s-normal form
+1,0,0,0,0,
+2,1,0,0,0, Hamming
+1,3,0,2,0,-###square grid### quasi
+1,0,0,0,0,
+1,1,0,0,0, Poincaré lemma
+2,1,0,0,2, elementary p-path
+1,1,0,0,0,"
+elementary paths"
+1,1,0,0,0, regular
+1,3,0,0,2,-###regularized### regular p-paths
+2,3,0,0,1,"
+###regular boundary operator### "
+1,0,0,0,0,
+1,1,0,0,1, regular p-forms
+1,2,0,1,0, path### complex
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, allowed n
+1,1,0,0,1, regular
+2,3,0,3,2, path### homology### reduced path homology groups
+1,1,0,0,1, exterior differential
+1,2,0,0,1, inverse star-shaped### star center
+1,2,0,0,0, path### complex
+1,1,0,0,1, cone
+1,1,0,0,1, suspension
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, equivalent
+1,1,0,0,0,"  
+"
+1,0,0,0,0,
+2,2,0,2,2, maximal cone### good maximal cone
+1,2,0,0,1, GKZ cone### support
+1,1,0,0,1, growth point
+1,1,0,0,1, cell complex
+1,1,0,0,0, concrete simplicial
+1,1,0,0,1, star
+1,1,0,0,1, abstract simplicial complex
+1,1,0,0,1, vertex scheme
+1,4,0,0,0,"
+### ###abstract simplicial complex### an"
+1,1,0,0,0,"
+hyperplane arrangement"
+1,2,0,1,0, reflection group### finite
+1,1,0,0,1, abstract Salvetti complex
+1,3,0,2,0,-###legal decomposition### FQ
+1,3,0,2,0,ilt sequence### Fibonacci### Qu
+1,0,0,0,0,
+2,1,0,0,0, total
+2,1,1,0,0,regular
+1,2,0,1,0, symmetric### fully
+1,4,0,0,0,-###W###alsh expansion### Fourier
+1,2,0,1,0, threshold### linear
+2,1,0,0,1, spline
+2,1,0,0,1, constant spline
+1,1,0,0,0, direct
+1,1,0,0,0, lexicographic
+2,2,0,1,3, admissible### basic admissible vector
+1,3,0,0,0,g###-### base
+1,1,0,0,0, direct predecessor
+1,3,0,0,1, Young graph### directed graph### labeled
+1,2,0,0,0, even pivot node### an
+1,1,0,0,0, Young graph
+1,1,0,0,0, base
+2,1,0,0,0, direct predecessor
+1,3,0,0,1, Young graph### directed graph### labeled
+1,2,0,0,0, even pivot node### an
+1,1,0,0,0, Young graph
+1,1,0,0,0, complete Young graph
+1,1,0,0,0, cyclic Young graph
+2,6,0,7,0," (###S###-###absorbing###,### ξ"
+1,3,0,2,0,-### μ###regular
+2,3,1,1,0,-###decomposable### skew
+2,1,0,1,1, Dyck path
+1,7,0,3,0, weighted directed Graph###-### t### horizontal edge### vertical edge###attice###L
+1,0,0,0,0,
+1,0,0,0,0,
+1,0,0,0,0,
+1,2,0,1,0,"
+###p"
+1,1,0,0,0, expected degree
+1,1,0,0,0,"
+"
+1,0,0,0,0,
+1,1,0,0,0, expected degree
+1,1,0,0,0,"
+"
+1,1,0,0,0,"
+"
+1,0,0,0,0,
+1,2,0,1,0,"
+###p"
+1,2,0,0,0, Ramanujan### chromatic
+1,2,0,0,1, effective girth### maximal
+1,1,0,0,1, periodic
+1,3,0,2,0,-### M###convex
+1,3,0,2,0,-### L###convex
+1,0,0,0,0,
+5,0,0,0,0,
+3,1,0,0,1, sign
+1,0,0,0,0,
+1,2,0,0,0, simplicial### complex
+1,3,0,1,0,-###decomposable### vertex
+1,2,0,1,0, simplicial### join
+1,1,0,0,1, Gröbner basis
+1,8,0,4,0,able###ier###ce###-###p###cing### pier### k
+1,4,0,4,0,ier### k###p###-
+2,2,0,0,0, simplicial### complex
+1,1,0,0,0, simplicial
+1,1,0,0,0, pure
+1,0,0,0,0,
+1,2,0,2,0,'-###compatible
+1,3,0,0,1, interlacing family### real### an
+1,4,0,3,0, r###-###ordan array###Ri
+1,3,0,2,0, r###-###Catalan
+1,4,0,0,1,-### reduced graph### non###exceptional clusters
+3,1,0,0,3, stable Kneser graph
+1,1,0,0,1, independence complex
+2,3,0,1,1, partial### acyclic### matching
+1,1,0,0,0, stable Kneser graph
+7,2,0,0,2, matching tree### root
+3,1,0,0,1, alternating end vertex
+1,1,0,0,0, dominant
+1,0,0,0,0,
+1,2,0,0,1, anchor### Robinson
+1,1,0,0,1, similarity partition
+1,1,0,0,0, ordinary generating
+1,3,0,2,0,-###critical### L
+4,2,0,7,0,-###critical
+2,1,0,0,0, list assignment
+1,4,0,2,0, S###-###component### an
+1,1,0,0,0, subc
+1,1,0,0,1, deficiency
+2,3,1,2,0,-###boundary### quasi
+3,4,0,0,1, dividing vertex### plane graph### true### vertex
+2,4,0,4,0,-### k###relaxation### 0
+1,3,0,2,0,-###Reisner ring### Stanley
+1,1,0,0,1, link
+1,1,0,0,1, sequentially Cohen-Macaulay
+1,1,0,0,0, Alexander
+1,0,0,0,0,
+1,1,0,0,1, Ferrers graph
+1,2,0,1,0, Ferrers### invariant
+1,6,0,0,0, left### Lie###-### Riemannian###step filtered### s
+1,4,0,2,0, N###-### is###periodic
+1,3,0,2,0,-###normal### C
+1,4,0,3,0,-### Γ###distance magic labeling###distance magic
+3,3,0,0,3, capacity### source### sink
+5,1,0,0,1, decomposable
+1,5,0,0,0,q### (###1###-###)-
+1,4,0,3,0, Ap###é###ry###ry element
+1,2,0,1,0, graded algebra### standard
+1,1,0,0,1, Hilbert function
+1,0,0,0,0,
+2,2,0,0,0, ribbon### sub
+1,1,0,0,0," 
+"
+1,9,0,3,0, (###1###dimensional finite projective space###-###n### n###)-###+###dimensional vector space
+1,2,0,0,0,"
+difference assumption### bounded"
+3,1,0,0,1, multiplicity function
+1,3,0,0,0,) local limit theorem### (###Gaussian
+1,10,0,8,0," (###quasi###-###identifying code###,### an###)-### ###R###L"
+1,1,0,0,0, nanophr
+1,1,0,0,1, homotopic
+2,2,0,0,1, occurrence### classical
+3,3,0,2,1, occurrence###ular###inc
+1,1,0,0,1, composition
+2,3,0,0,1, reduction### unique### preserved
+1,1,0,0,1, dependency graph
+2,0,0,0,0,
+1,1,0,0,1, sorted sequence
+3,4,0,5,0,factor###-### one###isation
+1,2,0,0,1, front divisor### multi
+2,5,0,3,1,-### N###bi###invariant### Gelfand pair
+1,1,0,1,0, LCM lattice
+2,2,0,0,1, string### size
+3,1,0,0,2, substring
+3,0,0,0,0,
+1,1,0,1,0, suffix
+4,1,0,1,0, growth
+3,2,0,0,1, is### periodic
+1,1,0,0,1, ribbon graph polynomial
+1,1,0,0,1, topological transition polynomial
+1,2,0,1,0,hamiltonian### outer
+1,0,0,0,0,
+1,1,0,0,1, thickness
+1,5,0,4,0,bar k###-### random###-visibility graph### semi
+9,0,0,0,0,
+3,1,0,0,1, parallel
+5,1,0,0,0, parallel
+2,3,0,0,0, strong### free### loopless
+5,2,0,0,2, contraction### deletion
+1,3,0,2,0,) quotient### (###matroid
+3,1,0,0,1, weak factorization system
+1,2,0,1,0, nearly### full
+1,2,0,1,0, nearly### faithful
+1,1,0,0,1, simplification
+1,1,0,0,1, free extension
+2,1,0,0,1, optimization problem
+1,2,0,0,1, greedy algorithm### maximum
+3,2,0,0,2, square poset### square functor
+1,1,0,0,0, Stirling
+1,1,0,0,0, good
+2,1,0,0,0, good
+2,1,0,0,0, Parikh matrix
+1,6,0,1,0, 1###-### is### elementary matrix equivalence ( ME-equivalence###equivalent### term
+1,1,0,0,1, print
+2,3,0,2,0, general print### left### right
+2,3,0,2,0, left### core print### right
+1,1,0,0,1, core print characteristic function
+1,3,0,2,0, k###spectrum###-
+3,4,0,6,0,-### M###ambiguous###equivalent
+1,3,0,2,0, r###-###isomorphic
+3,1,0,0,1, root
+3,2,0,2,1, arc### restricted arc-cut
+1,1,0,0,1, maximal point
+1,1,0,0,0, free
+1,3,0,0,0, cancellative semigroup### colouring### commutative
+1,1,0,0,1, direct sum
+2,5,0,4,0, head###-###tail###system### Δ
+1,1,0,0,1, condensation
+1,3,0,0,1,quas### canonical labeling### pre
+2,1,0,0,0, unique quadratic form
+1,3,0,1,0,-###twist### u
+7,2,0,2,0,-### peak
+4,5,0,6,0,west check###-###west checkmark sequence### south### north
+1,0,0,0,0,
+1,1,0,0,0, graph
+1,1,0,0,0, planar network
+1,0,0,0,0,
+1,6,0,5,0,"minor matrix### (###,###)-###A###B"
+1,0,0,0,0,
+1,0,0,0,0,
+4,2,0,1,0, tour### closed
+1,1,0,0,1, module
+2,3,0,2,0, directed### partition### modular width
+2,2,0,1,1, directed clique width###-
+2,6,0,5,0, cycle###-### N### directed###ichromatic number###d
+3,2,0,1,0, directed### path decomposition
+3,6,0,9,0,directed pathwidth###-### n###width###evaluation function###w
+1,3,0,2,0, cycle###-###rank
+3,7,0,11,0,evaluation###-### n###rank###σ###cycle###w
+1,0,0,0,0,
+1,1,0,0,0, local tropical linear space
+1,3,0,0,0,-### non###commutative polynomial
+1,2,0,0,0, shellable### line
+1,4,0,4,0,-###ommer###S### Dehn
+1,0,0,0,0,
+1,7,0,2,0, (###1###r###-###stack###)-###ed
+1,1,0,1,0, Generalized Dehn-Sommerville Equations
+1,1,0,0,0, toric h-polynomial
+2,3,0,1,0, ordered set### Anti### partially
+1,2,0,0,1, t### covers
+1,0,0,0,0,
+2,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,0," 
+ 
+"
+1,0,0,0,0,
+1,1,0,0,0, flag h-
+1,3,0,2,0, ab###-###index
+1,1,0,0,1, flag polynomial
+1,0,0,0,0,
+2,1,0,0,1, shelling
+2,2,0,1,1, cell### open
+1,2,0,0,1, weak### CW complex
+1,1,0,0,0, poset
+1,1,0,0,1, suspension
+2,6,0,3,0, poset### near### semis###-###Eulerian###uspension
+1,3,0,0,0,-###Eulerian (n-1)-CW-complex### near
+1,2,0,0,1," order complex### 
+ 
+ 
+"
+2,10,0,2,0,dimensional### (###1###i### simplicial subcomplex###-###n### n###)-###dimensional simplicial subcomplex
+1,4,0,0,0, reduced### reduced homology### real### homology
+1,1,0,0,0, reduced homology
+2,3,0,0,1, semisuspension### interior### Eulerian
+1,3,0,2,0,-### near###Gorenstein
+1,1,0,0,0," 
+"
+1,2,0,0,0, surjective### CW complex
+1,4,0,0,1,-### near### strong Eulerian subdivision###Eulerian poset
+1,1,0,0,1, Gorenstein* subdivision map
+2,0,0,0,0,
+1,1,0,0,0, skeletal
+4,2,0,0,2, old flag### mixed flag
+1,3,0,0,1," pyramid### graded### 
+"
+1,0,0,0,0,
+2,9,0,3,2, (###1###r###-###stack### stacked polytope###)-### stack subdivision###ed
+1,4,0,3,0, k###shell###ably###-
+1,4,0,2,0,-###polynomial### g### unique polynomial
+1,3,0,2,0,-### h###polynomial
+1,1,0,0,0, toric
+1,3,0,1,0," surjective### 
+ 
+### 
+ 
+ 
+"
+1,1,0,0,1, strong formal subdivision
+1,1,0,0,0, polynomial
+6,3,0,2,0,-###transformation### A
+1,1,0,0,1, Fan subgraph
+1,1,0,0,1, MSTD fringe pair
+1,2,0,1,0, MSTD fringe pair### minimal
+2,1,0,0,1, rich MSTD set
+2,1,0,0,1, prefix
+1,7,0,4,0,ent###lu###aff### S###-### is### k
+1,3,0,0,0, following### partial### order
+4,1,0,0,1, chromatic quasisymmetric function
+2,4,0,5,0, k###balanced chromatic quasisymmetric###-###balanced
+1,1,0,0,0, unicellular graph LL
+1,1,0,0,0, vertical strip graph LL
+2,4,1,0,1,-### M### matroid quasisymmetric function###generic
+3,5,0,4,0,domination### locating###-###dominating### location
+3,7,0,8,0,domination###-###location###loc###dominating### self###ating
+3,8,0,8,0, solid###domination###-###dominating code###location###loc###dominating###ating
+1,1,0,0,1, pseudoclique
+2,1,0,0,1, distinguishing set partition
+1,0,0,0,0,
+1,3,0,2,0,extremal### λ###-
+1,4,0,3,0,"special###
+###j###-"
+1,1,0,0,1, elementary cycle
+1,2,0,0,1, underlying backward graph### undirected graph
+3,1,0,2,0,-
+1,3,0,0,1, graph### backward spine### backward arc
+1,2,0,0,1, condensation graph### backward
+1,1,0,0,1, cube representation
+1,1,0,0,1, matrix representation
+1,1,0,0,0,"  
+"
+1,1,0,0,1, cube representation
+1,1,0,0,1, separable
+1,3,0,2,0,-### n###separating
+1,6,0,5,0," (###i###separating###,###)-###j"
+1,1,0,0,1, splitting family
+1,1,0,0,1, splittable
+1,3,0,2,0,-### n###splitting
+1,1,0,0,0, path
+6,1,0,0,1, realization
+1,1,0,0,1, rigid
+2,2,0,1,0, generically### realizable
+2,0,0,0,0,
+1,5,0,3,0,-### is### pseudo###aman###L
+1,1,0,0,0, greed
+2,1,0,0,0, greed
+4,2,0,0,0, uniform definability### uniform definition
+1,2,0,0,0, partitioned ℒ-formulas### of ℒ(M)-formulas
+2,1,0,0,0, cylindric plane
+1,0,0,0,0,
+1,1,0,0,1, inversion
+4,3,0,0,3, unoccupied### white### or
+1,1,0,0,1, surface cube
+1,1,0,0,1, level
+1,1,0,0,0, path
+1,1,0,0,1, valley cube
+1,1,0,0,1, peak cube
+1,1,0,0,0, triangular lattice
+1,1,0,0,1, path
+1,3,0,3,0,-###intersecting lattice paths### non
+1,3,0,0,0,-###intersecting lattice paths### non
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, singular value decomposition
+1,1,0,0,1, lexicographic extension
+1,1,0,0,1, neighborly
+2,1,0,0,1, balanced
+1,1,0,0,0, lexicographic extension
+2,2,0,1,0, flag### universal
+1,1,0,0,1, premetric
+1,0,0,0,0,
+1,1,1,0,0,strongly edge decomposable
+1,5,0,1,0, lattice###-###east### path###step
+6,0,0,0,0,
+4,5,0,3,2, nth extremal number### extremal number### nth### standard### oriented extremal number
+1,1,0,0,0, edge
+4,4,0,3,1, tail### directed### graph### tail link graph
+1,3,0,2,0,-### cross###dependent
+1,1,0,0,1, complementary
+1,3,0,1,0, define### cardinality vector### primal
+1,2,0,1,0, partial### order
+2,1,0,0,0, CNF
+2,2,0,0,1, neighborhood### hyperedge
+1,0,0,0,0,
+2,5,0,2,0, leftmost occurrence### left### special letter### right### rightmost occurrence
+1,1,0,0,0, support set
+1,1,0,0,0,domination
+1,3,0,3,0,size###stack###-
+3,1,0,0,0, game
+1,0,0,0,0,
+2,3,0,4,0,-### proper###simple
+2,3,0,4,0, cycle###-###simple
+2,3,0,4,0,-###simple### group
+2,3,0,2,0,simple permutation###-### braid
+2,3,0,4,0,-### tree###simple
+1,1,0,0,0, exponential
+1,1,0,0,1, rare
+3,2,0,0,2, segment### connected
+1,1,0,0,1, unimodal
+1,1,0,0,1, correlation constant
+3,2,0,0,1, flat### flats
+1,2,0,0,0, quotient### Chow
+1,1,0,1,0, submodular
+1,3,0,2,0,"able###
+###shadow"
+5,1,0,0,0, hereditary
+1,4,0,4,0,"_###0###1###,"
+1,1,0,0,1, face graph
+1,4,0,0,1, unique### primitive lattice point### index### sublattice generated
+1,1,0,0,1, vertex average
+1,3,0,1,0, primitive inward-pointing vector normal###facet pairing###�
+1,1,0,0,1, normal form
+1,1,0,0,1, normal form
+3,10,0,9,0,matched### (###non###) graph###r### r###matched graph###-###-(###-)
+1,1,0,0,1, deficiency
+1,3,0,2,0,-###trivial### endo
+1,0,0,0,0,
+3,1,0,0,0, minimum value
+2,8,0,9,0," (### colouring###α###,###β### strong###)-### finite"
+1,1,0,0,0, geometric
+1,1,0,0,0, phased BIBD ET
+1,10,0,8,0," (###phase BIBD ET### poly###,###)-###k###v###poly###f###phase"
+1,1,0,0,0, BI
+1,1,0,0,1, contracted graph
+1,6,0,0,0,"directed, branch-point-free path### positively### positively weighted graph 
+### weighted graph###
+### equivalence relation"
+1,1,0,0,0, simple
+1,0,0,0,0,
+1,0,0,0,0,
+2,1,0,0,1, directed  line graph
+1,1,0,0,1, contracted graph
+1,7,0,0,0,"-###point###free path### positively### branch### weighted graph 
+### positively weighted graph"
+2,1,0,0,0, maximal list
+1,2,0,1,0, sensitive### arc
+2,2,0,0,0, simple### undirected graph
+1,2,0,0,1, meta graph### relative weight
+1,2,0,0,0," relative### 
+"
+1,6,0,0,2,ed singular series### W###-###t### singular series###rick
+1,1,0,0,1, sieve factor
+1,1,0,0,1, compactification degree
+1,1,0,0,0, perfect matching
+1,3,0,2,0, out###-###degeneracy
+1,2,0,1,0, planar### strongly
+1,0,0,0,0,
+1,7,0,0,0," (###,###s###)-###k###m###star"
+1,2,0,0,1," weight### (m,k,s)-"
+1,2,0,0,1," central weight### (m,k,s)-"
+1,3,0,0,1,-### M###valued valuation
+1,0,0,0,0,
+1,1,0,0,0, word
+3,2,0,0,2, scattered subword### simply
+2,1,0,0,0, Parikh matrix
+1,3,0,3,0,-### M###equivalent
+2,1,0,0,0, elementarily M-equivalent
+1,3,0,0,0, strong###�### rewriting rule
+2,1,0,0,0, strong (2· t) transformation
+1,4,0,0,0,-### αβ###transformation### an
+2,3,0,1,0, elementarily matrix equivalent ( MSAE-equivalent### strongly### almost
+1,1,0,1,0, transformation
+1,2,0,0,0, strong### rewriting rule
+1,1,0,0,0, triangle
+1,2,0,1,0, TR###IP sequence
+2,6,0,8,0, partition### triangle###Stern###-###IP###Stern sequence
+1,4,0,3,0,IP###-### TR###Stern sequence
+1,0,0,0,0,
+2,3,0,1,0,Stern sequence### TRIP###-
+1,1,0,0,1, inverse map
+1,2,0,0,0, tree### elements
+1,1,0,0,0, germ
+1,4,0,3,0,Stern sequence### TRIP### generalized###-
+1,0,0,0,0,
+2,3,0,3,0,D### 3### Young diagram
+3,4,0,2,2,-###partition### weighting### w
+3,2,0,0,2, or 1-factor### matching
+1,6,0,2,0," common
+### S### representation###-###block### an"
+1,0,0,0,0,
+1,6,0,2,0,"cluster### S###-### an### ###
+"
+1,3,0,2,0,-###regular### ϵ
+1,3,0,2,0,-### f###regular partition
+1,5,0,2,0, y###good###-### is### ϵ
+1,1,0,0,1, tree bound
+1,4,0,2,0,order property### k###stable###-
+2,5,0,4,0, y###good###-### is### ϵ
+1,2,0,0,1, closure### regular
+1,1,0,0,1, tree bound
+1,1,0,0,0, partial
+1,1,0,0,0, partial
+1,1,0,0,1, critical
+1,2,0,0,1, minimum### difficulty
+2,1,0,0,2, unbalanced
+3,3,0,2,1,arte droplet### Du###arte region
+1,0,0,0,0,
+1,0,0,0,0,
+1,3,0,0,0, directed### tree### rooted
+1,2,0,1,0,good### is t-
+2,0,0,0,0,
+4,4,0,2,1, weak### D###-###rooted
+3,0,0,0,0,
+1,0,0,0,0,
+1,0,0,0,0,
+1,1,0,0,1, throughput
+1,3,0,2,0,ive### h### flow
+1,3,0,2,0,ive### h### flow polytope
+3,0,0,0,0,
+3,3,0,2,0,-### Littlewood###Richardson graph
+3,1,0,0,0, path
+1,0,0,0,0,
+1,0,0,0,0,
+3,3,0,0,2, pipe### thin### center curve
+1,0,0,0,0,
+1,1,0,0,1, tropical halfspace
+1,1,0,0,1, tropical polyhedral cone
+1,1,0,0,1, extreme rays
+1,1,0,0,1, dissimilarity map
+1,1,0,0,1, rooted tree
+1,1,0,0,1, ultrametric
+1,1,0,0,1, tangent directed hypergraph
+1,2,0,0,1, ultrametric### mobile
+2,1,0,0,1, line
+3,1,0,0,1, incidence structure
+1,1,0,0,1, Chern numbers
+1,1,0,0,0, infinite
+1,1,0,0,1, rectifiable
+13,1,0,0,0,basepoint free
+10,4,0,0,0,polygon###-### M###ample
+3,3,0,0,1,-###intersection number### self
+6,2,0,0,0, compact### toric
+4,3,0,0,0,reflexive### 1###-
+3,4,0,0,1, (###ℤ### group###-)basis
+1,1,0,0,0, choice
+1,3,0,1,0,-###dual### self
+1,1,0,0,1, standard model
+5,2,0,0,0," equivalence###
+"
+1,1,0,0,1, standard model
+1,3,1,0,0,"
+###multiplicity### positive integer"
+2,1,0,1,0, type
+1,1,0,0,1,"
+dual cone"
+1,1,0,0,0," affine
+toric surface"
+1,4,0,0,1,"
+###-### normal fan### inward"
+1,1,1,0,0,combinatorial triples
+1,4,0,2,0,-### N### auxiliary cone###cone
+2,2,0,0,0, complete linear### projective variety
+1,0,0,0,0,
+1,0,0,0,0,
+1,3,0,2,0,-### Log###Sobolev constant
+1,1,0,0,1, uniform avoidance coupling
+1,1,0,0,0, forbidden state
+1,0,0,0,0,
+1,1,0,0,1, avoidance coupling
+2,1,0,0,1, Markovian
+1,3,0,0,0, avoidance coupling### avoidance### state
+1,2,0,0,1, probability### uniform avoidance coupling
+1,1,0,0,0, uniform avoidance coupling
+1,2,0,0,1, forbidden state### uniform avoidance coupling
+1,0,0,0,0,
+6,8,0,14,0,-### maximal###valley###peak###up### k###asc###ending
+1,0,0,0,0,
+1,1,0,0,0, local completion
+1,5,0,4,0,2-###igible###-### 2###weighted N-eligible
+2,3,0,2,1, standard### Coxeter element### Coxeter
+1,1,0,0,0, positive block
+1,1,0,0,0, number
+1,1,0,0,1, chromatic sum
+1,1,0,0,0, class
+1,0,0,0,0,
+1,5,0,2,0,"-###division###
+###arrangement###ally"
+1,3,1,1,0,"
+###hereditarily divisionally free### "
+1,1,0,0,1, pure
+1,3,0,2,0, AP###-###reduction
+1,5,0,1,0, shortest### W###-###separated### three
+2,3,0,4,0,-###power### h
+1,4,0,3,0,-### h###Fib###onacci sequence
+1,2,0,1,0, partial### bijection
+1,1,0,0,1, trivial extension
+1,0,0,0,0,
+1,1,0,0,0, path
+1,1,0,0,1, vital linkage
+1,0,0,0,0,
+2,2,0,0,0, path### crossings
+1,1,0,0,1, vital linkage
+1,2,1,0,0,"
+###refined invariants"
+1,2,0,0,1, refined invariants### refined
+1,2,0,1,0, relative Severi degrees### refined
+3,2,0,1,0, tropical### metric
+5,7,0,4,1," linear### ### integral common###
+### primitive### direction vector### affine"
+8,2,0,0,1, nodal### dual
+2,2,0,2,1, multiplicity### refined multiplicity
+1,3,0,1,0,negative integers###-### non
+1,1,0,0,1, refined multiplicity
+2,0,0,0,0,
+1,1,0,0,0, directed
+1,2,0,1,0, invariant### beta
+2,0,0,0,0,
+1,1,0,0,0, Ehrhart polynomial
+3,5,1,1,0, arithmetic###complement### toric###Finite Field Method### arrangement
+1,2,0,0,1, scalar### hyperplane arrangement
+1,1,0,0,0, ranked poset
+2,2,0,0,0, semim###atroid hyperplane
+2,3,0,0,2, deletion  hyperplane arrangement### ### contraction  hyperplane
+2,4,1,0,0,ization hyperplane arrangement### hyperplane arrangement###centralization### central
+1,2,0,0,0,ization hyperplane arrangement### essential
+2,1,0,0,0, polynomial hyperplane
+1,1,0,0,1, Tutte polynomial hyperplane
+2,7,1,8,0, invariant hyperplane arrangement### Tutte###Grothendieck###-### generalized Tutte-Grothendieck### invariant###Tutte-Grothendieck invariant
+1,1,0,0,0, simple change
+1,2,0,0,0, polynomial hyperplane### multivariate
+3,2,0,0,1, arithmetic Tutte polynomial arithmetic Tutte polynomial### arithmetic
+1,1,0,0,1, square
+1,1,0,0,1, half set
+2,2,0,0,1, embedding### an
+8,3,0,8,0,-###Jan### Davis
+1,4,0,1,0, equivalence###-### D###J
+4,0,0,0,0,
+1,3,0,0,1, pseud###ograph### realizable puzzle
+1,1,0,0,0, weak partition
+1,4,0,0,1,-### D###J### support
+1,3,0,1,0, e### even###-
+2,4,0,5,0,set### e###-### an
+1,0,0,0,0,
+2,1,0,0,1, Dirichlet function
+1,0,0,0,0,
+1,2,0,0,0, intrinsic Dirichlet function### an
+1,2,0,1,0, symbolically approximable### badly
+1,2,0,0,0, TT### edge
+1,3,0,0,0, graph### face graph### face
+1,1,0,0,1, indivisible
+1,1,0,0,1, critical girth cycle
+1,2,0,1,0,ance order###Domin
+4,1,0,0,2, generalized λ-tableau
+1,3,0,0,0, λ###tableau###-
+1,2,0,1,0, switching### vertex
+9,8,0,9,3, 1###colored simple cycle###-### parity### Adinkra### two### underlying graph###d
+2,2,0,2,0, switching### vertex
+5,8,0,15,0,moving edge### left###-### Adinkra### right### 2###d###moving
+2,4,0,3,1, even### weight###-###split doubly even (ESDE
+1,2,0,1,0, finitely### supported distribution
+1,5,0,0,0, point###-### rotor###wise use### uniform
+1,2,0,0,1, uniform shift### shift operator
+1,1,0,0,0, greedy
+1,2,0,1,0, Coll###ess index
+2,1,0,0,0, greedy
+1,3,0,2,0,ack### index### S
+1,2,0,0,0, unique### simple
+1,4,0,0,1, even### simple### unique### positive
+1,1,0,0,1, motion
+1,0,0,0,0,
+1,2,0,0,1, term### motion
+1,3,0,2,0,-### edge###regular
+1,3,0,2,0, regular### am###ply
+1,1,0,0,1, line graph
+2,4,0,2,1,-### distance###regular### intersection array
+1,0,0,0,0,
+1,1,0,0,1, geometric
+1,1,0,0,1, Johnson graph
+1,1,0,0,1, Hamming graph
+1,0,0,0,0,
+1,3,0,1,0,-### distance###regular
+2,1,0,0,1, coherent configuration
+5,9,0,18,0, up###-###run### n###down### an### x###up###coordinate
+2,9,0,0,0,S###line number###-### m###line game### on###zekeres###up### Erdős
+5,4,0,8,0, north###west###-###east quadrant
+2,4,0,3,1,.### separated###e### i
+3,1,0,0,0, point
+8,0,0,0,0,
+1,2,0,1,0,-### game
+1,5,0,2,0,Mid###-### f###ling mode strategy mode###d
+2,2,0,0,2, components### spread
+1,1,0,0,0, Abelian group
+1,4,0,2,0,ism###otop### triple### aut
+2,3,0,0,0,"ifi### quas### 
+"
+1,1,0,0,1, permutation graph
+1,1,0,0,1, fingerprint
+1,4,0,3,0, B###-###configuration###EL
+1,0,0,0,0,
+2,2,0,0,2, local triangle bound### local triangle count
+2,2,0,0,0, special claw### subdivided medial graph
+1,1,0,0,1, cyclicity classes
+1,3,0,2,0, Wi###el###andt number
+1,1,0,0,1, girth
+1,2,0,0,1, critical### critical graph

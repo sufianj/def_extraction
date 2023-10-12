@@ -1,0 +1,1025 @@
+gpt-4 terms
+compatibility graph
+strong compatibility graph
+good pair###bad pair
+multiplicative
+ergodic###limit shape of partitions
+simplicial map###nondegenerate simplicial map
+filling diagram for γ###minimal###nondegenerate###locally k-large
+t-uniform
+triangulation###planar double edge###face###edge###double edge
+"nearly orthogonal array NOA(n,d)"
+exceptional interval-poset
+new
+new
+semistandard composition tableau (SSCT)###standard (an SCT)###attacks
+skew quasisymmetric Schur functions
+C-equivalent ### C-equivalence class ### rectified shape ### complete
+"descent Pieri operator###descent set###descent composition###K_[x,y]"
+composition poset###covers###partial order###transitive closure###cover relations
+Vertical strip###Horizontal strip
+Composition tableau###semistandard composition tableau###standard
+C-equivalence###complete
+rigidly related
+quasisymmetric Schur function in noncommuting variables _α###dotted composition tableau
+non-crossing half-pairing ### through strings
+orientation###singleton###non-crossing half-pairing###cyclic intervals
+standard cyclic reduction
+m-composition of ∈ G over G ### weak compositions over G
+recurrent vertices###class of locally restricted compositions###span of (G;D)
+Transfer matrix###weights###start vector###finish vector
+threshold graph
+d-expands
+strictly balanced
+k-matching
+absorber###size of the absorber###ends of the absorber
+pseudodeterminant
+(i-1)-acyclic CW-complex###i-dimensional (spanning) tree###i-tree
+Alexander dual###blocker
+double dominating set
+"generalised Petersen graph P_n,k###V(P_n,k)###E(P_n,k)"
+lattice sierpinskisation###𝒮_Lat(α)
+k-partition###r-partite r-graphs###r-polyad
+k-partition###r-partite r-graphs###r-polyad
+⟨⟩̣-good partition
+-regular k-graph###k-partite k-graph
+-regular partition
+"f-equitable partition###(r,a_1,…,a_r)-partition"
+k-complex###k-partite hypergraph###rank
+fair win
+early win
+humiliating win
+simplicial
+nice###good###weakly good###weakly bad of type 1###weakly bad of type 2###bad
+Betti poset
+rigid ideal
+rigid deformation###rigid ideal###resolution of J###minimally resolve I
+maximal ranked subposet###C
+"Fractional Repetition (FR) code###repetition degree###(n,k,d) DSS"
+benign tableau
+parabolic congruence###linear complex###incidence structure
+Parikh matrix mapping###Parikh matrices
+v-core
+print of w
+M-ambiguity sequence###M-ambiguous###M-unambiguous
+rational polyhedron
+M-equivalent###M-ambiguous
+Dobrushin coefficient###total variation distance of probability distributions
+configuration entropy
+flip in row k###l
+quiver###representation of Q###dimension vector of a representation V###indecomposable representation###representation-finite quiver
+"contour###G_C=(I_C,E_C)"
+filtration G_ ### polynomial sequence adapted to G_ ### lattice ### filtered nilmanifold ### polynomial orbit ### polynomial nilsequence of degree d
+(G/Γ→^D) ### ((G/Γ) →^D) ### ((G/Γ) →S^2D-1) ### ((G/Γ) →^ω) ### ((G/Γ) →S^ω)
+nilsequence of degree ≤ s###standard filtered nilmanifold of degree ≤ s###limit polynomial sequence
+nilcharacter ### vertical frequency ### Ξ^d([N])
+symbol of χ###nilcharacters###abelian multiplicative group
+ordering###finite downset
+derivative###polynomial maps###limit polynomial maps
+dimension vector###universal nilpotent group###degree-rank filtration###universal nilmanifold###universal vertical frequency
+total frequency representation of the nilcharacter χ
+ultralimit###limit natural number###limit real number
+σ-limit set
+derivative ∂_h g : H → G ### polynomial map ### space of all polynomial maps
+Factorisation theorem###dense arithmetic subprogressions###polynomial sequence###standard rational subgroup###totally equidistributed###horizontal Taylor coefficients###conjugate
+Polynomial nilsequence###filtration G_###polynomial sequence###filtered nilmanifold###polynomial orbit
+Nilsequence###standard filtered nilmanifold###limit polynomial sequence
+d-correlate###d-biased###d-unbiased
+nilcharacter###vertical frequency###The space of all nilcharacters of degree d on [N]
+symbol###nilcharacters###nilsequence###equivalence class###abelian multiplicative group
+Ordering###finite downset
+I-filtration###degree
+"nilpotent Lie group of multi-degree ≤ (d_1,…,d_k) ### nilpotent Lie group of multidegree ⊆ J ### nilpotent Lie group of degree-rank ≤ (d,r) ### filtered nilmanifold of multidegree ≤ (d_1,…,d_k) ### filtered nilmanifold of multidegree ⊆ J ### filtered nilmanifold of degree-rank ≤ (d,r)"
+I-filtered quotient space###I-filtered homomorphism###I-filtered nilmanifold###degree
+degree filtration###multidegree filtration###degree-rank filtration
+Polynomial map###derivative###limit polynomial maps###space of all polynomial maps###space of all limit polynomial maps
+"nilsequence of degree ⊂ J###nilsequence of degree ≤ d###limit polynomial orbit###degree d nilcharacter###vertical frequency of F###multidegree (d_1,…,d_k) nilcharacter###degree-rank (d,r) nilcharacter"
+equivalent###symbol###space of all such equivalence classes
+"linearised (1,s-1)-function###limit function###factorisation###degree ≤ s-2 nilsequence"
+Universal nilmanifold###Universal vertical frequency###Dimension vector###Universal nilpotent group###Degree-rank filtration
+representation of χ###total frequency representation of the nilcharacter χ
+Linear independence###independent modulo O()
+independent horizontal frequency vector###rational horizontal frequency vector###small horizontal frequency vector###disjoint union###represented horizontal frequency vector
+ultralimit###limit natural number###limit real number###limit objects
+ultrapower ### limit set ### limit group ### limit finite set ### limit subset ### limit function ### limit map
+Asymptotic notation###bounded###unbounded###infinitesimal###limit complex number###limit non-negative number###limit element###standard topological space###standard compact subset###bounded elements
+correlate###biased###unbiased###L^p norms
+dense###sparse subset###co-sparse subset###almost bounded
+σ-limit set
+Polynomial map###derivative ∂_h g
+"Host-Kra cube group ### order of the Host-Kra cube groups ### cubes of dimension m and degrees i_1,…,i_m"
+Equidistribution###totally equidistributed
+arc elimination polynomial
+fan (= far-apart nine)
+"property P###words of reduced length m=2n###submodules W_1,...,W_l###ranks###property P(ϕ(x,y))"
+abstract###MD-graph###underlying abstract graph###support of a flow
+reduced wordlength###reduced length
+commutator length ### stable commutator length
+flow###inflow###outflow###complete digraph###nonnegative map###cone of such flows
+weight-function h_z ### cone V(z) ### disc-vectors
+"rational, a posteriori finite sided flow-polyhedron P(z)###sail S(z)###Klein-function κ_z"
+set of paired vectors###compact set of unit-outflow vectors
+extremal point of S
+MD-graph###edge-weights###nonzero (nonnegative) integral flows###polyhedron associated to w
+essential disc-vector
+distance-hereditary
+connected graph###chordal###triangulated###C_⩾ 4-free###chord
+al­ter­na­ted path
+original graph###accessibility graph
+split
+center-center path###totally decomposable graph###reduced clique-star split-decomposition tree
+clique-center path###totally decomposable graph###reduced clique-star split-decomposition tree###star-node###marker vertex###clique-node###interior edge
+weakly geodetic
+ptolemaic
+cactus
+region vector
+Type 1###Type 2###Type 2.i
+Schnyder wood###Schnyder property
+Toroidal Schnyder wood###Schnyder property###monochromatic cycle
+Planar Schnyder wood###Schnyder property###monochromatic cycle
+region vector
+Euler system###ϕ_C###χ_C###ψ_C
+labeled local complement
+labeled local complement
+labeled interlace polynomial
+simplification###labeled simple graph G_simp
+2-label interlace polynomial
+vertex-nullity interlace polynomial
+interlace polynomial
+"join of H and K with respect to S and T###split of (H,S)∗(K,T)"
+split reduction
+"type of P∈ P_λ(H)###labels of H###ϕ(H,S)###χ(H,S)###ψ(H,S)"
+split width of a graph G###sw(G)
+"even [a,b]-factor"
+special
+"red butterfly###|AB|_r###|AB|_b###|ABC|_r###|ABC|_b###G_v,W^blue###G_v,W^red###complete directed bipartite graph K_t,t"
+satisfactory ### sink ### minimal criminal
+walkable neighborhood###anti-satisfaction###base of a transitive triangle###2-directed diamond###bases of the 2-directed diamond
+tight###tight clique###cluster
+folding of G at T###R_T
+triples inducing triangles ### cherries
+foldable
+lex graph###lex order
+threshold graph###code of a threshold graph###join of graphs
+compression
+dischargeable
+generalized α-tableau###semistandard
+cell complex K###boundary function###boundary of the face
+elementary subdivision
+connected map###faces of M###map
+genus g(M) of M ### Euler genus s(M) of M ### signed genus g̅(M) of M
+Map edge deletion
+Map edge contraction
+surface Tutte polynomial###signed genus
+_q^t(V)###_q-vector subspace###_ _q(W)###_ _q^t(V)###W _q^t###canonical subgeometry
+linear set of pseudoregulus type
+(Hasse) derivative
+multiplicity of P at
+"(k,)-extractor###explicit"
+k-correspondence assignment###C-coloring###correspondence chromatic number
+supportive restriction of π###tropical torus###left diagonal ^d action on tropical matrices
+categorical product###lexicographic product###deleted lexicographic product###Kronecker product###direct product###tensor product
+primitive###basic
+feasible cone of P at F ### pointed feasible cone of P at F
+double graph###percolation###the double graph is solved
+"internally spanned set###I(G,m)"
+1-by-1 algorithm###rounds###steps###active vertices###discarded vertices###trial vertices###edges###red edges###blue edges###sprinkling
+trial set###active set###B_t###C_t###X_t+1###A_t+1
+decomposable at j###decomposition point
+marked point
+special
+good pair of edges###good pair
+Hamiltonian alternating cycles###c.g.s.###good pair###exterior edge###sequence of edges###parallel class###exterior edges###parallel
+red-singular ### blue-singular ### singular
+good cycle
+quantum c-coloring###quantum chromatic number χ_q(G)
+(complex) orthogonal representation ### (complex) orthogonal rank ### flat
+span of d ### aperiodic
+smooth inverse-function schema###aperiodic
+weight of a vertex###regular###inversive###sign###C-acceptable
+eigenvalue###right and left eigenvectors###normalized###small perturbation###condition number
+parent of p###child of a position p
+child-bijective
+bidirectional ballot sequence###B_n
+atom###contents of an atom
+Wilf-equivalent###generating functions F_A###generating functions F_B
+cohorts###binary relation###equivalence relation###arch systems###atoms###empty arch systems
+c-bicluster fan###c-biCambrian fan
+c-bisortable elements###twin c-clusters
+Coxeter group W with simple generators S###(W;q)
+circuit walk###circuit distance###circuit diameter
+stoss complex
+rank
+Scarf complex
+maximal
+stoss complex
+amalgamation of L_1 and L_2
+axial function
+k-independent###effective###1-skeleton
+embedding of a 1 skeleton
+subskeleton with trivial normal holonomy
+polarizing###polarization
+Morse function
+non-cyclic
+compatibility system
+generalized axial function
+path-connection number###normal path-connection number###local path-connection number###holonomy
+level subskeleton
+blow-up
+k-face###generalized 1-skeleton###k-valent subskeleton
+(polarized) generalized 1-skeleton###enough k-faces
+reducible
+dependency graph
+"(k,d)-expander"
+k-rainbow-pseudorandom
+Stanley sequence S(A)###3-free set of nonnegative integers
+Stanley sequence###independent Stanley sequences###character###repeat factor
+Stanley sequence###regular###core of S(A)###shift index###character of (a_n)
+covered by A###covered by A modulo N
+modular set modulo N ### modular Stanley sequence modulo N
+Stanley sequence S(A)###modular###character###repeat factor
+pseudomodular###core of S(A)###shift index
+Stanley sequence S(A)###basic###basis of S(A)
+p-Stanley sequence###p-free set
+p-covered by A###p-covered by A modulo N
+modular p-free set modulo N ### modular p-Stanley sequence modulo N
+p-Stanley sequence###basic###basis
+elementary dual equivalence###dual equivalent
+"signed, colored graph of type (n,N)###finite vertex set V###signature function σ###collection E_i"
+"signed, colored graph###dual equivalence graph"
+morphism###isomorphism
+i-neighbor
+k-ribbon word
+i-package
+i-incompatible###i-compatible
+axiom 4'###ax4'a###ax4'b###ax4'c
+D graph
+multiplicative derivative in direction h of f###Δ_hf
+Gowers norm of order d
+additive derivative
+d-tiling
+floor of x ### fractional part of x
+"(intermediate) inhomogeneous random graph with kernel###G(n,)###V_n###p_ij###p_n"
+isolation parameter
+kernel###reducible###irreducible
+lower approximation kernels###partition graphs
+special
+arc
+"(T,)-path"
+movement vector###set of neighbors of vertex v
+"shape ### neighborhood ^+_s^+,r ### movement vectors v⃗ ### s^+(v)"
+inverse ^- ### s^-
+transporter from west to east with vectors###transporter from north to south with vectors
+absolute constant ### special m-colouring ### bad colouring
+"Δ-floor diagram###toric floor diagram###floor diagram###(≪,,ß)-floor diagram###divergence sequence"
+marked floor diagram###marking of the original floor diagram
+template
+adjacency matrix A(G)
+degree d_i of a vertex v_i of a graph G ### Minimum and maximum degree of a graph G ### δ(G) ### △(G)
+volume of a graph###volume of a subset
+edge connectivity###k-edge connected###1-edge connected graph###connected graph
+Cartesian product of graphs
+path###length of the path
+weighted graph###paths###length of the path###shortest path
+"distance between two vertices###dist(i,j)"
+diameter of a graph
+permutation matrix###graph###permutation
+automorphism of G###permutations of vertex set V
+weighted graph
+weighted adjacency matrix
+graph cut
+isoperimetric number i(G)
+weighted difference Laplacian L(G)###l_ij
+weighted signless Laplacian SL(G)###sl_ij###SL(G)
+path graph P_n###vertex set V_n###edge set E_n
+adjacency matrix###weighted path
+"complete binary tree T_n=(V,E)###V###E"
+double tree
+cycle C_n
+complete graph K_n
+normalized cut
+Mcut(G)###Mcut_j(G)
+"Lcut(G)###λ_2###U_2###G=(V,E)"
+proximity (or neighborhood ) graph
+proximity map N(·)###proximity region of x
+"PCD D=(,)###vertex set###arc set###N(p_i)"
+superset region
+vertex regions
+edge regions
+active set of points
+minimal active subset###η-value###minimum active subset
+closest edge extrema###x_e_i
+_2-region ### _k-region
+κ-value
+PB-deletion###PB-contraction
+Reduced vertex-weighted block graph###PB-deletions###PB-contractions
+B^3_1  block  graph###block graph###non-cut-vertex
+"tree of G_1, …, G_k ### skeleton edge ### skeleton vertices ### pendant"
+first common ancestor
+dominant singularity###family of simple permutations 𝒮###pattern θ###corresponding series _θ(z)
+Brownian separable permuton
+"substitution of π^(1),…,π^(d) in θ###skeleton of the substitution"
+substitution-closed
+simple permutation
+canonical tree
+consistent
+rooted planar tree###size of a tree###number of nodes of t
+substitution tree of size n###internal node with k ≥ 2 children###Internal nodes with only one child
+First common ancestor
+decorated tree###substitution tree###nonlinear nodes
+1-codimension###2-codimension###level 1 adjacency###level 2 adjacency
+level of adjacency###dominating parameter
+clockwise biased###anti-clockwise biased###equivocal###ultimately equitable
+monopoly state
+generalized quiver Q###Laurent polynomial label###v###2-cycles###matrix B###skew-symmetrizable
+generalized quiver mutation at vertex i###Laurent polynomial at vertex i###P
+framed generalized quiver###base vertex
+"D-matrix###D_m,n###D_n"
+green###red
+"δ_i,j###Mutation 0###δ_0,i###δ"
+quiver Q###Laurent polynomial label###variable v###2-cycles
+quiver mutation at vertex i###Laurent polynomial###P
+framed quiver###base vertex
+"C-matrix###C_n###C_m,n"
+fundamental r_i ### M_n ### M
+basic###P_n
+expander
+expander
+Cluster complex of type A_n###clusters
+associahedron Ass_n###face lattice###polyhedral subdivisions###convex (n+3)-gon
+GKZ vector###secondary polytope
+Cluster complex of type A_n###compatible###clusters
+perfect decomposition###partial decomposition
+"(W,V)-path system###source###sink"
+partition of n
+"(X,σ)###(σ, -)-constant###(σ, +)-proper vertex-2-colourings"
+lazy coin flip distribution
+Chio set
+"matrix-l-circuit###(l,s,t)###(l,n)"
+"(σ, -)-constant###(σ, +)-proper"
+positive path###negative path
+periodic graph
+act without inversions###act discretely###act with bounded co-volume###act co-finitely
+Periodic Graph
+backtracking###proper###primitive###tail###reduced closed paths
+redundant
+complexity of ψ at i###complexity of ψ
+Bohr set###dimension d###ρ-dilate B_| ρ of a Bohr set B###regular
+exact s-normal form###s-normal form
+shape
+support of a code word###Hamming weight###minimum distance
+quasi-square grid
+nondecreasingly sorted
+Poincaré lemma###reduced homologies###(inverse) star-shaped digraph
+elementary p-path
+boundary operator
+non-regular###regular
+regular p-paths###regularized p-paths
+regular boundary operator###regular join###non-regular
+concatenation φψ
+regular p-forms
+path complex
+perfect path complex
+monotone###path complex P
+allowed n-paths
+regular
+path homology groups###reduced path homology groups
+d-invariant n-forms of the path complex P ### the exterior differential
+star-shaped ### inverse star-shaped ### star center
+"join of P( X) ,P( Y)"
+cone over a digraph X###cone vertex
+suspension over a digraph X###suspension vertices
+depth
+i^th level
+equivalent
+to the right of###semiorder
+bad
+maximal cone associated to Δ ### good maximal cone ### Δ-maximal fan
+GKZ cone
+growth point
+cell complex###finite CW complex
+concrete simplicial complex
+star of v
+abstract simplicial complex
+vertex scheme
+nerve of 𝒰###abstract simplicial complex
+real hyperplane arrangement###hyperplane arrangement
+finite reflection group
+abstract Salvetti complex
+FQ-legal decomposition
+Fibonacci Quilt sequence###FQ-legal decomposition
+discrete cube ### increasing family
+I_k() ### I()
+regular
+fully symmetric
+Fourier-Walsh expansion###coefficients α_S###level of the coefficient f̂(S)
+linear threshold function###sign
+edge labeling###spline
+constant spline###rank one
+direct product
+lexicographic product
+basic admissible vector###admissible
+"(g, k) reverse multiple"
+even pivot node###odd pivot node###starting node
+Young graph
+isomorphic as Young graphs###even pivot node###odd pivot node###pivot node-preserving isomorphism of the underlying directed graphs
+1089 graph
+"(g, k) reverse multiple"
+even pivot node###odd pivot node###pivot node
+Young graph
+Isomorphism###even pivot node###odd pivot node###pivot node-preserving isomorphism
+1089 graph
+Complete Young graph###K_m
+Cyclic Young graph###Z_n
+"ξ-absorbing###(S, t)-absorbing"
+μ-regular
+decomposable permutation###indecomposable permutation
+Dyck path
+"t-Lattice Graph###Vertices V_N of the t-Lattice Graph###E_N###e^1_x,y###e^2_x,y###e^3_x,y###e^4_x,y###e^5_x,y"
+Y_k(t)
+""
+expected degree of a vertex
+Z_≥ k
+"expected degree of a vertex v_i###(v_i,n)###wep (v_i,n)"
+Z_≥ k
+"l(v_i)###r(v_i,t)"
+"(v_i,n)###wep(v_i,n)"
+Z_≥ k
+""
+""
+""
+Ramanujan graphs###Legendre symbol###girth###chromatic number
+effective girth###g(k)
+PST###G(C)###periodic with period
+M-convex
+L-convex
+exchange
+elementary of dimension n and depth 0###elementary of dimension n and depth d###elementary of dimension n###projection map on an elementary set of dimension n###sijection ψT̆⇒T̆ between elementary signed sets T̆ and T̆ of the same dimension is normal
+l interlaces k ### monotone triangle of size n ### sign of a monotone triangle
+shifted Gelfand-Tsetlin patterns###SGT patterns
+free face of Δ ### collapse of Δ ### collapsible
+vertex-decomposable###simplex###_Δ(v)###Del_Δ (v)
+simplicial join
+Gröbner basis
+"(λ, σ, τ) pierceable###k-piercing of λ"
+inductively k-pierced###k-pierced code
+free face###collapse###collapsible
+polar complex of a neural code
+shellable
+l-system
+B'-compatible
+interlacing family
+r-Riordan array
+r-Catalan triangle
+reduced graph###exceptional cluster###non-exceptional clusters###ε-regular pair
+"Kneser graph KG_n,k ### stable Kneser graph SG_n,k ### Schrijver graph"
+independence complex
+partial matching###acyclic
+"Kneser graph KG_n,k ### stable Kneser graph SG_n,k ### Schrijver graph"
+matching tree###root of the matching tree###matching site of M(G)###splitting site of M(G)
+alternating end vertex###bipartite end vertex###middle vertex
+Weyl alternation set
+Refine
+anchor###opposite anchors
+similarity partition
+image zeta function
+ϕ-critical###T-critical
+ϕ-critical###T-critical
+canvas###critical
+S-component with respect to T of G
+subcanvas###T[G']
+internal vertex###deficiency of G###v(T)###def(T)
+boundary of G ### quasi-boundary of G ### B(G) ### Q(G) ### b(G) ### q(G) ### boundary of T ### quasi-boundary of T ### B(T)
+dividing vertex of G_0###strong dividing vertex of G_0###true dividing vertex of G_0###dividing vertex of T_0###strong dividing vertex of T_0###true dividing vertex of T_0
+0-relaxation of T_0 ### k-relaxation of T_0
+Stanley-Reisner ring###face ring###I_Δ
+link of σ in Δ
+sequentially Cohen-Macaulay
+Alexander dual
+componentwise linear
+Ferrers graph
+Ferrers invariant
+s-step filtered###nilpotent Lie group###lattice###left-invariant Riemannian metric###polynomial map###automorphic###nilsequence###correlates
+N-periodic
+C-normal
+Γ-distance magic labeling ### Γ-distance magic graph ### magic constant
+network Δ ### capacity ### source ### sink
+decomposable ### primitive element ### irreducible element ### atom ### D(S) ### P(S)
+profile of S
+Apéry element
+standard graded algebra
+Hilbert function###standard graded algebra
+outside decomposition
+"content###subribbon###R_Θ###R_Θ(i,j)"
+admissible
+(n+1)-dimensional vector space over GF(q)###n-dimensional finite projective space###1-dimensional subspaces of V###2-dimensional subspaces of V###k-dimensional projective subspaces###Incidence
+bounded difference assumption
+subset of _+^2###partition of n with parts in X###multiplicity function ω X →_+###multiplicity of the part x in the partition###Ω_(n)###p_X(n)
+Gaussian local limit theorem with rate a_k
+"(L,R)-quasi-identifying code"
+homotopy moves
+homotopic
+classical pattern###occurrence of the classical pattern
+vincular pattern ### set of adjacencies
+composition of an integer n
+reduction
+dependency graph
+𝒪(g)###of order g###asymptotically equivalent to g
+sort(x_1… x_n)
+one-factor ### perfect matching ### one-factorisation ### regular of degree k
+front divisor
+N-bi-invariant###Gelfand pair
+LCM lattice
+alphabet Σ ### size of an alphabet ### string S
+"S[i] ### S[i,j] ### n(S)"
+suffix tree###edge label###path label###root###leaf###path from the root to the leaf j
+compact suffix tree
+growth of S###descendant###ancestor
+periodic ### aperiodic ### minimal period
+ribbon graph polynomial###Bollobás-Riordan polynomial
+"topological transition polynomial Q(G, (α, β, γ), t)###medial weight system"
+outerhamiltonian
+diagonal graph
+thickness of a graph
+random semi-bar k-visibility graph on n vertices###𝒢_n^k
+matroid###independent sets###basis###closed sets or flats###rank function
+loop###isthmus###parallel
+pointed matroid###loopless###simple###free
+strong map###pointed strong map
+deletion of Y⊆ |M| from M###embedded in M###embedding###contraction of M by Z⊆ |M|###minor of M
+matroid quotient
+weak factorization system###orthogonal factorization system
+nearly full###functor F C→D###morphism g in D###objects in the image of F###g=F(f)###morphism f in C
+nearly faithful
+simplification
+free extension of a matroid
+"collection of subsets###weight function###optimization problem for the pair (,w)###maximal member B of  of maximum weight"
+greedy algorithm###B_G
+element z in a partially ordered set covers x ### square poset ### square functor
+Stirling derangement###Stirling permutation
+good set###maximal good set
+Good set###maximal good set
+Parikh matrix mapping###Parikh matrices
+1-equivalent###ME-equivalent
+print of w
+right general print###left general print
+right core print###left core print###l_R(w)###l_L(w)
+core print characteristic function of order r
+k-spectrum
+M-equivalent###M-ambiguous###M-unambiguous###C_w
+r-isomorphic###Freiman isomorphism of order r
+rooted tree###functional digraph###root of the tree###𝒞_D
+restricted arc-cut ### restricted arc-connectivity λ'(D) ### λ'-connected
+composite step generating function###maximal point###ℳ
+triple of arrangements
+commutative cancellative semigroup###cardinality###abelian group###colouring witnessing
+direct sum
+Δ-system with root r ### head-tail-tail form
+condensation
+Canonical labeling###prequasifield
+shadow of Σ###shadow of the spread S
+u-twist of Σ ### λ-dilation of Σ
+ϕ###bi-banded weighting###peak-counting weight
+north-west checkmark sequence###south-west checkmark sequence###checkmark pair###Dyck checkmark pair
+minimal for 𝒥
+"minimal for 𝒥^k_,̣"
+planar network of order n
+weight matrix
+"(A,B)-minor matrix"
+strongly connected###chain
+strongly connected###chain
+even chain ### evenly chained ### closed tour ### dual-colored edge
+module
+Directed Modular-Width
+class CLW_k ### directed clique width ### Directed clique-width k-expressions
+N-colouring###N-dichromatic number
+directed path decomposition###bags###width###directed pathwidth###Directed PathwidthDPWprob:DPW
+n-w-evaluation function###n-w-width###n-w-directed pathwidth
+cycle-rank
+n-w-σ-evaluation function ### n-w-rank ### n-w-cycle-rank
+"theta graph###θ_a,b,c"
+local tropical linear space
+"Eulerian poset###Φ_P(c,d)###Ψ_P(a,b)"
+boundary complex ∂ P###line shelling
+Dehn-Sommerville Equations
+McMullen's Upper Bound Theorem###d-polytope###f_n-1 (P)###f_n-1 (C_d(k))###h_n(P)###h_n(C_d(k))
+Generalized Lower Bound Theorem###simplicial d-polytope P###(r-1)-stacked
+Generalized Dehn-Sommerville Equations
+f ### g ### h-polynomial ### g-polynomial
+partially ordered set###poset
+covers
+interval
+graded with rank n
+Eulerian
+P_S
+flag f-vector of P###α_P
+flag h-vector of P###β_P(S)
+"ab-index###graded poset P of rank n + 1 with 0̂ and 1̂###generating function###Ψ_P (a,b)###β_P (S) u_S"
+flag polynomial
+polytopal complex
+shellable###shelling###boundary complex###beginning segment
+cell of dimension n ### open cell
+CW complex###weak topology
+P * Q
+suspension of P###B_2###Σ P
+near-Eulerian###semisuspension
+spherically shellable###near-Eulerian (n-1)-CW-complex###S-shellable with initial facet
+order complex of P###vertices of Δ(P)###faces of Δ(P)
+star of σ###link of σ
+Gorenstein
+near-Gorenstein
+near-Eulerian poset###semisuspension###boundary of P###interior of P
+near-Gorenstein*
+local flag polynomial
+subdivision
+strong Eulerian subdivision###near-Eulerian poset###rank
+Gorenstein* subdivision map###near-Gorenstein* poset
+carrier
+skeletal posets Π_i###strong Eulerian subdivision of rank n Eulerian posets ϕ: Π→Π
+old flag###new flag###mixed flag###switches at rank m
+pyramid of P###graded poset of rank n+1###rank function
+triangulation
+stacked polytope###(r-1)-stacked polytope###stack subdivision
+k-shellably triangulizable
+g-polynomial###Eulerian poset
+h-polynomial
+toric h-vector
+strongly surjective
+strong formal subdivision
+strong formal subdivision###local h-polynomial
+A-transformation###ux_1-transformation###addible towards u###addible outwards u
+Fan subgraph###star###null graph###triangle
+MSTD fringe pair of order k
+minimal MSTD fringe pair
+rich MSTD set###order of the rich MSTD set
+k-semi-rich set###prefix (A;k)
+k-affluent
+fringe pair of order k###partial order on fringe pairs
+directed graph ### coloring of G ### proper coloring ### ascent of a coloring ### number of ascents of a coloring ### chromatic quasisymmetric function of G
+k-balanced###proper coloring###k-balanced chromatic quasisymmetric function###acyclic orientation
+directed graph###unicellular graph LLT polynomial###colorings
+vertical strip graph LLT polynomial
+M-generic###matroid quasisymmetric function
+locating-dominating code ### optimal ### location-domination number
+self-locating-dominating code###optimal###self-location-domination number
+solid-locating-dominating code###optimal###solid-location-domination number
+pseudoclique
+distinguishing set partition###distinguishing partition
+consumes
+"λ-extremal###λ-extremal for G⃗ or (G, c)"
+j-special
+elementary cycle
+underlying backward graph
+i-th generation ### i-th level ### length of T
+backward spine
+condensation graph
+cube representation
+matrix representation
+equivalent
+cube representation###separating family###matrix representation
+separable
+n-separating
+"(i,j)-separating"
+splitting family
+splittable
+n-splitting
+"faithful action by homeomorphisms on a planar surface###embedding###Cayley multi-graph###co-compact action by homeomorphisms on the sphere, the plane ^2, the open annulus, or the Cantor sphere"
+labeled graph###realization###realizable###equivalent
+rigid
+generically realizable###generically rigid
+biedges###bigraph
+pseudo-Laman
+greedoid
+greedoid
+uniform definability of types over finite sets (UDTFS)###uniform definition of Δ(x;B)-types over finite sets
+dp-rank
+cylindric plane partition with profile π###horizontal strip
+weight of the cylindric partition
+inversion
+occupied or black###unoccupied or white
+surface cube
+level of a surface cube
+path associated to the cube
+valley cube
+peak cube
+cylinder of period T###triangular lattice
+path on the cylinder of period T
+family of non-intersecting lattice paths on the cylinder of period T
+minimal with m paths
+profile of a minimal family of m non-intersecting lattice paths
+vertical reading of a minimal family of m non-intersecting lattice paths
+singular value decomposition
+lexicographic extension
+neighborly
+balanced
+sewn onto###lexicographic extension###extension
+universal face###universal flag
+premetric
+polytrope
+strongly edge decomposable###Link condition
+lattice path###east-step###north-step
+2 → 1 directed hypergraph###oriented###vertex and edge sets###head vertex###tail set of the edge
+nth extremal number###nth oriented extremal number###standard extremal number
+degenerate
+tail link graph of x T_x ### tail degree of x ### directed link graph of x D_x ### total link graph of x L_x
+cross-dependent
+"complementary at (q,v)###A^+###B^-###A^-###B^+"
+primal cardinality vector
+partial order###strict
+Conjunctive Normal Form (CNF)###satisfying assignment of CNF###SAT solver
+neighborhood###neighborhood checking nc(v)
+rich###infinite word
+left special letter of w###right special letter of w
+support entries###support set
+S-Chromatic Nim###locally green-dominated (lgd)###local green-domination###maximal local green-domination
+(stack-size) invariant
+"(ℳ,ℬ)-invariant###starting position###set of moves###legal move###game###normal play"
+"vertices of the digraph G_n###arc###weight f_n(α,α ')"
+segment-simple permutation###s-simple
+cycle-simple permutation###c-simple
+group-simple permutation###g-simple
+braid-simple permutation ( b-simple )
+tree-simple permutation###t-simple
+exponential growth
+rare
+connected ### segment ### proper ### permutation
+unimodal cycle###unimodal permutation
+correlation constant
+matroid M###flats of M###ground set E###flat###flat covering F
+variables x_F ### polynomial ring S(M) ### Chow ring A(M) ### linear forms ### quadratic monomials ### A^q(M)
+strictly submodular function ### cone K(M)
+shadowable
+"matroid ℳ=(X,ℐ)###independent sets###hereditary property###augmentation property###exchange property"
+"(n_0,n_1,…,n_ℓ)-regular"
+n-dimensional polytope###f-vector###f_k###face graph G(P)###vertex v###face F_v###F_v'###F_v+1###empty face ∅
+ṽ ### index P
+vertex average
+lattice polytope###supporting hyperplanes###vertex–facet pairing matrix
+normal form of P
+Laurent polynomial###normal form for f###P
+r-matched graph###underlying graph
+deficiency
+endo-trivial
+retract-trivial
+cone of type III with a hidden tie in τ
+"(α,β)-grouping for P###strong (α,β)-grouping for P"
+"abelian (n,f,c)-DRACKN###polyphase matrix###geometric sum"
+phased BIBD ETF
+"(v,k,f)-polyphase BIBD ETF###abelian group###polyphase matrix###incidence matrix###ETF###nontrivial characters"
+abelian
+"equivalence relation ∼_u,v ### equivalence class ### quotient of V ### multiset E/_∼u,v ### contracted graph of G ### G/G^'"
+essential minor
+meta graph of G ### subgraph of all arc sensitive cycles containing c
+"FASP###(G,ω)###m###CUT"
+m ### CUT ### weighted FVSP
+directed line graph###natural hypergraph
+contracted graph
+essential minor
+maximal list of graphs###essential minor###maximal subset of pairwise different isolating arcs###weighted graph###resolved graph###resolvable
+arc sensitivity###𝒩_↠(e)
+meta graph###subgraph of all arc sensitive cycles
+"relative weight of G with respect to c,e,f###σ_G,M,e,f"
+relative weight
+singular series###W-tricked singular series
+sieve factor###ψ###c_χ(h)###m(h)
+compactification degree
+"M-direction GM###VGMv_1,…,v_M###EGMv_i,v_ja_ib_j"
+out-degeneracy
+"strongly planar###𝒟(G,M)"
+canonical
+"Degree of a (m,k,s)-star###Degree of a set 𝒮 of (m,k,s)-stars"
+"Weight of a (m,k,s)-star"
+"Central weight of a (m,k,s)-star"
+M-valued valuation
+linked
+MSE-equivalent
+scattered subword ### factor
+Parikh matrix mapping###Parikh matrices
+strongly M-equivalent
+strongly elementarily M-equivalent (MSE-equivalent)
+strong (3· t) transformation###Rule S3· t
+reducible transformation###irreducible transformation
+αβ-transformation###counter Ω
+almost strongly elementarily matrix equivalent ( MSAE-equivalent)
+(2· t) transformation
+strong (2· t) transformation###Rule S2· t
+"triangle partition map T_σ, τ_0,τ_1"
+t_n###TRIP sequence
+TRIP-Stern sequence###n^ th level of the TRIP-Stern sequence
+TRIP-Stern sequence
+TRIP-Stern sequence###m_n
+TRIP-Stern sequence ### potential entries ### forbidden triples
+inverse map G
+"germ###tree generated by (a,a,b)"
+germ of X###G^n(X)
+generalized TRIP-Stern sequence###n^ th level of the generalized TRIP-Stern sequence
+generalized TRIP-Stern sequence###m_n
+3D Young diagram###3D diagram
+weighting of (_≥ 0)^3 ### weight of the lattice point p ### weight of a 3D diagram ### w-partition function
+matching or 1-factor###subgraph M###dimers
+S-block###representation vector
+resolves A
+S-cluster###resolves
+ϵ-regular partition
+f-regular partition###f(k)-regular
+ϵ-good for A with respect to B###ϵ-good for A
+tree bound
+k-order property###k-stable
+ϵ-good for A with respect to B###ϵ-good for A
+Closure of a regular Bohr set###B^+
+Tree bound
+intriguing at infinity
+intriguing at infinity
+discrete half-plane###critical model
+difficulty of u###α^+(u)###α^-(u)
+balanced critical update family###unbalanced critical update family
+Duarte region###Duarte droplet
+internally spanned###(D)
+G_strong###strongly connected
+hierarchy for D
+t-good
+"hierarchy for D###internally spanned by A###Δ(D_v,D_u)"
+weak relation ### weakly connected ### D-rooted ### root
+d-dimensional update family###subcritical###critical###supercritical
+"throughput δ(k,f)"
+C() ### C( f)
+throughput
+hive flow
+hive flow polytope P ### P_
+positive slack contributions###negative slack contributions###neutral slack contributions
+neighbors ### Littlewood-Richardson graph or LR graph ### neighborhood
+turn ### turnvertices ### turnedges
+ordinary turnpaths ### ordinary turncycles
+critical
+thin pipe###thick pipe###center curve
+almost ordinary
+tropical halfspace
+tropical polyhedral cone
+tropical polyhedral cone###extreme rays
+dissimilarity map
+rooted tree###root(T)
+ultrametric###𝒰_n
+tangent directed hypergraph
+mobile###sliding v down###sliding v all the way down
+line###line arrangement
+incidence structure of a line arrangement###m-point###general position
+Chern numbers
+asymptotically trivial###trivial arrangement
+rectifiable simple closed curve
+Neffity Criterion###basepoint free###nef
+Ampleness Criterion###ample###SUCSF###P_D###M-polygon###Vert(P_D)###D·𝐕_Δ(ϱ)
+self-intersection number###nef divisor
+Classification up to isomorphism
+1-reflexive pairs
+lattice in ℝ^2###(ℤ-)basis of N###corresponding basis matrix of N
+determinant of N
+dual lattice###basis matrix###determinant (M)###standard lattice
+standard model of P
+N-cone###minimal generator###equivalent up to umimodular transformation###equivalence class
+standard model of σ w.r.t. ℬ###ℤ^2-cone σ^st
+multiplicity of σ###mult_N(σ)
+"(p,q)-cone###N-cone"
+dual cone of σ
+U_σ###affine toric surface###coordinate ring###2-dimensional normal complex analytic variety###embedding of U_σ into an affine complex space of minimal dimension###Hilb_M(  σ^∨)
+M-cone###normal fan of P###D_P
+combinatorial triples of Δ###additional characteristic integers r_i
+auxiliary cone
+ℓ-reflexive pair###Cartier divisor###complete linear system###closed embedding###character###projective variety###semigroup algebra###Hyperplanes###sectional genus
+Cartesian product G  H ### G^ 1 ### G^ k
+influence along the j^th coordinate
+Log-Sobolev constant
+uniform avoidance coupling
+forbidden state###F
+coupling of Markov chains
+avoidance coupling
+Markovian coupling###Markovian avoidance coupling
+avoidance coupling###super-Markovian
+uniform avoidance coupling
+uniform avoidance coupling of simple random walks###Markovian avoidance process
+Forbidden States
+strongly regular
+k-up ### k-down ### k-ascending ### maximal k-ascending section ### k-valley ### k-peak
+neighborhood-equivalent###class of x modulo ≡
+local completion of G at x###G_x###E_x###B_x
+2-weighted N-eligible (N2-eligible)
+standard Coxeter element###Coxeter element
+positive block###negative block###switching block###nonswitching block###single edge
+e_I###o_I
+chromatic sum
+inductively free arrangements
+hereditarily inductively free###^X###L()
+divisionally free###ℓ-arrangement
+hereditarily divisionally free###divisionally free
+pure
+AP-reduction
+W-sound
+h-power of a path###h-power of a cycle
+h-Fibonacci sequence###F_n^(h)
+partial bijection of n###domain###codomain###Q_n
+trivial extension###P_α(n)
+inner vertex###subgraph
+crosses the subgraph H###crossings of H
+vital linkage
+Inner vertex
+Crossing
+Vital linkage
+"refined invariants of S,L###Laurent polynomial"
+"refined invariants N^(S,L),δ###N^d,δ(y)"
+quantum numbers ### refined relative Severi degrees ### Laurent polynomials
+metric graph###abstract tropical curve
+tropical curve of degree Δ###direction vector###weight###primitive direction vector###balanced###Degree
+"irreducible tropical curve ### genus g(C,h) ### dual subdivision Δ_C ### nodal tropical curve ### simple tropical curve ### number of nodes δ(C, h)"
+refined vertex multiplicity###refined multiplicity
+Δ-floor diagram###Divergence Condition
+refined multiplicity
+marking of a floor diagram###marked floor diagram
+template
+"beta invariant of 𝒜###T(𝒜; 1,0)"
+central arrangement in ℂ^d###exterior algebra###ordered set of hyperplanes###dependent
+zonotope of A###Ehrhart polynomial of the zonotope Z(A)
+toric arrangement###complementtoric arrangement###regions of R(A)###Poincaré polynomial of R(A)###number of elements of R(A)###arithmetic characteristic polynomial###number of hypertori of 𝒯(A)
+hyperplane arrangement###nonzero linear functionals###scalar
+intersection poset###ranked poset
+hyperplane arrangement###central###matroid###rank function###semimatroid###central subsets
+deletion hyperplane arrangement###contraction hyperplane arrangement
+centralization of a hyperplane arrangement###cone of a hyperplane arrangement
+essentialization hyperplane arrangement###essentialization
+Möbius function###characteristic polynomial
+Tutte polynomial of an arrangement
+generalized Tutte-Grothendieck invariant###Tutte-Grothendieck invariant
+coboundary polynomial
+multivariate Tutte polynomial of a hyperplane arrangement
+arithmetic Tutte polynomial###arithmetic characteristic polynomial
+square of R
+"half set###d(A,B)"
+embedding of R in M'###realization of R in V
+2-characteristic map###non-singularity condition###Davis-Januszkiewicz equivalent###D-J equivalent###Davis-Januszkiewicz classes###D-J classes
+projection of λ with respect to σ###D-J equivalence
+V###E###S###diagram of K###nodes###edges###realizable squares
+realizable puzzle over K###pseudograph homomorphism###realizable square in D(K)
+D-J class
+support of p for λ###D-J class λ
+e-set
+e-set
+type 1 λ-related ### type 2 λ-related ### λ-related
+height function###Dirichlet function
+optimal Dirichlet function
+intrinsic Dirichlet function###Optimality of intrinsic Dirichlet functions
+badly symbolically approximable
+terminal face graph
+G_1###G_2###separating cycle division
+indivisible
+critical girth cycle
+Dominance order
+generalized λ-tableau###semistandard
+λ-tableau###standard
+vertex switching
+1-d Adinkra###underlying graph of the Adinkra###coloring###dashing###admissible###grading###Hasse diagram###ranked poset
+Vertex switching
+2-d Adinkra###left-moving edge###right-moving edge###left-moving colors###right-moving colors
+weight of x⃗ ### _L(x⃗) ### _R(x⃗) ### even-split doubly even (ESDE) code
+finitely supported distribution
+uniform rotation
+Uniform shift model###rotor distribution###uniform shift###rotor sequence
+greedy from the bottom tree###GFB tree
+Colless index
+greedy from the bottom tree###GFB tree
+Sackin index###n_u
+H^0(rω_1) ### one-dimensional trivial module ### H^0(rω_1)/L(rω_1) ### H^0(r_1ω_1) ### L(rω_1)
+H^0(rω_1)/L(rω_1)###H^0(r_1ω_1)###H^0(rω_1)###L(rω_1)
+motion
+line
+motion
+edge-regular
+amply regular
+line graph
+distance-regular###intersection array
+standard sequence
+geometric###Delsarte cliques
+Johnson graph
+Hamming graph###Hamming distance
+Doob graph
+"generalized 2d-gon of order (s, t)"
+coherent configuration###rank of 𝔛
+x(p)###y(p)###n-up-run###up-run###n-down-run###down-run
+Erdős-Szekeres on-line game###Erdős-Szekeres on-line number
+north-east quadrant###north-west quadrant###south-west quadrant###south-east quadrant
+Ł_x ### _x ### separated
+f-Middling strategy mode
+"(s, t)-barb###barb###spikes###bottom wire###top wire###half-barb###plays the barb"
+w-Barb strategy mode###half-barb###barb
+f-Combined Strategy###f-Middling strategy mode###w-Barb strategy mode
+spread###components of the spread
+finite (right) quasifield
+autotopism
+isotopes###parastrophes###isotopic###parastrophic
+permutation graph
+fingerprint of the spread set###spread set
+BEL-configuration###Desarguesian n-spread
+matrix rank###isotopy class
+local triangle count###local triangle bound
+special claw
+cyclicity classes
+Wielandt number
+girth
+critical###N_c(A)###E_c(A)###critical graph
