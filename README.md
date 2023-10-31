@@ -19,7 +19,7 @@ Always on the same server as in raw data collection step, run "python get_def-te
 
 ## Step 2. Clean the dataset
 
-Run "Prepare_term-def_dataset.ipynb" to clean the noises in extracted definition-definiendum pairs and generate IOB-format dataset for named entity recognition. If you start with this step, you can load "out_def_all_1007.csv". You can find our intermediate outputs of this step in "cleaning_outputs/"
+Run "Prepare_term-def_dataset.ipynb" to clean the noises in extracted definition-definiendum pairs and generate IOB-format dataset for named entity recognition. If you start with this step, you can load "out_def_all_1007.csv". You can find our intermediate outputs of this step in "intermediate_outputs/"
 We saved the cleaned and labeled data in "data/all_labeled_data+ID.csv". 
 
 ## Step 3.
@@ -33,7 +33,12 @@ You may run the following notebooks with our labeled data in "data/":
 - SciBERTForTokenCLS.ipynb
 
 Transformer's native evaluation of our experiments can be found in "finetuning_results".
-Our fine-tuned models are available here: https://huggingface.co/InriaValda (todo)
+Our fine-tuned models are available here:
+
+- Fine-tuned roberta-base: https://huggingface.co/InriaValda/roberta-base_definiendum
+- Fine-tune cc_math_roberta_ep01: https://huggingface.co/InriaValda/cc_math_roberta_ep01_definiendum
+- Fine-tune cc_math_roberta_ep10: https://huggingface.co/InriaValda/cc_math_roberta_ep10_definiendum
+
 
 
 ### Ask ChatGPT to extract definienda with your own API KEY:
