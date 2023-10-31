@@ -19,8 +19,8 @@ Always on the same server as in raw data collection step, run "python get_def-te
 
 ## Step 2. Clean the dataset
 
-Run "prepare_term-def_dataset.ipynb" to clean the noises in extracted definition-definiendum pairs and generate IOB-format dataset for named entity recognition. If you start with this step, you can load "out_def_all_1007.csv".
-
+Run "Prepare_term-def_dataset.ipynb" to clean the noises in extracted definition-definiendum pairs and generate IOB-format dataset for named entity recognition. If you start with this step, you can load "out_def_all_1007.csv". You can find our intermediate outputs of this step in "cleaning_outputs/"
+We saved the cleaned and labeled data in "data/all_labeled_data+ID.csv". 
 
 ## Step 3.
 
