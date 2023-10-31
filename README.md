@@ -12,7 +12,7 @@ https://youtu.be/tUioJooDDio?si=6EnTN_5l-9t86IKk
 And our [slides](Extracting_Definienda_in_Mathematical_Scholarly_Articles_with_Transformers_WIESP_slides.pdf).
 
 
-If you have no access to our ArXiv papers store, you may start from Step 2.
+If you have no access to our ArXiv papers store, you may start from [Step 2](#Step2).
 
 ## Step 0. Collect .tex sources of ArXiv papers
 
@@ -30,7 +30,7 @@ python get_def-term_pairs.py que_tex out_def_all.csv
 ```
 to print the definitions in all the .tex to a single .csv [out_def_all.csv](out_def_all.csv). 
 
-## Step 2. Clean the dataset
+## <a name="Step2">Step 2. Clean the dataset</a>
 
 Run [Prepare_term-def_dataset.ipynb](Prepare_term-def_dataset.ipynb) to clean the noises in extracted definition-definiendum pairs and generate IOB-format dataset for named entity recognition. If you start with this step, you can load [out_def_all_1007.csv](out_def_all_1007.csv). You can find our intermediate outputs of this step in [intermediate_outputs/](intermediate_outputs/)
 We saved the cleaned and labeled data in [data/all_labeled_data+ID.csv](data/all_labeled_data%2BID.csv). 
