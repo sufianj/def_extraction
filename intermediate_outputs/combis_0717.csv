@@ -1,0 +1,2145 @@
+,term,def,file_name,extraction_rule,plain_text_def,plain_text_term,masked_plain_text_def,labeled_def
+316,Statement of Theorem \ref{thm:singleton_b_is_a_prime;bisection closed family;Recursive Hadamard matrices,"
+%\label{thm:singleton_b_is_a_prime}
+\emph{Statement of Theorem \ref{thm:singleton_b_is_a_prime}:} Let $n$ be a positive integer. Let $\mathcal{G}$ be a fractional $L$-intersecting families of subsets of $[n]$, where $L=\{\frac{a}{b}\}$, $\frac{a}{b} \in [0, 1)$, and $b$ is a prime. Then, $|\mathcal{G}| \leq (b-1)(n+1)\lceil \frac{\ln n}{\ln b} \rceil + 1$.
+\begin{proof}
+\rogers{It is easy to see that if $a=0$, then $|\mathcal{G}| \leq n$ with the set of all singleton subsets of $[n]$ forming a tight example to this bound. So assume $a \neq 0$. Let $\mathcal{F} = \mathcal{G}\setminus \mathcal{H}$, where $\mathcal{H} = \{A \in \mathcal{G}~:~b \nmid |A|\}$. From the definition of a fractional $\frac{a}{b}$-intersecting family it is clear that $|\mathcal{H}|\leq 1$. The rest of the proof is to show that $|\mathcal{F}| \leq (b-1)(n+1)\lceil \frac{\ln n}{\ln b} \rceil$. We do this by partitioning $\mathcal{F}$ into $(b-1)\lceil \log_b n \rceil$ parts and then showing that each part is of size at most $n+1$.} We define $F_i^j$ as 
+	\[\mathcal{F}_i^j= \{A \in \mathcal{F}| |A| \equiv j \Mod i\}.\]
+Since $b$ divides $|A|$, for every $A \in \mathcal{F}$, under this definition $\mathcal{F}$ can be partitioned into families $\mathcal{F}_{b^k}^{ib^{k-1}}$, where $2 \leq k \leq \lceil \log_b n \rceil$ and $1 \leq i \leq b-1$. We show that, for every $i \in [b-1]$ and for every $2 \leq k \leq \lceil \log_b n\rceil$, $|\mathcal{F}_{b^k}^{ib^{k-1}}| \leq n+1$.       	
+
+In order to estimate $|\mathcal{F}_{b^k}^{ib^{k-1}}|$, for each $A \in \mathcal{F}_{b^k}^{ib^{k-1}}$, create a vector $X_A$ as follows:
+
+\[X_A(j)=\begin{cases}
+	\frac{1}{\sqrt{b^{k-2}}} \text{, if $j \in A$;}\\
+	0 \text{, otherwise.}
+	\end{cases} \]
+	\rogers{Note that, for $A,B \in \mathcal{F}_{b^k}^{ib^{k-1}}$}
+	\begin{align}
+	\left \langle X_A,X_B\right \rangle \equiv \begin{cases}
+	b \Mod {b^2}, \text{ if $A=B$, }\\
+	ai \Mod b, \text{ if $A\neq B$, }
+	\end{cases}
+	\end{align} 
+Let $|\mathcal{F}_{b^k}^{ib^{k-1}}| = m$. Let $M_{k,i}$ denote the $m \times n$ matrix formed by taking $X_A$s as rows for each $A \in \mathcal{F}_{b^k}^{ib^{k-1}}$. Then, $|\mathcal{F}_{b^k}^{ib^{k-1}}| \leq n+1$ can be proved by considering $B = M_{k,i} \times M_{k,i}^T$ and showing that $B - aiJ$ (, where $J$ is the $m \times m$ all 1 matrix, ) has full rank; determinant of $B - aiJ$ is non-zero since the only term not divisible by the prime $b$ in the expansion of its determinant comes from the product of all the diagonals (note that $a<b$, $i<b$, and since $b$ is a prime, we have $b \nmid ai$).
+\end{proof}
+We shall call $\mathcal{F}$ a \emph{bisection closed family} if $\mathcal{F}$ is a fractional $L$-intersecting family where $L=\{\frac{1}{2}\}$. We have two different constructions of families that are bisection closed and are of cardinality $\frac{3n}{2}-2$ on $[n]$. 
+\begin{example} 
+\label{examp:bisectionClosedEasy}
+\rogers{Let $n$ be an even positive integer. 
+Let $\mathcal{B}$ denote the collection of 2-sized sets that contain only 1 as a common element in any two sets}, i.e. $\{1,2\}, \{1,3\}, \ldots, \{1,n\}$; and
+\rogers{let  $\mathcal{C}$ denote collection of 4-sized sets that contain only $\{1,2\}$ as common elements}, i.e. $\{1,2,3,4\},$ $ \{1,2,5,6\}, \ldots, \{1,2,n-1,n\}$.
+It is not hard to see that $\mathcal{B} \cup \mathcal{C}$ is indeed bisection closed.
+\end{example}
+\begin{example}
+\label{examp:Hadamard}
+The second example of a bisection closed family of cardinality $\frac{3n}{2}-2$ comes from \emph{Recursive Hadamard matrices} .
+A Recursive Hadamard matrix $H(k)$ of size $2^k \times 2^k$ can be obtained from $H(k-1)$ of size $2^{k-1} \times 2^{k-1}$ as follows
+\begin{align*}
+H(k)= \left[ \begin{array}{cc}
+H(k-1) & H(k-1) \\
+H(k-1)  & -H(k-1)  \\
+\end{array} \right],
+\end{align*}
+where $H(0)=1$.
+Now consider the matrix:
+\begin{align*}
+M(k)= \left[ \begin{array}{cc}
+H(k-1) & H(k-1) \\
+H(k-1)  & -H(k-1)  \\
+H(k-1) & J(k-1) \\
+\end{array} \right], \text{ where $J(k-1)$ denotes the $2^{k-1}\times 2^{k-1}$ all 1s' matrix}.
+\end{align*}
+Let $M'(k)$ be the matrix obtained from $M(k)$ by removing the \rogers{first and  the }$(2^k+1)$th rows and  replacing the -1's by 1's and 1's by 0's.
+$M'(k)$ is clearly bisection closed and has cardinality $\frac{3n}{2}-2$, where $n=2^k$. 
+\end{example}
+%The two constructions outlined here indicate that the bound given by Theorem \ref{thm:singleton_b_is_a_prime} is asymptotically tight up to a factor of 
+%\newline
+%\doubt{2. Can we think of other examples where $L=\{a/b\}$ with $a/b \neq 1/2$? (I am bit exhausted!)\\
+%3. Wouldn't it be nice if we give our guess on the optimal bound? If so, what would that guess be? Would it be $O(n)$ (I am making this guess in the first para of the next subsection)? \\
+%4. When we go from $L = \{1/2\}$ to say $L = \{99/100\}$ (or $L = \{1/100\}$) would the cardinality of $\mathcal{F}$ decrease? Is there any pattern?\niranjan{I think that for any fixed singleton, if the conjecture I made holds, then the bound is in fact $O(n)$ and the constant will also depend on the constant in the rank (in the conjecture. What is probably harder is getting the constant correct. This easy construction gives a constant very close to $1$ whereas the actual answer may be slightly higher; don't know for sure!}}
+\subsection{Restricting the cardinalities of the sets in $\mathcal{F}$}
+When $L = \{\frac{a}{b}\}$, where $b$ is a prime, Theorem \ref{thm:singleton_b_is_a_prime} yields an upper bound of $O(\frac{b}{\log b} n \log n)$ for $|\mathcal{F}|$. \rogers{However, we believe that when $|L|=1$, the cardinality of any fractional $L$-intersecting family on $[n]$ would be at most $cn$, where $c>0$ is a constant. To this end, we show in Theorem \ref{thm:bound_restricted_size_case} that when the sizes of the sets in $\mathcal{F}$ are restricted, we can achieve this.}  
+
+
+The following lemma is crucial to the proof of Theorem \ref{thm:bound_restricted_size_case}. 
+\begin{lemma}\cite{alon2009perturbed,CODENOTTI200089}
+	Let $A$ be an $m \times m$ real symmetric matrix with $a_{i,i}=1$ and $|a_{i,j}| \leq \epsilon$ for all $i \neq j$. 
+	Let $tr(A)$ denote the trace of $A$, i.e., the sum of the diagonal entries of A. 
+	Let $rk(A)$ denote the rank of $A$. Then,
+	\[rk(A) \geq \frac{(tr(A))^2}{tr(A^2)}\geq \frac{m}{1+(m-1)\epsilon^2}.\]
+	\label{lemma:alon}
+\end{lemma}
+\begin{proof}
+	Let $\lambda_1, \ldots,\lambda_m$ denote the eigenvalues of $A$. Since only $rk(A)$ eigenvalues of $A$ are non-zero, $(tr(A))^2= (\sum_{i=1}^m \lambda_i)^2= (\sum_{i=1}^{rk(A)} \lambda_i)^2 \leq rk(A)\sum_{i=1}^{rk(A)} \lambda_i^2 = rk(A) tr(A^2)$, where the inequality follows from the Cauchy-Schwartz Inequality. Thus, $rk(A) \geq \frac{(tr(A))^2}{tr(A^2)}$. Substituting $tr(A) = m$ and $tr(A^2) = m + m(m-1)\epsilon^2$ in the above inequality proves the theorem.	
+\end{proof}
+
+\begin{theorem}
+\label{thm:bound_restricted_size_case}
+Let $n$ be a positive integer and let $\delta > 1$. Let $\mathcal{F}$ be a fractional $L$-intersecting family of subsets of $[n]$, where $L = \{\frac{a}{b}\}$, $\frac{a}{b} \in [0,1)$ is an irreducible fraction and for every $A \in \mathcal{F}$, $|A|$ in an integer in the range $\left[\frac{b}{4(b-a)}n - \frac{b}{4a\delta}\sqrt{n}, \frac{b}{4(b-a)}n + \frac{b}{4a\delta}\sqrt{n}\right]$. Then, $|\mathcal{F}| < \frac{\delta^2}{\delta^2 - 1}n$. 
+",/home/shufan/que_tex/1803.03954.tex,theorem + \emph{},"
+
+Statement of Theorem <ref>: Let n be a positive integer. Let 𝒢 be a fractional L-intersecting families of subsets of [n], where L={a/b}, a/b∈ [0, 1), and b is a prime. Then, |𝒢| ≤ (b-1)(n+1)⌈ln n/ln b⌉ + 1.
+
+It is easy to see that if a=0, then |𝒢| ≤ n with the set of all singleton subsets of [n] forming a tight example to this bound. So assume a ≠ 0. Let ℱ = 𝒢∖ℋ, where ℋ = {A ∈𝒢 : b ∤ |A|}. From the definition of a fractional a/b-intersecting family it is clear that |ℋ|≤ 1. The rest of the proof is to show that |ℱ| ≤ (b-1)(n+1)⌈ln n/ln b⌉. We do this by partitioning ℱ into (b-1)⌈log_b n ⌉ parts and then showing that each part is of size at most n+1. We define F_i^j as 
+	
+    ℱ_i^j= {A ∈ℱ| |A| ≡ j  i}.
+
+Since b divides |A|, for every A ∈ℱ, under this definition ℱ can be partitioned into families ℱ_b^k^ib^k-1, where 2 ≤ k ≤⌈log_b n ⌉ and 1 ≤ i ≤ b-1. We show that, for every i ∈ [b-1] and for every 2 ≤ k ≤⌈log_b n⌉, |ℱ_b^k^ib^k-1| ≤ n+1.       	
+
+In order to estimate |ℱ_b^k^ib^k-1|, for each A ∈ℱ_b^k^ib^k-1, create a vector X_A as follows:
+
+
+    X_A(j)=1/√(b^k-2), if j ∈ A;
+    
+    	0 , otherwise.
+
+	Note that, for A,B ∈ℱ_b^k^ib^k-1
+	
+    ⟨ X_A,X_B⟩≡
+    	b b^2,  if A=B, 
+    
+    	ai  b,  if A≠ B,
+ 
+Let |ℱ_b^k^ib^k-1| = m. Let M_k,i denote the m × n matrix formed by taking X_As as rows for each A ∈ℱ_b^k^ib^k-1. Then, |ℱ_b^k^ib^k-1| ≤ n+1 can be proved by considering B = M_k,i× M_k,i^T and showing that B - aiJ (, where J is the m × m all 1 matrix, ) has full rank; determinant of B - aiJ is non-zero since the only term not divisible by the prime b in the expansion of its determinant comes from the product of all the diagonals (note that a<b, i<b, and since b is a prime, we have b ∤ ai).
+
+We shall call ℱ a bisection closed family if ℱ is a fractional L-intersecting family where L={1/2}. We have two different constructions of families that are bisection closed and are of cardinality 3n/2-2 on [n]. 
+ 
+
+Let n be an even positive integer. 
+Let ℬ denote the collection of 2-sized sets that contain only 1 as a common element in any two sets, i.e. {1,2}, {1,3}, …, {1,n}; and
+let  𝒞 denote collection of 4-sized sets that contain only {1,2} as common elements, i.e. {1,2,3,4}, {1,2,5,6}, …, {1,2,n-1,n}.
+It is not hard to see that ℬ∪𝒞 is indeed bisection closed.
+
+
+
+The second example of a bisection closed family of cardinality 3n/2-2 comes from Recursive Hadamard matrices .
+A Recursive Hadamard matrix H(k) of size 2^k × 2^k can be obtained from H(k-1) of size 2^k-1× 2^k-1 as follows
+
+    H(k)= [ [  H(k-1)  H(k-1);  H(k-1) -H(k-1);         ]],
+
+where H(0)=1.
+Now consider the matrix:
+
+    M(k)= [ [  H(k-1)  H(k-1);  H(k-1) -H(k-1);  H(k-1)  J(k-1);         ]],  where J(k-1) denotes the 2^k-1× 2^k-1 all 1s' matrix.
+
+Let M'(k) be the matrix obtained from M(k) by removing the first and  the (2^k+1)th rows and  replacing the -1's by 1's and 1's by 0's.
+M'(k) is clearly bisection closed and has cardinality 3n/2-2, where n=2^k. 
+
+
+
+
+
+
+
+
+ §.§ Restricting the cardinalities of the sets in ℱ
+
+When L = {a/b}, where b is a prime, Theorem <ref> yields an upper bound of O(b/log b n log n) for |ℱ|. However, we believe that when |L|=1, the cardinality of any fractional L-intersecting family on [n] would be at most cn, where c>0 is a constant. To this end, we show in Theorem <ref> that when the sizes of the sets in ℱ are restricted, we can achieve this.  
+
+
+The following lemma is crucial to the proof of Theorem <ref>. 
+<cit.>
+	Let A be an m × m real symmetric matrix with a_i,i=1 and |a_i,j| ≤ϵ for all i ≠ j. 
+	Let tr(A) denote the trace of A, i.e., the sum of the diagonal entries of A. 
+	Let rk(A) denote the rank of A. Then,
+	
+    rk(A) ≥(tr(A))^2/tr(A^2)≥m/1+(m-1)ϵ^2.
+
+	
+
+
+	Let λ_1, …,λ_m denote the eigenvalues of A. Since only rk(A) eigenvalues of A are non-zero, (tr(A))^2= (∑_i=1^m λ_i)^2= (∑_i=1^rk(A)λ_i)^2 ≤ rk(A)∑_i=1^rk(A)λ_i^2 = rk(A) tr(A^2), where the inequality follows from the Cauchy-Schwartz Inequality. Thus, rk(A) ≥(tr(A))^2/tr(A^2). Substituting tr(A) = m and tr(A^2) = m + m(m-1)ϵ^2 in the above inequality proves the theorem.	
+
+
+
+
+Let n be a positive integer and let δ > 1. Let ℱ be a fractional L-intersecting family of subsets of [n], where L = {a/b}, a/b∈ [0,1) is an irreducible fraction and for every A ∈ℱ, |A| in an integer in the range [b/4(b-a)n - b/4aδ√(n), b/4(b-a)n + b/4aδ√(n)]. Then, |ℱ| < δ^2/δ^2 - 1n. 
+",Statement of Theorem <ref>,"
+
+B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM: Let n be a positive integer. Let 𝒢 be a fractional L-intersecting families of subsets of [n], where L={a/b}, a/b∈ [0, 1), and b is a prime. Then, |𝒢| ≤ (b-1)(n+1)⌈ln n/ln b⌉ + 1.
+
+It is easy to see that if a=0, then |𝒢| ≤ n with the set of all singleton subsets of [n] forming a tight example to this bound. So assume a ≠ 0. Let ℱ = 𝒢∖ℋ, where ℋ = {A ∈𝒢 : b ∤ |A|}. From the definition of a fractional a/b-intersecting family it is clear that |ℋ|≤ 1. The rest of the proof is to show that |ℱ| ≤ (b-1)(n+1)⌈ln n/ln b⌉. We do this by partitioning ℱ into (b-1)⌈log_b n ⌉ parts and then showing that each part is of size at most n+1. We define F_i^j as 
+	
+    ℱ_i^j= {A ∈ℱ| |A| ≡ j  i}.
+
+Since b divides |A|, for every A ∈ℱ, under this definition ℱ can be partitioned into families ℱ_b^k^ib^k-1, where 2 ≤ k ≤⌈log_b n ⌉ and 1 ≤ i ≤ b-1. We show that, for every i ∈ [b-1] and for every 2 ≤ k ≤⌈log_b n⌉, |ℱ_b^k^ib^k-1| ≤ n+1.       	
+
+In order to estimate |ℱ_b^k^ib^k-1|, for each A ∈ℱ_b^k^ib^k-1, create a vector X_A as follows:
+
+
+    X_A(j)=1/√(b^k-2), if j ∈ A;
+    
+    	0 , otherwise.
+
+	Note that, for A,B ∈ℱ_b^k^ib^k-1
+	
+    ⟨ X_A,X_B⟩≡
+    	b b^2,  if A=B, 
+    
+    	ai  b,  if A≠ B,
+ 
+Let |ℱ_b^k^ib^k-1| = m. Let M_k,i denote the m × n matrix formed by taking X_As as rows for each A ∈ℱ_b^k^ib^k-1. Then, |ℱ_b^k^ib^k-1| ≤ n+1 can be proved by considering B = M_k,i× M_k,i^T and showing that B - aiJ (, where J is the m × m all 1 matrix, ) has full rank; determinant of B - aiJ is non-zero since the only term not divisible by the prime b in the expansion of its determinant comes from the product of all the diagonals (note that a<b, i<b, and since b is a prime, we have b ∤ ai).
+
+We shall call ℱ a B_MATH_TERM I_MATH_TERM I_MATH_TERM if ℱ is a fractional L-intersecting family where L={1/2}. We have two different constructions of families that are bisection closed and are of cardinality 3n/2-2 on [n]. 
+ 
+
+Let n be an even positive integer. 
+Let ℬ denote the collection of 2-sized sets that contain only 1 as a common element in any two sets, i.e. {1,2}, {1,3}, …, {1,n}; and
+let  𝒞 denote collection of 4-sized sets that contain only {1,2} as common elements, i.e. {1,2,3,4}, {1,2,5,6}, …, {1,2,n-1,n}.
+It is not hard to see that ℬ∪𝒞 is indeed bisection closed.
+
+
+
+The second example of a bisection closed family of cardinality 3n/2-2 comes from B_MATH_TERM I_MATH_TERM I_MATH_TERM .
+A Recursive Hadamard matrix H(k) of size 2^k × 2^k can be obtained from H(k-1) of size 2^k-1× 2^k-1 as follows
+
+    H(k)= [ [  H(k-1)  H(k-1);  H(k-1) -H(k-1);         ]],
+
+where H(0)=1.
+Now consider the matrix:
+
+    M(k)= [ [  H(k-1)  H(k-1);  H(k-1) -H(k-1);  H(k-1)  J(k-1);         ]],  where J(k-1) denotes the 2^k-1× 2^k-1 all 1s' matrix.
+
+Let M'(k) be the matrix obtained from M(k) by removing the first and  the (2^k+1)th rows and  replacing the -1's by 1's and 1's by 0's.
+M'(k) is clearly bisection closed and has cardinality 3n/2-2, where n=2^k. 
+
+
+
+
+
+
+
+
+ §.§ Restricting the cardinalities of the sets in ℱ
+
+When L = {a/b}, where b is a prime, Theorem <ref> yields an upper bound of O(b/log b n log n) for |ℱ|. However, we believe that when |L|=1, the cardinality of any fractional L-intersecting family on [n] would be at most cn, where c>0 is a constant. To this end, we show in Theorem <ref> that when the sizes of the sets in ℱ are restricted, we can achieve this.  
+
+
+The following lemma is crucial to the proof of Theorem <ref>. 
+<cit.>
+	Let A be an m × m real symmetric matrix with a_i,i=1 and |a_i,j| ≤ϵ for all i ≠ j. 
+	Let tr(A) denote the trace of A, i.e., the sum of the diagonal entries of A. 
+	Let rk(A) denote the rank of A. Then,
+	
+    rk(A) ≥(tr(A))^2/tr(A^2)≥m/1+(m-1)ϵ^2.
+
+	
+
+
+	Let λ_1, …,λ_m denote the eigenvalues of A. Since only rk(A) eigenvalues of A are non-zero, (tr(A))^2= (∑_i=1^m λ_i)^2= (∑_i=1^rk(A)λ_i)^2 ≤ rk(A)∑_i=1^rk(A)λ_i^2 = rk(A) tr(A^2), where the inequality follows from the Cauchy-Schwartz Inequality. Thus, rk(A) ≥(tr(A))^2/tr(A^2). Substituting tr(A) = m and tr(A^2) = m + m(m-1)ϵ^2 in the above inequality proves the theorem.	
+
+
+
+
+Let n be a positive integer and let δ > 1. Let ℱ be a fractional L-intersecting family of subsets of [n], where L = {a/b}, a/b∈ [0,1) is an irreducible fraction and for every A ∈ℱ, |A| in an integer in the range [b/4(b-a)n - b/4aδ√(n), b/4(b-a)n + b/4aδ√(n)]. Then, |ℱ| < δ^2/δ^2 - 1n. 
+",B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+322,weak descent composition of $\rho$,"[\cite{Ass-T}]
+  For a reduced word $\rho$, define the \emph{weak descent composition of $\rho$} , denoted by $\des(\rho)$, as follows. Let $(\rho^{(k)} | \cdots | \rho^{(1)})$ be the run decomposition of $\rho$, that is, each $\rho^{(i)}$ is increasing and as long as possible. Set $r_i = \min(\rho^{(i)})$ for $i=1,\ldots,k$. Set $\hat{r}_k = r_k$, and for $i<k$, set $\hat{r}_i = \min(r_i,\hat{r}_{i+1}-1)$. If $r_1 \leq 0$, then define $\des(\rho) = \varnothing$; otherwise, set the $\hat{r}_i$th part of $\des(\rho)$ to be $\des(\rho)_{\hat{r}_i} = |\rho^{(i)}|$ and set all other parts to $0$.
+  \label{def:des-red}
+",/home/shufan/que_tex/weak_EG.tex,definition + \emph{},"[<cit.>]
+  For a reduced word ρ, define the weak descent composition of ρ , denoted by (ρ), as follows. Let (ρ^(k) | ⋯ | ρ^(1)) be the run decomposition of ρ, that is, each ρ^(i) is increasing and as long as possible. Set r_i = min(ρ^(i)) for i=1,…,k. Set r̂_k = r_k, and for i<k, set r̂_i = min(r_i,r̂_i+1-1). If r_1 ≤ 0, then define (ρ) = ∅; otherwise, set the r̂_ith part of (ρ) to be (ρ)_r̂_i = |ρ^(i)| and set all other parts to 0.
+  
+",weak descent composition of ρ,"[<cit.>]
+  For a reduced word ρ, define the B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM , denoted by (ρ), as follows. Let (ρ^(k) | ⋯ | ρ^(1)) be the run decomposition of ρ, that is, each ρ^(i) is increasing and as long as possible. Set r_i = min(ρ^(i)) for i=1,…,k. Set r̂_k = r_k, and for i<k, set r̂_i = min(r_i,r̂_i+1-1). If r_1 ≤ 0, then define (ρ) = ∅; otherwise, set the r̂_ith part of (ρ) to be (ρ)_r̂_i = |ρ^(i)| and set all other parts to 0.
+  
+",O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+328,weak descent composition of $T$,"[\cite{Ass-W}]
+  For a standard key tableau $T$, define the \emph{weak descent composition of $T$} , denoted by $\des(T)$, as follows. Let $(\tau^{(k)} | \cdots | \tau^{(1)})$ be the run decomposition of $n \cdots 2 1$ based on descents of $T$, that is, each $\tau^{(i)}$ has no descents between adjacent letters and is as long as possible. Set $t_i = \min(\tau^{(i)})$ for $i=1,\ldots,k$. Set $\hat{t}_k = r_k$, and for $i<k$, set $\hat{t}_i = \min(r_i,\hat{t}_{i+1}-1)$. If $t_1 \leq 0$, then define $\des(\rho) = \varnothing$; otherwise, set the $\hat{t}_i$th part of $\des(T)$ to be $\des(T)_{\hat{t}_i} = |\tau^{(i)}|$ and set all other parts to $0$.
+  \label{def:des-key}
+",/home/shufan/que_tex/weak_EG.tex,definition + \emph{},"[<cit.>]
+  For a standard key tableau T, define the weak descent composition of T , denoted by (T), as follows. Let (τ^(k) | ⋯ | τ^(1)) be the run decomposition of n ⋯ 2 1 based on descents of T, that is, each τ^(i) has no descents between adjacent letters and is as long as possible. Set t_i = min(τ^(i)) for i=1,…,k. Set t̂_k = r_k, and for i<k, set t̂_i = min(r_i,t̂_i+1-1). If t_1 ≤ 0, then define (ρ) = ∅; otherwise, set the t̂_ith part of (T) to be (T)_t̂_i = |τ^(i)| and set all other parts to 0.
+  
+",weak descent composition of T,"[<cit.>]
+  For a standard key tableau T, define the B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM , denoted by (T), as follows. Let (τ^(k) | ⋯ | τ^(1)) be the run decomposition of n ⋯ 2 1 based on descents of T, that is, each τ^(i) has no descents between adjacent letters and is as long as possible. Set t_i = min(τ^(i)) for i=1,…,k. Set t̂_k = r_k, and for i<k, set t̂_i = min(r_i,t̂_i+1-1). If t_1 ≤ 0, then define (ρ) = ∅; otherwise, set the t̂_ith part of (T) to be (T)_t̂_i = |τ^(i)| and set all other parts to 0.
+  
+",O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+702,"\{1,2,3\-decomposition};basic matroids"," \label{def:decomposition}
+A \emph{\{1,2,3\}-decomposition} of a matroid $\tilde M$ is a set of matroids $\mathcal M$ (called the \emph{basic matroids} ) and a rooted binary tree $T$ in which $\tilde M$ is the root and the leaves are the elements of $\mathcal M$, with the property that every internal vertex is either the $1$-, $2$-, or $3$-sum of its children.
+",/home/shufan/que_tex/Decomposition.tex,definition + \emph{}," 
+A {1,2,3}-decomposition of a matroid M̃ is a set of matroids ℳ (called the basic matroids ) and a rooted binary tree T in which M̃ is the root and the leaves are the elements of ℳ, with the property that every internal vertex is either the 1-, 2-, or 3-sum of its children.
+","{1,2,3­decomposition;basic matroids"," 
+A B_MATH_TERM of a matroid M̃ is a set of matroids ℳ (called the B_MATH_TERM I_MATH_TERM ) and a rooted binary tree T in which M̃ is the root and the leaves are the elements of ℳ, with the property that every internal vertex is either the 1-, 2-, or 3-sum of its children.
+",O B_MATH_TERM O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+731,NP-complete,"\label{t:CTC}
+{\sc Common-Tree-Containment} is \emph{NP}-complete when the input consists of two temporal normal networks.
+",/home/shufan/que_tex/write-up.tex,theorem + \emph{},"
+Common-Tree-Containment is NP-complete when the input consists of two temporal normal networks.
+",NP-complete,"
+Common-Tree-Containment is B_MATH_TERM when the input consists of two temporal normal networks.
+",O O B_MATH_TERM O O O O O O O O O
+893,"\cite[Sec.\thinspace 4]{Gropp-nk;0,1-matrix","
+\label{Th1_2L+1}\emph{\cite[Sec.\thinspace 4]{Gropp-nk}}
+
+\begin{description}
+\item[(i)] Any Golomb ruler $\mathrm{G}_{k}$ of length
+    $L_{\mathrm{G}}(k)$ is a $(v,k)$ modular Golomb ruler
+    for all $v$ such that $v\geq 2L_{\mathrm{G} }(k)+1$.
+
+\item[(ii)] A circulant $v\times v$ \emph{0,1}-matrix of
+    weight $k$ is an incidence matrix $\mathbf{M}(v,k)$ of
+    a cyclic symmetric configuration $ v_{k} $ if and only
+    if the first row of the matrix corresponds to a $(v,k)$
+    modular Golomb ruler.
+\end{description}
+",/home/shufan/que_tex/1203.0709.tex,theorem + \emph{},"
+<cit.>
+
+
+
+  (i) Any Golomb ruler G_k of length
+    L_G(k) is a (v,k) modular Golomb ruler
+    for all v such that v≥ 2L_G(k)+1.
+
+
+  (ii) A circulant v× v 0,1-matrix of
+    weight k is an incidence matrix 𝐌(v,k) of
+    a cyclic symmetric configuration v_k if and only
+    if the first row of the matrix corresponds to a (v,k)
+    modular Golomb ruler.
+
+",<cit.>,"
+B_MATH_TERM I_MATH_TERM
+
+
+
+  (i) Any Golomb ruler G_k of length
+    L_G(k) is a (v,k) modular Golomb ruler
+    for all v such that v≥ 2L_G(k)+1.
+
+
+  (ii) A circulant v× v B_MATH_TERM of
+    weight k is an incidence matrix 𝐌(v,k) of
+    a cyclic symmetric configuration v_k if and only
+    if the first row of the matrix corresponds to a (v,k)
+    modular Golomb ruler.
+
+",B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+1715,T;t;t-1)Tr(u)-(n-1)\emph{t};T-1)Tr(u)-(n-1)\emph{T},"
+\label{T1}
+Let $G$ be a connected graph on $n$ vertices. Let $\emph{T}$ and $\emph{t}$ be the maximum and the minimum transmissions of $G$, respectively. Then, for any $u\in V(G)$,
+\begin{equation*}
+2W(G)+( \emph{t}-1)Tr(u)-(n-1)\emph{t} \leq \sum_{v\neq u}d(u,v)Tr(v)
+\end{equation*}
+\begin{equation*}
+   \leq \ 2W(G)+( \emph{T}-1)Tr(u)-(n-1)\emph{T} .
+\end{equation*}
+",/home/shufan/que_tex/1804.06335.tex,theorem + \emph{},"
+
+Let G be a connected graph on n vertices. Let T and t be the maximum and the minimum transmissions of G, respectively. Then, for any u∈ V(G),
+
+    2W(G)+( t-1)Tr(u)-(n-1)t≤∑_v≠ ud(u,v)Tr(v)
+
+
+    ≤ 2W(G)+( T-1)Tr(u)-(n-1)T .
+
+",T;t;t-1)Tr(u)-(n-1)t;T-1)Tr(u)-(n-1)T,"
+
+Let G be a connected graph on n vertices. Let B_MATH_TERM and B_MATH_TERM be the maximum and the minimum transmissions of G, respectively. Then, for any u∈ V(G),
+
+    2W(G)+( B_MATH_TERM ≤∑_v≠ ud(u,v)Tr(v)
+
+
+    ≤ 2W(G)+( B_MATH_TERM .
+
+",O O O O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O B_MATH_TERM O
+1716,T;t;t-1+\sqrt{(;t-1)^{2}+8(;t;t;T-1+\sqrt{(;T-1)^{2}+8(;T;T,"
+\label{T2} Let $G$ be a connected graph on $n$ vertices. Let $\emph{T}$ and $\emph{t}$ the maximum and the minimum transmissions of $G$, respectively. Then
+\begin{align}\label{CI5}
+\frac{\emph{t}-1+\sqrt{( \emph{t}-1)^{2}+8( \emph{t}^{2}+2W(G)-(n-1)\emph{t} )}}{2} \ \leq \ \partial^{Q}_{1}(G) \
+\end{align}
+and
+\begin{align}\label{CS6}
+\partial^{Q}_{1}(G) \ \leq \ \frac{\emph{T}-1+\sqrt{( \emph{T}-1)^{2}+8( \emph{T}^{2}+2W(G)-(n-1)\emph{T} )}}{2} \ .
+\end{align}
+",/home/shufan/que_tex/1804.06335.tex,theorem + \emph{},"
+ Let G be a connected graph on n vertices. Let T and t the maximum and the minimum transmissions of G, respectively. Then
+
+    t-1+√(( t-1)^2+8( t^2+2W(G)-(n-1)t ))/2 ≤ ∂^Q_1(G)
+
+and
+
+    ∂^Q_1(G)  ≤ T-1+√(( T-1)^2+8( T^2+2W(G)-(n-1)T ))/2 .
+
+",T;t;t-1+√((;t-1)^2+8(;t;t;T-1+√((;T-1)^2+8(;T;T)),"
+ Let G be a connected graph on n vertices. Let B_MATH_TERM and B_MATH_TERM the maximum and the minimum transmissions of G, respectively. Then
+
+    B_MATH_TERM B_MATH_TERM B_MATH_TERM^2+2W(G)-(n-1)B_MATH_TERM )/2 ≤ ∂^Q_1(G)
+
+and
+
+    ∂^Q_1(G)  ≤ B_MATH_TERM B_MATH_TERM B_MATH_TERM^2+2W(G)-(n-1)B_MATH_TERM )/2 .
+
+",O O O O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O B_MATH_TERM B_MATH_TERM O O O O O O O B_MATH_TERM B_MATH_TERM O O O
+1733,weak descent composition of $T$,"
+  Given a standard filling $T$ of a key diagram, the \emph{weak descent composition of $T$} , denoted by $\des(T)$, is constructed as follows. Partition the decreasing permutation $n \cdots 2 1$ into blocks, say $\tau^{(k)} | \cdots | \tau^{(1)}$, broken between $i+1$ and $i$ precisely when $i+1$ lies weakly right of $i$ in $T$. Set $t_k$ to be the row of $\tau^{(k)}_1$ if it lies in the first column and otherwise $n$. For $i<k$, set $t_i = \min(\mathrm{row}(\tau^{(i)}_1),t_{i+1}-1)$ if $\tau^{(i)}_1$ lies in the first column and otherwise $t_{i+1}-1$. Set $\des(T)_{t_i} = |\tau^{(i)}|$ and all other parts are zero if all $t_i>0$ and $\des(T) = \varnothing$ otherwise. 
+  \label{def:weak-des}
+",/home/shufan/que_tex/hall.tex,definition + \emph{},"
+  Given a standard filling T of a key diagram, the weak descent composition of T , denoted by (T), is constructed as follows. Partition the decreasing permutation n ⋯ 2 1 into blocks, say τ^(k) | ⋯ | τ^(1), broken between i+1 and i precisely when i+1 lies weakly right of i in T. Set t_k to be the row of τ^(k)_1 if it lies in the first column and otherwise n. For i<k, set t_i = min(row(τ^(i)_1),t_i+1-1) if τ^(i)_1 lies in the first column and otherwise t_i+1-1. Set (T)_t_i = |τ^(i)| and all other parts are zero if all t_i>0 and (T) = ∅ otherwise. 
+  
+",weak descent composition of T,"
+  Given a standard filling T of a key diagram, the B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM , denoted by (T), is constructed as follows. Partition the decreasing permutation n ⋯ 2 1 into blocks, say τ^(k) | ⋯ | τ^(1), broken between i+1 and i precisely when i+1 lies weakly right of i in T. Set t_k to be the row of τ^(k)_1 if it lies in the first column and otherwise n. For i<k, set t_i = min(row(τ^(i)_1),t_i+1-1) if τ^(i)_1 lies in the first column and otherwise t_i+1-1. Set (T)_t_i = |τ^(i)| and all other parts are zero if all t_i>0 and (T) = ∅ otherwise. 
+  
+",O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+2117,$k$-accordion,"
+A \emph{$k$-accordion} of $E_n$ is a set $Z=\{[a_i,b_i]\;|\; 1\le i\le n-2k-1\}$ of $n-2k-1$ edges such that $b_1=a_1+k+1$ and for any $2\le i\le n-2k-1$, the edge $[a_i,b_i]$ is either $[a_{i-1},b_{i-1}+1]$ or $[a_{i-1}-1,b_{i-1}]$ (see Fig.~\ref{accordion}).
+",/home/shufan/que_tex/multi-triangulations.tex,definition + \emph{},"
+A k-accordion of E_n is a set Z={[a_i,b_i] |  1≤ i≤ n-2k-1} of n-2k-1 edges such that b_1=a_1+k+1 and for any 2≤ i≤ n-2k-1, the edge [a_i,b_i] is either [a_i-1,b_i-1+1] or [a_i-1-1,b_i-1] (see Fig. <ref>).
+",k-accordion,"
+A B_MATH_TERM of E_n is a set Z={[a_i,b_i] |  1≤ i≤ n-2k-1} of n-2k-1 edges such that b_1=a_1+k+1 and for any 2≤ i≤ n-2k-1, the edge [a_i,b_i] is either [a_i-1,b_i-1+1] or [a_i-1-1,b_i-1] (see Fig. <ref>).
+",O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+2299,rl-Parikh,"\label{UniqueParikhNormalForm}
+Suppose $\Sigma$ is an ordered alphabet. If $w\in\Sigma^*$ is $M$\!-unambiguous, then the \textit{rl}-Parikh normal form of $\Psi_\Sigma(w)$ is unique.
+",/home/shufan/que_tex/1808.04102.tex,theorem + \textit{},"
+Suppose Σ is an ordered alphabet. If w∈Σ^* is M-unambiguous, then the rl-Parikh normal form of Ψ_Σ(w) is unique.
+",rl-Parikh,"
+Suppose Σ is an ordered alphabet. If w∈Σ^* is M-unambiguous, then the B_MATH_TERM normal form of Ψ_Σ(w) is unique.
+",O O O O O O O O O O O O B_MATH_TERM O O O O O O
+2300,rl-Parikh,"\label{RelNormalMatWord}
+Suppose $\Sigma$ is an ordered alphabet and $w\in\Sigma^*$. Let $\pn_r(w)=v_{k}^{n_{k}}v_{k-1}^{n_{k-1}}\cdots v_0^{n_0}$. If $w$ is $\prec$-maximal, then $[\Psi_\Sigma(v_{k})]^{n_{k}}[\Psi_\Sigma(v_{k-1})]^{n_{k-1}}\cdots [\Psi_\Sigma(v_0)]^{n_0}$ is an \textit{rl}-Parikh normal form of $\Psi_\Sigma(w)$.
+",/home/shufan/que_tex/1808.04102.tex,theorem + \textit{},"
+Suppose Σ is an ordered alphabet and w∈Σ^*. Let _r(w)=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0. If w is ≺-maximal, then [Ψ_Σ(v_k)]^n_k[Ψ_Σ(v_k-1)]^n_k-1⋯ [Ψ_Σ(v_0)]^n_0 is an rl-Parikh normal form of Ψ_Σ(w).
+",rl-Parikh,"
+Suppose Σ is an ordered alphabet and w∈Σ^*. Let _r(w)=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0. If w is ≺-maximal, then [Ψ_Σ(v_k)]^n_k[Ψ_Σ(v_k-1)]^n_k-1⋯ [Ψ_Σ(v_0)]^n_0 is an B_MATH_TERM normal form of Ψ_Σ(w).
+",O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O
+2301,rl-Parikh,"\label{RelNormalMatWord2}
+Suppose $\Sigma$ is an ordered alphabet with $|\Sigma|=s$ and $M\in\mathcal{P}_\Sigma$. Assume $B_{k}^{n_{k}}B_{k-1}^{n_{k-1}}\cdots B_0^{n_0}$ is an \textit{rl}-Parikh normal form of $M$. Suppose $w\in\Sigma^*$ such that $w=v_{k}^{n_{k}}v_{k-1}^{n_{k-1}}\cdots v_0^{n_0}$ where for every integer $0\le i\le k$, we have $v_i\in\Sigma^+$ with $\Psi_\Sigma(v_i)=B_i$. Then, $\pn_r(w)=v_{k}^{n_{k}}v_{k-1}^{n_{k-1}}\cdots v_0^{n_0}$ and $w$ is $\prec$-maximal. 
+",/home/shufan/que_tex/1808.04102.tex,theorem + \textit{},"
+Suppose Σ is an ordered alphabet with |Σ|=s and M∈𝒫_Σ. Assume B_k^n_kB_k-1^n_k-1⋯ B_0^n_0 is an rl-Parikh normal form of M. Suppose w∈Σ^* such that w=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0 where for every integer 0≤ i≤ k, we have v_i∈Σ^+ with Ψ_Σ(v_i)=B_i. Then, _r(w)=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0 and w is ≺-maximal. 
+",rl-Parikh,"
+Suppose Σ is an ordered alphabet with |Σ|=s and M∈𝒫_Σ. Assume B_k^n_kB_k-1^n_k-1⋯ B_0^n_0 is an B_MATH_TERM normal form of M. Suppose w∈Σ^* such that w=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0 where for every integer 0≤ i≤ k, we have v_i∈Σ^+ with Ψ_Σ(v_i)=B_i. Then, _r(w)=v_k^n_kv_k-1^n_k-1⋯ v_0^n_0 and w is ≺-maximal. 
+",O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+2303,primitive Parikh matrix;rl-Parikh,"\label{DefPrimitive}
+Suppose $\Sigma$ is an ordered alphabet and $M\in\mathcal{P}_\Sigma$. We say that $M$ is a \textit{primitive Parikh matrix} if and only if the only \textit{rl}-Parikh normal form of $M$ is $M$ itself.
+",/home/shufan/que_tex/1808.04102.tex,definition + \textit{},"
+Suppose Σ is an ordered alphabet and M∈𝒫_Σ. We say that M is a primitive Parikh matrix if and only if the only rl-Parikh normal form of M is M itself.
+",primitive Parikh matrix;rl-Parikh,"
+Suppose Σ is an ordered alphabet and M∈𝒫_Σ. We say that M is a B_MATH_TERM I_MATH_TERM I_MATH_TERM if and only if the only B_MATH_TERM normal form of M is M itself.
+",O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O B_MATH_TERM O O O O O O O
+2606,rat-matrix,"[Binary matrices]
+We denote the entry in the $i$th row and the $j$th column of the rat matrix by $R_{i,j}(t)$, where $t\in \N$ is a variable (motivated by Example~\ref{ex:rat}).
+Denote the $i$th row, $i\in \{0, \ldots , 2^{d-1}-1\}$, of the \emph{rat-matrix} by $R_i(t)$, $n\in \N_0$. Let $R_{i,1}(t) = (2^{d}-1)t + 2i+1$, and for $j\in \{2,\ldots , d\}$,  $R_{i,j}(t) = 2R_{i,j-1}(t)-b_{i, d-j},$ where $b_i = b_{i,d-2}\cdots b_{i,0}$ is the number $i$ represented in binary.
+",/home/shufan/que_tex/PlayarblargeRatsNEWarXiv.tex,definition + \emph{},"[Binary matrices]
+We denote the entry in the ith row and the jth column of the rat matrix by R_i,j(t), where t∈ is a variable (motivated by Example <ref>).
+Denote the ith row, i∈{0, … , 2^d-1-1}, of the rat-matrix by R_i(t), n∈_0. Let R_i,1(t) = (2^d-1)t + 2i+1, and for j∈{2,… , d},  R_i,j(t) = 2R_i,j-1(t)-b_i, d-j, where b_i = b_i,d-2⋯ b_i,0 is the number i represented in binary.
+",rat-matrix,"[Binary matrices]
+We denote the entry in the ith row and the jth column of the rat matrix by R_i,j(t), where t∈ is a variable (motivated by Example <ref>).
+Denote the ith row, i∈{0, … , 2^d-1-1}, of the B_MATH_TERM by R_i(t), n∈_0. Let R_i,1(t) = (2^d-1)t + 2i+1, and for j∈{2,… , d},  R_i,j(t) = 2R_i,j-1(t)-b_i, d-j, where b_i = b_i,d-2⋯ b_i,0 is the number i represented in binary.
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+2886,C0P-graph}.,"
+A graph $G$ whose augmented adjancency matrix, $M^{*}(G)$, has the C0P for columns is called a {\emph{C0P}-graph}.
+",/home/shufan/que_tex/Arxiv_0s_cons.tex,definition + \emph{},"
+A graph G whose augmented adjancency matrix, M^*(G), has the C0P for columns is called a C0P-graph.
+",C0P-graph.,"
+A graph G whose augmented adjancency matrix, M^*(G), has the C0P for columns is called a B_MATH_TERM
+",O O O O O O O O O O O O O O O O B_MATH_TERM
+3189,Paw;Di,"
+We have the following probabilities.
+\begin{align*}
+P(\text{\emph{Paw}}_a,1)&=\frac16-\frac1{a+3}+\frac1{a+1}\\
+P(\text{\emph{Di}}_a,1)&=\frac3{10}-\frac2{a+4}+\frac2{a+2}\\
+P((K_4)_a,1)&=\frac25-\frac3{a+5}+\frac3{a+3}
+\end{align*}
+",/home/shufan/que_tex/Revision.tex,theorem + \emph{},"
+We have the following probabilities.
+
+    P(Paw_a,1)   =1/6-1/a+3+1/a+1
+    
+    P(Di_a,1)   =3/10-2/a+4+2/a+2
+    
+    P((K_4)_a,1)   =2/5-3/a+5+3/a+3
+
+",Paw;Di,"
+We have the following probabilities.
+
+    P(B_MATH_TERM_a,1)   =1/6-1/a+3+1/a+1
+    
+    P(B_MATH_TERM_a,1)   =3/10-2/a+4+2/a+2
+    
+    P((K_4)_a,1)   =2/5-3/a+5+3/a+3
+
+",O O O O O O O O O O O
+3340,pyramid;apex;trihedron;stamp;prism;solid graphs;faces;solid in $G$,"
+	A graph consisting of a cycle $C$	and a vertex $w$ with at least three edges between $C$ and $w$ is called a \textit{pyramid} . Such vertex $w$ is called an \textit{apex} of the pyramid. A graph is called a \textit{trihedron} if it is a union of three paths $P_{1},P_{2},P_{3}$ that start and end at the same points such that each interior points of each paths are not used in any other path. A graph is called a \textit{stamp} if it is the union of a triangle $T$ and three paths $P_{1},P_{2},P_{3}$ of length $\ge 1$ such that the three paths starts from three different vertices of $T$ and ends at the same vertex $x$, and $P_{i}-x$ are vertex-disjoint. A graph $S$ is called a $\textit{prism}$ if $S=T\cup T' \cup P_{1}\cup P_{2}\cup P_{3}$ where $T,T'$ are vertex-disjoint triangles with vertices $x_{1},x_{2},x_{3}$ and $y_{1},y_{2},y_{3}$ respectively, and $P_{i}$s are vertex-disjoint paths from $x_{i}$ to $y_{i}$. The four graphs are described below. 
+
+\begin{equation*}
+\begin{tikzpicture}
+	\filldraw [black] (0,-0.64) circle (1.5pt); 
+	\filldraw [black] (0.6,-0.7) circle (1.5pt); 
+	\filldraw [black] (1.03,-0.95) circle (1.5pt); 
+	\filldraw [black] (0.7,-1.25) circle (1.5pt); 
+	\filldraw [black] (0.1,-1.35) circle (1.5pt); 
+	\filldraw [black] (-0.55,-1.3) circle (1.5pt); 
+	\filldraw [black] (-1,-1) circle (1.5pt); 
+	\filldraw [black] (-0.55,-0.73) circle (1.5pt); 
+	\draw[ultra thick] (0,-0.64) -- (0.6,-0.7) -- (1.03,-0.95) -- (0.7,-1.25) -- (0.1,-1.35) -- (-0.55,-1.3) -- (-1,-1) --(-0.55,-0.73) -- (0,-0.64);
+	\filldraw [black] (0,0) circle (1.5pt); 
+	\draw[ultra thick] (0,0) -- (-0.55,-1.3);
+	\draw[ultra thick] (0,0) -- (0.7,-1.25);
+	\draw[ultra thick] (0,0) -- (-1,-1);
+	\draw[ultra thick] (0,0) -- (0.6,-0.7);
+	\coordinate [label=below:Pyramid]  (A) at (0,-1.7);
+\end{tikzpicture}
+\begin{tikzpicture}
+	\coordinate [label=left:$\quad $]  (A) at (-1.7,0);
+	\filldraw [black] (0,0) circle (1.5pt); 
+	\filldraw [black] (-0.2,-0.5) circle (1.5pt); 
+	\filldraw [black] (-0.3,-1) circle (1.5pt); 
+	\filldraw [black] (0.8,-0.9) circle (1.5pt); 
+	\filldraw [black] (0,-1.45) circle (1.5pt); 
+	\filldraw [black] (-0.55,-1.3) circle (1.5pt); 
+	\filldraw [black] (0.55,-1.3) circle (1.5pt); 
+	\filldraw [black] (-0.8,-0.9) circle (1.5pt); 
+	\filldraw [black] (-0.65,-0.5) circle (1.5pt); 
+	\filldraw [black] (0.65,-0.5) circle (1.5pt); 
+	\draw[ultra thick] (0,0) -- (0.65,-0.5) -- (0.8,-0.9) -- (0.55,-1.3) -- (0,-1.45) -- (-0.55,-1.3) -- (-0.8,-0.9) -- (-0.65,-0.5)-- (0,0) ;
+	\draw[ultra thick] (0,0) -- (-0.2,-0.5) -- (-0.3,-1) -- (0,-1.45);
+	\coordinate [label=below:Trihedron]  (A) at (0,-1.7);
+\end{tikzpicture}
+\begin{tikzpicture}
+	\coordinate [label=left:$\quad $]  (A) at (-1.7,0);
+	\filldraw [black] (0.4,0) circle (1.5pt); 
+	\filldraw [black] (1.03,-0.65) circle (1.5pt); 
+	\filldraw [black] (0,-0.5) circle (1.5pt); 
+	\filldraw [black] (0.7,-1.25) circle (1.5pt);
+	\filldraw [black] (0,-1) circle (1.5pt); 
+	\filldraw [black] (0.1,-1.45) circle (1.5pt); 
+	\filldraw [black] (0,-0.2) circle (1.5pt); 
+	\filldraw [black] (0.1,-1.45) circle (1.5pt); 
+	\filldraw [black] (-0.55,-1.3) circle (1.5pt); 
+	\filldraw [black] (-0.8,-0.9) circle (1.5pt); 
+	\filldraw [black] (-0.7,-0.5) circle (1.5pt); 
+	\draw[ultra thick] (0.4,0) -- (1.03,-0.65) -- (0.7,-1.25) -- (0.1,-1.45) -- (-0.55,-1.3) -- (-0.8,-0.9) -- (-0.7,-0.5) -- (-0.2,0) -- (0.4,0);
+	\filldraw [black] (-0.2,0) circle (1.5pt);
+	\draw[ultra thick] (0,-0.2) -- (0.4,0);
+	\draw[ultra thick] (0,-0.2) -- (-0.2,0);
+	\draw[ultra thick] (0,-0.2) -- (0,-0.5) -- (0,-1) -- (0.1,-1.45);
+	\coordinate [label=below:Stamp]  (A) at (0.1,-1.7);
+\end{tikzpicture}
+\begin{tikzpicture}
+	\coordinate [label=left:$\quad $]  (A) at (-1.4,0);
+	\filldraw [black] (0.7,0) circle (1.5pt); 
+	\filldraw [black] (-0.3,0) circle (1.5pt); 
+	\filldraw [black] (0,-0.3) circle (1.5pt); 
+	\filldraw [black] (0.7,-1) circle (1.5pt); 
+	\filldraw [black] (-0.3,-1) circle (1.5pt); 
+	\filldraw [black] (0,-1.3) circle (1.5pt); 
+	\filldraw [black] (-0.4,-0.4) circle (1.5pt); 
+	\filldraw [black] (-0.4,-0.7) circle (1.5pt); 
+	\filldraw [black] (0.8,-0.4) circle (1.5pt); 
+	\filldraw [black] (0.8,-0.7) circle (1.5pt); 
+	\filldraw [black] (0.1,-0.6) circle (1.5pt); 
+	\filldraw [black] (-0.1,-0.9) circle (1.5pt); 
+	\coordinate [label=below:Prism]  (A) at (0.2,-1.7);
+	\draw[ultra thick] (0.7,0) -- (0.8,-0.4) -- (0.8,-0.7) -- (0.7,-1) -- (0,-1.3) -- (-0.3,-1) -- (-0.4, -0.7) -- (-0.4, -0.4) -- (-0.3,0) -- (0.7,0);
+	\draw[ultra thick] (-0.3,0) -- (0,-0.3) -- (0.7,0);
+	\draw[ultra thick] (0,-0.3) -- (0.1,-0.6) -- (-0.1,-0.9) -- (0,-1.3);
+	\draw[ultra thick] (-0.3,-1) -- (0.7,-1);
+\end{tikzpicture}
+\end{equation*}
+\begin{equation*}
+	\text{Figure 2 : Solid graphs}
+\end{equation*}
+These four graphs are called \textit{solid graphs} , and the induced cycles in a solid graph are called the \textit{faces} of the solid graph. If $G=(V,E)$ is a graph, an induced subgraph of $G$ that is isomorphic to a solid graph is called a \textit{solid in $G$} . $S(G)$ denotes the set of all solids in $G$. 
+",/home/shufan/que_tex/graph_characteristics.tex,definition + \textit{},"
+	A graph consisting of a cycle C	and a vertex w with at least three edges between C and w is called a pyramid . Such vertex w is called an apex of the pyramid. A graph is called a trihedron if it is a union of three paths P_1,P_2,P_3 that start and end at the same points such that each interior points of each paths are not used in any other path. A graph is called a stamp if it is the union of a triangle T and three paths P_1,P_2,P_3 of length ≥ 1 such that the three paths starts from three different vertices of T and ends at the same vertex x, and P_i-x are vertex-disjoint. A graph S is called a prism if S=T∪ T' ∪ P_1∪ P_2∪ P_3 where T,T' are vertex-disjoint triangles with vertices x_1,x_2,x_3 and y_1,y_2,y_3 respectively, and P_is are vertex-disjoint paths from x_i to y_i. The four graphs are described below. 
+
+
+    [black] (0,-0.64) circle (1.5pt); 
+    	 [black] (0.6,-0.7) circle (1.5pt); 
+    	 [black] (1.03,-0.95) circle (1.5pt); 
+    	 [black] (0.7,-1.25) circle (1.5pt); 
+    	 [black] (0.1,-1.35) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (-1,-1) circle (1.5pt); 
+    	 [black] (-0.55,-0.73) circle (1.5pt); 
+    	[ultra thick] (0,-0.64) – (0.6,-0.7) – (1.03,-0.95) – (0.7,-1.25) – (0.1,-1.35) – (-0.55,-1.3) – (-1,-1) –(-0.55,-0.73) – (0,-0.64);
+    	 [black] (0,0) circle (1.5pt); 
+    	[ultra thick] (0,0) – (-0.55,-1.3);
+    	[ultra thick] (0,0) – (0.7,-1.25);
+    	[ultra thick] (0,0) – (-1,-1);
+    	[ultra thick] (0,0) – (0.6,-0.7);
+    	 [label=below:Pyramid]  (A) at (0,-1.7);
+     [label=left:]  (A) at (-1.7,0);
+    	 [black] (0,0) circle (1.5pt); 
+    	 [black] (-0.2,-0.5) circle (1.5pt); 
+    	 [black] (-0.3,-1) circle (1.5pt); 
+    	 [black] (0.8,-0.9) circle (1.5pt); 
+    	 [black] (0,-1.45) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (0.55,-1.3) circle (1.5pt); 
+    	 [black] (-0.8,-0.9) circle (1.5pt); 
+    	 [black] (-0.65,-0.5) circle (1.5pt); 
+    	 [black] (0.65,-0.5) circle (1.5pt); 
+    	[ultra thick] (0,0) – (0.65,-0.5) – (0.8,-0.9) – (0.55,-1.3) – (0,-1.45) – (-0.55,-1.3) – (-0.8,-0.9) – (-0.65,-0.5)– (0,0) ;
+    	[ultra thick] (0,0) – (-0.2,-0.5) – (-0.3,-1) – (0,-1.45);
+    	 [label=below:Trihedron]  (A) at (0,-1.7);
+     [label=left:]  (A) at (-1.7,0);
+    	 [black] (0.4,0) circle (1.5pt); 
+    	 [black] (1.03,-0.65) circle (1.5pt); 
+    	 [black] (0,-0.5) circle (1.5pt); 
+    	 [black] (0.7,-1.25) circle (1.5pt);
+    	 [black] (0,-1) circle (1.5pt); 
+    	 [black] (0.1,-1.45) circle (1.5pt); 
+    	 [black] (0,-0.2) circle (1.5pt); 
+    	 [black] (0.1,-1.45) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (-0.8,-0.9) circle (1.5pt); 
+    	 [black] (-0.7,-0.5) circle (1.5pt); 
+    	[ultra thick] (0.4,0) – (1.03,-0.65) – (0.7,-1.25) – (0.1,-1.45) – (-0.55,-1.3) – (-0.8,-0.9) – (-0.7,-0.5) – (-0.2,0) – (0.4,0);
+    	 [black] (-0.2,0) circle (1.5pt);
+    	[ultra thick] (0,-0.2) – (0.4,0);
+    	[ultra thick] (0,-0.2) – (-0.2,0);
+    	[ultra thick] (0,-0.2) – (0,-0.5) – (0,-1) – (0.1,-1.45);
+    	 [label=below:Stamp]  (A) at (0.1,-1.7);
+     [label=left:]  (A) at (-1.4,0);
+    	 [black] (0.7,0) circle (1.5pt); 
+    	 [black] (-0.3,0) circle (1.5pt); 
+    	 [black] (0,-0.3) circle (1.5pt); 
+    	 [black] (0.7,-1) circle (1.5pt); 
+    	 [black] (-0.3,-1) circle (1.5pt); 
+    	 [black] (0,-1.3) circle (1.5pt); 
+    	 [black] (-0.4,-0.4) circle (1.5pt); 
+    	 [black] (-0.4,-0.7) circle (1.5pt); 
+    	 [black] (0.8,-0.4) circle (1.5pt); 
+    	 [black] (0.8,-0.7) circle (1.5pt); 
+    	 [black] (0.1,-0.6) circle (1.5pt); 
+    	 [black] (-0.1,-0.9) circle (1.5pt); 
+    	 [label=below:Prism]  (A) at (0.2,-1.7);
+    	[ultra thick] (0.7,0) – (0.8,-0.4) – (0.8,-0.7) – (0.7,-1) – (0,-1.3) – (-0.3,-1) – (-0.4, -0.7) – (-0.4, -0.4) – (-0.3,0) – (0.7,0);
+    	[ultra thick] (-0.3,0) – (0,-0.3) – (0.7,0);
+    	[ultra thick] (0,-0.3) – (0.1,-0.6) – (-0.1,-0.9) – (0,-1.3);
+    	[ultra thick] (-0.3,-1) – (0.7,-1);
+
+
+    Figure 2 : Solid graphs
+
+These four graphs are called solid graphs , and the induced cycles in a solid graph are called the faces of the solid graph. If G=(V,E) is a graph, an induced subgraph of G that is isomorphic to a solid graph is called a solid in G . S(G) denotes the set of all solids in G. 
+",pyramid;apex;trihedron;stamp;prism;solid graphs;faces;solid in G,"
+	A graph consisting of a cycle C	and a vertex w with at least three edges between C and w is called a B_MATH_TERM . Such vertex w is called an B_MATH_TERM of the pyramid. A graph is called a B_MATH_TERM if it is a union of three paths P_1,P_2,P_3 that start and end at the same points such that each interior points of each paths are not used in any other path. A graph is called a B_MATH_TERM if it is the union of a triangle T and three paths P_1,P_2,P_3 of length ≥ 1 such that the three paths starts from three different vertices of T and ends at the same vertex x, and P_i-x are vertex-disjoint. A graph S is called a B_MATH_TERM if S=T∪ T' ∪ P_1∪ P_2∪ P_3 where T,T' are vertex-disjoint triangles with vertices x_1,x_2,x_3 and y_1,y_2,y_3 respectively, and P_is are vertex-disjoint paths from x_i to y_i. The four graphs are described below. 
+
+
+    [black] (0,-0.64) circle (1.5pt); 
+    	 [black] (0.6,-0.7) circle (1.5pt); 
+    	 [black] (1.03,-0.95) circle (1.5pt); 
+    	 [black] (0.7,-1.25) circle (1.5pt); 
+    	 [black] (0.1,-1.35) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (-1,-1) circle (1.5pt); 
+    	 [black] (-0.55,-0.73) circle (1.5pt); 
+    	[ultra thick] (0,-0.64) – (0.6,-0.7) – (1.03,-0.95) – (0.7,-1.25) – (0.1,-1.35) – (-0.55,-1.3) – (-1,-1) –(-0.55,-0.73) – (0,-0.64);
+    	 [black] (0,0) circle (1.5pt); 
+    	[ultra thick] (0,0) – (-0.55,-1.3);
+    	[ultra thick] (0,0) – (0.7,-1.25);
+    	[ultra thick] (0,0) – (-1,-1);
+    	[ultra thick] (0,0) – (0.6,-0.7);
+    	 [label=below:Pyramid]  (A) at (0,-1.7);
+     [label=left:]  (A) at (-1.7,0);
+    	 [black] (0,0) circle (1.5pt); 
+    	 [black] (-0.2,-0.5) circle (1.5pt); 
+    	 [black] (-0.3,-1) circle (1.5pt); 
+    	 [black] (0.8,-0.9) circle (1.5pt); 
+    	 [black] (0,-1.45) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (0.55,-1.3) circle (1.5pt); 
+    	 [black] (-0.8,-0.9) circle (1.5pt); 
+    	 [black] (-0.65,-0.5) circle (1.5pt); 
+    	 [black] (0.65,-0.5) circle (1.5pt); 
+    	[ultra thick] (0,0) – (0.65,-0.5) – (0.8,-0.9) – (0.55,-1.3) – (0,-1.45) – (-0.55,-1.3) – (-0.8,-0.9) – (-0.65,-0.5)– (0,0) ;
+    	[ultra thick] (0,0) – (-0.2,-0.5) – (-0.3,-1) – (0,-1.45);
+    	 [label=below:Trihedron]  (A) at (0,-1.7);
+     [label=left:]  (A) at (-1.7,0);
+    	 [black] (0.4,0) circle (1.5pt); 
+    	 [black] (1.03,-0.65) circle (1.5pt); 
+    	 [black] (0,-0.5) circle (1.5pt); 
+    	 [black] (0.7,-1.25) circle (1.5pt);
+    	 [black] (0,-1) circle (1.5pt); 
+    	 [black] (0.1,-1.45) circle (1.5pt); 
+    	 [black] (0,-0.2) circle (1.5pt); 
+    	 [black] (0.1,-1.45) circle (1.5pt); 
+    	 [black] (-0.55,-1.3) circle (1.5pt); 
+    	 [black] (-0.8,-0.9) circle (1.5pt); 
+    	 [black] (-0.7,-0.5) circle (1.5pt); 
+    	[ultra thick] (0.4,0) – (1.03,-0.65) – (0.7,-1.25) – (0.1,-1.45) – (-0.55,-1.3) – (-0.8,-0.9) – (-0.7,-0.5) – (-0.2,0) – (0.4,0);
+    	 [black] (-0.2,0) circle (1.5pt);
+    	[ultra thick] (0,-0.2) – (0.4,0);
+    	[ultra thick] (0,-0.2) – (-0.2,0);
+    	[ultra thick] (0,-0.2) – (0,-0.5) – (0,-1) – (0.1,-1.45);
+    	 [label=below:Stamp]  (A) at (0.1,-1.7);
+     [label=left:]  (A) at (-1.4,0);
+    	 [black] (0.7,0) circle (1.5pt); 
+    	 [black] (-0.3,0) circle (1.5pt); 
+    	 [black] (0,-0.3) circle (1.5pt); 
+    	 [black] (0.7,-1) circle (1.5pt); 
+    	 [black] (-0.3,-1) circle (1.5pt); 
+    	 [black] (0,-1.3) circle (1.5pt); 
+    	 [black] (-0.4,-0.4) circle (1.5pt); 
+    	 [black] (-0.4,-0.7) circle (1.5pt); 
+    	 [black] (0.8,-0.4) circle (1.5pt); 
+    	 [black] (0.8,-0.7) circle (1.5pt); 
+    	 [black] (0.1,-0.6) circle (1.5pt); 
+    	 [black] (-0.1,-0.9) circle (1.5pt); 
+    	 [label=below:Prism]  (A) at (0.2,-1.7);
+    	[ultra thick] (0.7,0) – (0.8,-0.4) – (0.8,-0.7) – (0.7,-1) – (0,-1.3) – (-0.3,-1) – (-0.4, -0.7) – (-0.4, -0.4) – (-0.3,0) – (0.7,0);
+    	[ultra thick] (-0.3,0) – (0,-0.3) – (0.7,0);
+    	[ultra thick] (0,-0.3) – (0.1,-0.6) – (-0.1,-0.9) – (0,-1.3);
+    	[ultra thick] (-0.3,-1) – (0.7,-1);
+
+
+    Figure 2 : Solid graphs
+
+These four graphs are called B_MATH_TERM I_MATH_TERM , and the induced cycles in a solid graph are called the B_MATH_TERM of the solid graph. If G=(V,E) is a graph, an induced subgraph of G that is isomorphic to a solid graph is called a B_MATH_TERM I_MATH_TERM I_MATH_TERM . S(G) denotes the set of all solids in G. 
+",O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O
+3350,nae-\emph{satisfiable};nae-\emph{satisfiable},"
+An instance of NAE-$3$-SAT is equivalent to $3$-SAT, except that we require all clauses to contain a false literal as well as a true one.
+A clause that contains both a true and false literal we call \emph{nae}-\emph{satisfiable} . If every clause in the instance $I$ is nae-satisfiable, we say that $I$ is \emph{nae}-\emph{satisfiable} .
+",/home/shufan/que_tex/1611.08850.tex,definition + \emph{},"
+An instance of NAE-3-SAT is equivalent to 3-SAT, except that we require all clauses to contain a false literal as well as a true one.
+A clause that contains both a true and false literal we call nae-satisfiable . If every clause in the instance I is nae-satisfiable, we say that I is nae-satisfiable .
+",nae-satisfiable;nae-satisfiable,"
+An instance of NAE-3-SAT is equivalent to 3-SAT, except that we require all clauses to contain a false literal as well as a true one.
+A clause that contains both a true and false literal we call B_MATH_TERM . If every clause in the instance I is nae-satisfiable, we say that I is B_MATH_TERM .
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O
+3986,"$[\alpha,\beta]$-path;$[\alpha,\beta](v,w)$-path","
+  When $\alpha$ and $\beta$ are colors, an
+  \emph{$[\alpha,\beta]$}-path is a path in $M$ whose edges (under the
+  coloring $\psi$) are alternately colored $\alpha$ and $\beta$.  For
+  $v,w \in V(M)$, an \emph{$[\alpha,\beta](v,w)$-path} is an
+  $[\alpha, \beta]$-path whose endpoints are $v$ and $w$.
+",/home/shufan/que_tex/trijoin.tex,definition + \emph{},"
+  When α and β are colors, an
+  [α,β]-path is a path in M whose edges (under the
+  coloring ψ) are alternately colored α and β.  For
+  v,w ∈ V(M), an [α,β](v,w)-path is an
+  [α, β]-path whose endpoints are v and w.
+","[α,β]-path;[α,β](v,w)-path","
+  When α and β are colors, an
+  B_MATH_TERM is a path in M whose edges (under the
+  coloring ψ) are alternately colored α and β.  For
+  v,w ∈ V(M), an B_MATH_TERM is an
+  [α, β]-path whose endpoints are v and w.
+",O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O
+4032,Subdivision vertex-edge neighbourhood vertex-corona;i-th;i-th;i-th;i-th,"\label{d-1}
+\emph{Subdivision vertex-edge neighbourhood vertex-corona}
+(short for SVEV-corona) of $G_1$ with $G_2$ and $G_3$, denoted by
+$G_1^S\bowtie(G_2^V\cup G_3^E)$, is the graph consisting of
+$S(G_1)$, $|V(G_1)|$ copies of $G_2$ and $|I(G_1)|$ copies of $G_3$,
+all vertex-disjoint, and joining the neighbours of the \emph{i}-th
+vertex of $V(G_{1})$ to every vertex in the \emph{i}-th copy of
+$G_{2}$ and \emph{i}-th vertex of $I(G_1)$ to each vertex in the
+\emph{i}-th copy of $G_3$.
+",/home/shufan/que_tex/On_the_normalized_Laplacian_spectrum_of_subdivision_edge_neighbour_corona-2018-5-16.tex,definition + \emph{},"
+Subdivision vertex-edge neighbourhood vertex-corona
+(short for SVEV-corona) of G_1 with G_2 and G_3, denoted by
+G_1^S⋈(G_2^V∪ G_3^E), is the graph consisting of
+S(G_1), |V(G_1)| copies of G_2 and |I(G_1)| copies of G_3,
+all vertex-disjoint, and joining the neighbours of the i-th
+vertex of V(G_1) to every vertex in the i-th copy of
+G_2 and i-th vertex of I(G_1) to each vertex in the
+i-th copy of G_3.
+",Subdivision vertex-edge neighbourhood vertex-corona;i-th;i-th;i-th;i-th,"
+B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM
+(short for SVEV-corona) of G_1 with G_2 and G_3, denoted by
+G_1^S⋈(G_2^V∪ G_3^E), is the graph consisting of
+S(G_1), |V(G_1)| copies of G_2 and |I(G_1)| copies of G_3,
+all vertex-disjoint, and joining the neighbours of the B_MATH_TERM
+vertex of V(G_1) to every vertex in the B_MATH_TERM copy of
+G_2 and B_MATH_TERM vertex of I(G_1) to each vertex in the
+B_MATH_TERM copy of G_3.
+",B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O
+4033,Subdivision vertex-edge neighbourhood edge-corona;i-th;i-th;i-th;i-th,"\label{d-2}
+\emph{Subdivision vertex-edge neighbourhood edge-corona} (short
+for SVEE-corona) of $G_1$ with $G_2$ and $G_3$, denoted by
+$G_1^S\diamondsuit(G_2^V\cup G_3^E)$, is the graph consisting of
+$S(G_1)$, $|V(G_1)|$ copies of $G_2$ and $|I(G_1)|$ copies of $G_3$,
+all vertex-disjoint, joining the neighbours of the \emph{i}-th
+vertex of $I(G_{1})$ to every vertex in the \emph{i}-th copy of
+$G_{2}$ and \emph{i}-th vertex of $V(G_1)$ to each vertex in the
+\emph{i}-th copy of $G_3$.
+",/home/shufan/que_tex/On_the_normalized_Laplacian_spectrum_of_subdivision_edge_neighbour_corona-2018-5-16.tex,definition + \emph{},"
+Subdivision vertex-edge neighbourhood edge-corona (short
+for SVEE-corona) of G_1 with G_2 and G_3, denoted by
+G_1^S(G_2^V∪ G_3^E), is the graph consisting of
+S(G_1), |V(G_1)| copies of G_2 and |I(G_1)| copies of G_3,
+all vertex-disjoint, joining the neighbours of the i-th
+vertex of I(G_1) to every vertex in the i-th copy of
+G_2 and i-th vertex of V(G_1) to each vertex in the
+i-th copy of G_3.
+",Subdivision vertex-edge neighbourhood edge-corona;i-th;i-th;i-th;i-th,"
+B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM (short
+for SVEE-corona) of G_1 with G_2 and G_3, denoted by
+G_1^S(G_2^V∪ G_3^E), is the graph consisting of
+S(G_1), |V(G_1)| copies of G_2 and |I(G_1)| copies of G_3,
+all vertex-disjoint, joining the neighbours of the B_MATH_TERM
+vertex of I(G_1) to every vertex in the B_MATH_TERM copy of
+G_2 and B_MATH_TERM vertex of V(G_1) to each vertex in the
+B_MATH_TERM copy of G_3.
+",B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O
+4446,non-$k$-equivalent,"
+ A graph $G$ is \emph{non}-$k$-equivalent if there does not exist a graph $H$, $G \ncong H$ such that $\textrm{WL}_k(G) = \textrm{WL}_k(H)$.
+",/home/shufan/que_tex/wl_gi_arxiv.tex,definition + \emph{},"
+ A graph G is non-k-equivalent if there does not exist a graph H, G  H such that WL_k(G) = WL_k(H).
+",non-k-equivalent,"
+ A graph G is B_MATH_TERM if there does not exist a graph H, G  H such that WL_k(G) = WL_k(H).
+",O O O O B_MATH_TERM O O O O O O O O O O O O O O O
+4742,$c$-even-extremal;$c$-odd-extremal;$c$-even-extremal;$c$-odd-extremal,"
+Fix $c > 0$, let $H$ be a $4$-graph on $n$ vertices, and let $\{A, B\}$ be a bipartition of $V(H)$.
+\begin{enumerate}[noitemsep, label=(\alph*)]
+\item We say that $\{A, B\}$ is \emph{$c$-even-extremal} if $\frac{n}{2}-cn \leq |A| \leq \frac{n}{2}+cn$ and $H$ contains at most $c\binom{n}{4}$ odd edges.
+\item We say that $\{A, B\}$ is \emph{$c$-odd-extremal} if $\frac{n}{2}-cn \leq |A| \leq \frac{n}{2}+cn$ and $H$ contains at most $c\binom{n}{4}$ even edges.
+\item We say that $H$ is \emph{$c$-even-extremal} if $V(H)$ admits a $c$-even-extremal bipartition, and likewise that $H$ is \emph{$c$-odd-extremal} if $V(H)$ admits a $c$-odd-extremal bipartition.
+\end{enumerate}
+",/home/shufan/que_tex/cyclesbelowdirac.tex,definition + \emph{},"
+Fix c > 0, let H be a 4-graph on n vertices, and let {A, B} be a bipartition of V(H).
+
+
+  * We say that {A, B} is c-even-extremal if n/2-cn ≤ |A| ≤n/2+cn and H contains at most cn4 odd edges.
+
+  * We say that {A, B} is c-odd-extremal if n/2-cn ≤ |A| ≤n/2+cn and H contains at most cn4 even edges.
+
+  * We say that H is c-even-extremal if V(H) admits a c-even-extremal bipartition, and likewise that H is c-odd-extremal if V(H) admits a c-odd-extremal bipartition.
+
+",c-even-extremal;c-odd-extremal;c-even-extremal;c-odd-extremal,"
+Fix c > 0, let H be a 4-graph on n vertices, and let {A, B} be a bipartition of V(H).
+
+
+  * We say that {A, B} is B_MATH_TERM if n/2-cn ≤ |A| ≤n/2+cn and H contains at most cn4 odd edges.
+
+  * We say that {A, B} is B_MATH_TERM if n/2-cn ≤ |A| ≤n/2+cn and H contains at most cn4 even edges.
+
+  * We say that H is B_MATH_TERM if V(H) admits a c-even-extremal bipartition, and likewise that H is B_MATH_TERM if V(H) admits a c-odd-extremal bipartition.
+
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O B_MATH_TERM O O O O O O
+4747,"$\gamma$-good;$\gamma$-good;$\gamma$-good;$\beta_2$-medium;$\beta_2$-bad;$(\beta_1,\beta_2)$-medium;$(\beta_1,\beta_2)$-bad"," \label{def:good}
+Under Setup~\ref{setup:evenextr}, for a fixed bipartition $\{A, B\}$ of $V$, we say that
+\begin{enumerate}[label=(\roman*)]
+\item a triple $S \in \binom{V}{3}$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma)n$ even edges,
+\item a pair $p \in \binom{V}{2}$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma^3)\binom{n}{2}$ even edges,
+\item a vertex $v\in V$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma^5)\binom{n}{3}$ even edges,
+\item a pair $p \in \binom{V}{2}$ is \emph{$\beta_2$-medium} if it is contained in at least $\beta_2\binom{n}{2}$ even edges,
+\item a pair $p \in \binom{V}{2}$ is \emph{$\beta_2$-bad} if it is not $\beta_2$-medium,
+\item a vertex $v\in V$ is \emph{$(\beta_1,\beta_2)$-medium} if it is contained in at least $\beta_1 n$-many $\beta_2$-medium pairs, and 
+\item a vertex $v\in V$ is \emph{$(\beta_1,\beta_2)$-bad} if it is not $(\beta_1,\beta_2)$-medium.
+\end{enumerate}
+",/home/shufan/que_tex/cyclesbelowdirac.tex,definition + \emph{}," 
+Under Setup <ref>, for a fixed bipartition {A, B} of V, we say that
+
+
+  * a triple S ∈V3 is γ-good if it is contained in at least (1/2-γ)n even edges,
+
+  * a pair p ∈V2 is γ-good if it is contained in at least (1/2-γ^3)n2 even edges,
+
+  * a vertex v∈ V is γ-good if it is contained in at least (1/2-γ^5)n3 even edges,
+
+  * a pair p ∈V2 is β_2-medium if it is contained in at least β_2n2 even edges,
+
+  * a pair p ∈V2 is β_2-bad if it is not β_2-medium,
+
+  * a vertex v∈ V is (β_1,β_2)-medium if it is contained in at least β_1 n-many β_2-medium pairs, and 
+
+  * a vertex v∈ V is (β_1,β_2)-bad if it is not (β_1,β_2)-medium.
+
+","γ-good;γ-good;γ-good;β_2-medium;β_2-bad;(β_1,β_2)-medium;(β_1,β_2)-bad"," 
+Under Setup <ref>, for a fixed bipartition {A, B} of V, we say that
+
+
+  * a triple S ∈V3 is B_MATH_TERM if it is contained in at least (1/2-γ)n even edges,
+
+  * a pair p ∈V2 is B_MATH_TERM if it is contained in at least (1/2-γ^3)n2 even edges,
+
+  * a vertex v∈ V is B_MATH_TERM if it is contained in at least (1/2-γ^5)n3 even edges,
+
+  * a pair p ∈V2 is B_MATH_TERM if it is contained in at least β_2n2 even edges,
+
+  * a pair p ∈V2 is B_MATH_TERM if it is not β_2-medium,
+
+  * a vertex v∈ V is B_MATH_TERM if it is contained in at least β_1 n-many β_2-medium pairs, and 
+
+  * a vertex v∈ V is B_MATH_TERM if it is not (β_1,β_2)-medium.
+
+",O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O
+4748,"$\gamma$-good;$\gamma$-good;$\gamma$-good;$\beta_2$-medium;$\beta_2$-bad;$\beta_2$-medium;$(\beta_1,\beta_2)$-medium;$(\beta_1,\beta_2)$-bad","
+Under Setup~\ref{setup:oddextremal}, we say that
+\begin{enumerate}[label=(\roman*)]
+\item a triple $\{x,y,z\} \in \binom{V}{3}$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma)n$ odd edges,
+\item a pair $\{x,y\} \in \binom{V}{2}$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma^3)\binom{n}{2}$ odd edges,
+\item a vertex $v\in V$ is \emph{$\gamma$-good} if it is contained in at least $(\frac{1}{2}-\gamma^5)\binom{n}{3}$ odd edges,
+\item a pair $\{x,y\}\in \binom{V}{2}$ is \emph{$\beta_2$-medium} if it is contained in at least $\beta_2\binom{n}{2}$ odd edges,
+\item a pair $\{x,y\}\in \binom{V}{2}$ is \emph{$\beta_2$-bad} if it is not \emph{$\beta_2$-medium} ,
+\item a vertex $v\in V$ is \emph{$(\beta_1,\beta_2)$-medium} if there are at least $\beta_1 n$ vertices in $A$ which form a $\beta_2$-medium pair with $v$ and also at least $\beta_1 n$ vertices in $B$ which form a $\beta_2$-medium pair with $v$, and
+\item a vertex $v\in V$ is \emph{$(\beta_1,\beta_2)$-bad} if it is not $(\beta_1,\beta_2)$-medium.
+\end{enumerate}
+",/home/shufan/que_tex/cyclesbelowdirac.tex,definition + \emph{},"
+Under Setup <ref>, we say that
+
+
+  * a triple {x,y,z}∈V3 is γ-good if it is contained in at least (1/2-γ)n odd edges,
+
+  * a pair {x,y}∈V2 is γ-good if it is contained in at least (1/2-γ^3)n2 odd edges,
+
+  * a vertex v∈ V is γ-good if it is contained in at least (1/2-γ^5)n3 odd edges,
+
+  * a pair {x,y}∈V2 is β_2-medium if it is contained in at least β_2n2 odd edges,
+
+  * a pair {x,y}∈V2 is β_2-bad if it is not β_2-medium ,
+
+  * a vertex v∈ V is (β_1,β_2)-medium if there are at least β_1 n vertices in A which form a β_2-medium pair with v and also at least β_1 n vertices in B which form a β_2-medium pair with v, and
+
+  * a vertex v∈ V is (β_1,β_2)-bad if it is not (β_1,β_2)-medium.
+
+","γ-good;γ-good;γ-good;β_2-medium;β_2-bad;β_2-medium;(β_1,β_2)-medium;(β_1,β_2)-bad","
+Under Setup <ref>, we say that
+
+
+  * a triple {x,y,z}∈V3 is B_MATH_TERM if it is contained in at least (1/2-γ)n odd edges,
+
+  * a pair {x,y}∈V2 is B_MATH_TERM if it is contained in at least (1/2-γ^3)n2 odd edges,
+
+  * a vertex v∈ V is B_MATH_TERM if it is contained in at least (1/2-γ^5)n3 odd edges,
+
+  * a pair {x,y}∈V2 is B_MATH_TERM if it is contained in at least β_2n2 odd edges,
+
+  * a pair {x,y}∈V2 is B_MATH_TERM if it is not B_MATH_TERM ,
+
+  * a vertex v∈ V is B_MATH_TERM if there are at least β_1 n vertices in A which form a β_2-medium pair with v and also at least β_1 n vertices in B which form a β_2-medium pair with v, and
+
+  * a vertex v∈ V is B_MATH_TERM if it is not (β_1,β_2)-medium.
+
+",O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O O O O B_MATH_TERM O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O
+4806,the irreducible components of $\seplistvar$;degrees,"
+ 
+ In the context of Lemma \ref{lemma:irreducible}, for $0\leq k\leq r$ the subpartitions $\nuxycap{b_k}{a_{k+1}}$ are called \textit{the irreducible components of $\seplistvar$} and the nonnegative integers $n_k:=a_{k+1}-b_k-\#\nuxycap{b_k}{a_{k+1}}$ are called their \textit{degrees} . (For $T$ with $\seplist(T)=\seplistvar$, the $k$-th degree $n_k$ is equal to the number of pure columns of $T$ inside the corresponding $k$-th irreducible component. All $n_k$ are positive, except for $n_0$ if $a_1 = 1$ and $n_r$ if $b_r = \lambda_1 + 1$.)
+",/home/shufan/que_tex/groth1.tex,definition + \textit{},"
+ 
+ In the context of Lemma <ref>, for 0≤ k≤ r the subpartitions b_ka_k+1 are called the irreducible components of  and the nonnegative integers n_k:=a_k+1-b_k-#b_ka_k+1 are called their degrees . (For T with (T)=, the k-th degree n_k is equal to the number of pure columns of T inside the corresponding k-th irreducible component. All n_k are positive, except for n_0 if a_1 = 1 and n_r if b_r = λ_1 + 1.)
+",the irreducible components of ;degrees,"
+ 
+ In the context of Lemma <ref>, for 0≤ k≤ r the subpartitions b_ka_k+1 are called B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM and the nonnegative integers n_k:=a_k+1-b_k-#b_ka_k+1 are called their B_MATH_TERM . (For T with (T)=, the k-th degree n_k is equal to the number of pure columns of T inside the corresponding k-th irreducible component. All n_k are positive, except for n_0 if a_1 = 1 and n_r if b_r = λ_1 + 1.)
+",O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+5249,weight of a vertex;with respect to;weight of a distribution;with respect to;summed weight of a vertex;with respect to,"\label{defWeight}
+	Let $t\in V(G)$. 
+	The \textit{weight of a vertex} $v$ \textit{with respect to} $t$ is $\omega^{d(v,t)}$, where $\omega = (\sqrt{5}-1)/2$ and $d(v,t)$ is the distance between vertices $v$ and $t$. 
+	The \textit{weight of a distribution} $D$ \textit{with respect to} $t$ is 
+	
+$$
+w_t(D) = \sum_{v\in D} \omega^{d(v,t)},
+$$
+
+	The \textit{summed weight of a vertex} $v$ \textit{with respect to} $L\subseteq V(G)$ is
+
+$$
+w_{L}(v) = \sum_{t\in L} w_t(v).
+$$
+
+	Similarly for $D\subseteq V(G)$, $w_{L}(D) = \sum_{t\in L} w_t(D)$.
+",/home/shufan/que_tex/TreePegging.tex,definition + \textit{},"
+	Let t∈ V(G). 
+	The weight of a vertex v with respect to t is ω^d(v,t), where ω = (√(5)-1)/2 and d(v,t) is the distance between vertices v and t. 
+	The weight of a distribution D with respect to t is 
+	
+
+    w_t(D) = ∑_v∈ Dω^d(v,t),
+
+
+	The summed weight of a vertex v with respect to L⊆ V(G) is
+
+
+    w_L(v) = ∑_t∈ L w_t(v).
+
+
+	Similarly for D⊆ V(G), w_L(D) = ∑_t∈ L w_t(D).
+",weight of a vertex;with respect to;weight of a distribution;with respect to;summed weight of a vertex;with respect to,"
+	Let t∈ V(G). 
+	The B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM v B_MATH_TERM I_MATH_TERM I_MATH_TERM t is ω^d(v,t), where ω = (√(5)-1)/2 and d(v,t) is the distance between vertices v and t. 
+	The B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM D B_MATH_TERM I_MATH_TERM I_MATH_TERM t is 
+	
+
+    w_t(D) = ∑_v∈ Dω^d(v,t),
+
+
+	The B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM v B_MATH_TERM I_MATH_TERM I_MATH_TERM L⊆ V(G) is
+
+
+    w_L(v) = ∑_t∈ L w_t(v).
+
+
+	Similarly for D⊆ V(G), w_L(D) = ∑_t∈ L w_t(D).
+",O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O
+5356,TSO-padding,"[TSO-padding (new)]
+Given a finite width tree structured order with tree/expression \begin{math}T\end{math},
+ let \begin{math}l\end{math} be an integer such that \begin{math}2^l\end{math} is greater than
+  the maximum number of \begin{math}\Lex\end{math} nodes on a path from a leaf of \begin{math}T\end{math} to its root;
+ let \begin{math}c\end{math} be an integer such that \begin{math}2^c\end{math} is greater than
+  the maximum number of \begin{math}\ContreLex\end{math} nodes on a path from a leaf of \begin{math}T\end{math} to its root.
+A \begin{math}l\end{math}-lex-padding is a set of \begin{math}l\end{math} contiguous bits that will serve as a counter for \begin{math}\Lex\end{math} nodes.
+A \begin{math}c\end{math}-contrelex-padding is a set of \begin{math}c\end{math} contiguous bits that will serve as a counter for \begin{math}\ContreLex\end{math} nodes.
+A \begin{math}(l,c)\end{math}-\emph{TSO-padding} is a \begin{math}l\end{math}-lex-padding
+and a \begin{math}c\end{math}-contrelex-padding that are contiguous.
+",/home/shufan/que_tex/LL2017OrdreLexico.tex,definition + \emph{},"[TSO-padding (new)]
+Given a finite width tree structured order with tree/expression T,
+ let l be an integer such that 2^l is greater than
+  the maximum number of  nodes on a path from a leaf of T to its root;
+ let c be an integer such that 2^c is greater than
+  the maximum number of  nodes on a path from a leaf of T to its root.
+A l-lex-padding is a set of l contiguous bits that will serve as a counter for  nodes.
+A c-contrelex-padding is a set of c contiguous bits that will serve as a counter for  nodes.
+A (l,c)-TSO-padding is a l-lex-padding
+and a c-contrelex-padding that are contiguous.
+",TSO-padding,"[TSO-padding (new)]
+Given a finite width tree structured order with tree/expression T,
+ let l be an integer such that 2^l is greater than
+  the maximum number of  nodes on a path from a leaf of T to its root;
+ let c be an integer such that 2^c is greater than
+  the maximum number of  nodes on a path from a leaf of T to its root.
+A l-lex-padding is a set of l contiguous bits that will serve as a counter for  nodes.
+A c-contrelex-padding is a set of c contiguous bits that will serve as a counter for  nodes.
+A (l,c)-B_MATH_TERM is a l-lex-padding
+and a c-contrelex-padding that are contiguous.
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+5698,$4$-perfect,"
+A connected bipartite graph $G$ is called \textit{$4$-perfect} if $E_1>0$ , $E_2>0$ where $E_1=\displaystyle \frac{n_2(A_{11}+1)-n_1A_{12}}{n_2[A_{12}A_{21}-(A_{11}+1)(A_{22}+1)]}$ and $E_2=\displaystyle \frac{n_1(A_{22}+1)-n_2A_{21}}{n_1[A_{12}A_{21}-(A_{11}+1)(A_{22}+1)]}$.
+",/home/shufan/que_tex/1805.01280.tex,definition + \textit{},"
+A connected bipartite graph G is called 4-perfect if E_1>0 , E_2>0 where E_1=n_2(A_11+1)-n_1A_12/n_2[A_12A_21-(A_11+1)(A_22+1)] and E_2=n_1(A_22+1)-n_2A_21/n_1[A_12A_21-(A_11+1)(A_22+1)].
+",4-perfect,"
+A connected bipartite graph G is called B_MATH_TERM if E_1>0 , E_2>0 where E_1=n_2(A_11+1)-n_1A_12/n_2[A_12A_21-(A_11+1)(A_22+1)] and E_2=n_1(A_22+1)-n_2A_21/n_1[A_12A_21-(A_11+1)(A_22+1)].
+",O O O O O O O B_MATH_TERM O O O O O O O O
+5727,NP-complete,"
+The problem of deciding whether $\chi _{=}(K_{3,3} \circ H) =4$ is \emph{NP}-complete even if $H \in Q_3(t)$ and $10 | t$. \hfill $\Box$ \label{twNP}
+",/home/shufan/que_tex/corona_disc_math.tex,theorem + \emph{},"
+The problem of deciding whether χ _=(K_3,3∘ H) =4 is NP-complete even if H ∈ Q_3(t) and 10 | t.  
+",NP-complete,"
+The problem of deciding whether χ _=(K_3,3∘ H) =4 is B_MATH_TERM even if H ∈ Q_3(t) and 10 | t.  
+",O O O O O O O O O O B_MATH_TERM O O O O O O O O O
+5947,$A$-weakly increasing,"\label{Aweaklyincreasing}
+   Let $A=(a_1^{\alpha_1}, a_2^{\alpha_2},\ldots, a_k^{\alpha_k})$ be any finite multiset of size $n$, with an ordering ``$<$'' such that $a_1<a_2<\cdots<a_k$, and let $\mu$ be a partition of $n$.  We say that a word $c$ of length $n$ is \textit{$A$-weakly increasing} if every subword of the form $$c_{\alpha_1+\cdots +\alpha_i},c_{\alpha_1+\cdots \alpha_i+1},\ldots c_{\alpha_1+\cdots+\alpha_i+\alpha_{i+1}-1}$$ is weakly increasing.   
+  ",/home/shufan/que_tex/Macdonald_inv_maj_final_Arxiv.tex,definition + \textit{},"
+   Let A=(a_1^α_1, a_2^α_2,…, a_k^α_k) be any finite multiset of size n, with an ordering “<” such that a_1<a_2<⋯<a_k, and let μ be a partition of n.  We say that a word c of length n is A-weakly increasing if every subword of the form 
+    c_α_1+⋯ +α_i,c_α_1+⋯α_i+1,… c_α_1+⋯+α_i+α_i+1-1
+ is weakly increasing.   
+  ",A-weakly increasing,"
+   Let A=(a_1^α_1, a_2^α_2,…, a_k^α_k) be any finite multiset of size n, with an ordering “<” such that a_1<a_2<⋯<a_k, and let μ be a partition of n.  We say that a word c of length n is B_MATH_TERM I_MATH_TERM if every subword of the form 
+    c_α_1+⋯ +α_i,c_α_1+⋯α_i+1,… c_α_1+⋯+α_i+α_i+1-1
+ is weakly increasing.   
+  ",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O
+6040,symmetric hyperplane arrangement;\textsc{SH--arrangement},"
+A \emph{symmetric hyperplane arrangement} or a \emph{\textsc{SH}--arrangement} is a hyperplane arrangement $\mathcal{A}$ in $\mathbb{C}^n$ such that, for every permutation $\sigma$ in $\mathfrak{S}_n$, we have $\sigma \cdot \mathcal{A} = \mathcal{A}$.
+",/home/shufan/que_tex/1708.09296.tex,definition + \emph{},"
+A symmetric hyperplane arrangement or a SH–arrangement is a hyperplane arrangement 𝒜 in ℂ^n such that, for every permutation σ in 𝔖_n, we have σ·𝒜 = 𝒜.
+",symmetric hyperplane arrangement;SH–arrangement,"
+A B_MATH_TERM I_MATH_TERM I_MATH_TERM or a B_MATH_TERM is a hyperplane arrangement 𝒜 in ℂ^n such that, for every permutation σ in 𝔖_n, we have σ·𝒜 = 𝒜.
+",O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+6041,colored symmetric hyperplane arrangement;\textsc{CSH--arrangement},"
+A \emph{colored symmetric hyperplane arrangement} or a \emph{\textsc{CSH}--arrangement} is a hyperplane arrangement $\mathcal{A}$ in $\mathbb{C}^n$ such that, for every colored permutation $\pi$ of $\mathbb{U}_m \wr \mathfrak{S}_n$, we have $\pi \cdot \mathcal{A} = \mathcal{A}$.
+",/home/shufan/que_tex/1708.09296.tex,definition + \emph{},"
+A colored symmetric hyperplane arrangement or a CSH–arrangement is a hyperplane arrangement 𝒜 in ℂ^n such that, for every colored permutation π of 𝕌_m ≀𝔖_n, we have π·𝒜 = 𝒜.
+",colored symmetric hyperplane arrangement;CSH–arrangement,"
+A B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM or a B_MATH_TERM is a hyperplane arrangement 𝒜 in ℂ^n such that, for every colored permutation π of 𝕌_m ≀𝔖_n, we have π·𝒜 = 𝒜.
+",O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O
+6356,left;right;even-indexed;odd-indexed,"\label{def:latticeEnumeration}
+Fix an integer $w\geq 0$ and $j\in \{ 1,\dotsc,w \}$ and let the diagonals through $(0,0)$ and $(w+2,0)$
+be referred to as the \emph{left} and the \emph{right} diagonal, respectively.
+
+Let $L_j(n,w,\ell)$ be the $q$-enumeration of north-east paths $L$ from
+\begin{align}\label{eq:startEndPts}
+ (w+1-j,0) \text{ to } (n+w+1-j,n-1)
+\end{align}
+with the property that there are $\ell$ points on the path $L$, $p_1,p_2,\dotsc,p_\ell$, appearing in this order from the start,
+such that the odd-indexed $p_i$ lie on the left diagonal, and the even-indexed $p_i$ are points on the right diagonal.
+%
+Similarly, define $R_j(n,w,\ell)$ be the be the $q$-enumeration of north-east paths in \eqref{eq:startEndPts},
+such that there are $\ell$ points $p_1,p_2,\dotsc,p_\ell$ on the path
+with the \emph{even}-indexed $p_i$ being on the left diagonal,
+and the \emph{odd}-indexed $p_i$ being points on the right diagonal.
+",/home/shufan/que_tex/Circular-Dyck-Paths-exhibit-CSP.tex,definition + \emph{},"
+Fix an integer w≥ 0 and j∈{ 1,…,w } and let the diagonals through (0,0) and (w+2,0)
+be referred to as the left and the right diagonal, respectively.
+
+Let L_j(n,w,ℓ) be the q-enumeration of north-east paths L from
+
+    (w+1-j,0)  to  (n+w+1-j,n-1)
+
+with the property that there are ℓ points on the path L, p_1,p_2,…,p_ℓ, appearing in this order from the start,
+such that the odd-indexed p_i lie on the left diagonal, and the even-indexed p_i are points on the right diagonal.
+
+Similarly, define R_j(n,w,ℓ) be the be the q-enumeration of north-east paths in (<ref>),
+such that there are ℓ points p_1,p_2,…,p_ℓ on the path
+with the even-indexed p_i being on the left diagonal,
+and the odd-indexed p_i being points on the right diagonal.
+",left;right;even-indexed;odd-indexed,"
+Fix an integer w≥ 0 and j∈{ 1,…,w } and let the diagonals through (0,0) and (w+2,0)
+be referred to as the B_MATH_TERM and the B_MATH_TERM diagonal, respectively.
+
+Let L_j(n,w,ℓ) be the q-enumeration of north-east paths L from
+
+    (w+1-j,0)  to  (n+w+1-j,n-1)
+
+with the property that there are ℓ points on the path L, p_1,p_2,…,p_ℓ, appearing in this order from the start,
+such that the odd-indexed p_i lie on the left diagonal, and the even-indexed p_i are points on the right diagonal.
+
+Similarly, define R_j(n,w,ℓ) be the be the q-enumeration of north-east paths in (<ref>),
+such that there are ℓ points p_1,p_2,…,p_ℓ on the path
+with the B_MATH_TERM p_i being on the left diagonal,
+and the B_MATH_TERM p_i being points on the right diagonal.
+",O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O B_MATH_TERM O O O O O O O
+6538,jump;pivot,"\label{def:jumppiv} Let $L$ be an $\ell$-set with $1\le \ell\le j-1$ and let $i\ge 1$.
+ \begin{enumerate}[(i)]
+ \item A \emph{jump} to $L$ (in step $i$) occurs when we query a $k$-set containing $L$ from a $j$-set in $\gen{i-1}$ which did not contain $L$ and the $k$-set forms an edge of $\cH^k(n,p)$. Such an edge contributes at most $\binom{k-\ell}{j-\ell}$ to $\deggen{L}{i}$.
+ \item A \emph{pivot} at $L$ (in step $i$) occurs when we query any $k$-set from a $j$-set in $\gen{i-1}$ containing $L$ and it forms an edge of $\cH^k(n,p)$. Such an edge contributes at most $\binom{k-\ell}{j-\ell}-1$ to $\deggen{L}{i}$. 
+ \end{enumerate}
+ ",/home/shufan/que_tex/TheSizeOfTheGiantComponentInRandomHypergraphsASimpleProof_arXiv.tex,definition + \emph{}," Let L be an ℓ-set with 1≤ℓ≤ j-1 and let i≥ 1.
+ 
+ 
+  * A jump to L (in step i) occurs when we query a k-set containing L from a j-set in i-1 which did not contain L and the k-set forms an edge of ^k(n,p). Such an edge contributes at most k-ℓj-ℓ to Li.
+ 
+  * A pivot at L (in step i) occurs when we query any k-set from a j-set in i-1 containing L and it forms an edge of ^k(n,p). Such an edge contributes at most k-ℓj-ℓ-1 to Li. 
+ 
+ ",jump;pivot," Let L be an ℓ-set with 1≤ℓ≤ j-1 and let i≥ 1.
+ 
+ 
+  * A B_MATH_TERM to L (in step i) occurs when we query a k-set containing L from a j-set in i-1 which did not contain L and the k-set forms an edge of ^k(n,p). Such an edge contributes at most k-ℓj-ℓ to Li.
+ 
+  * A B_MATH_TERM at L (in step i) occurs when we query any k-set from a j-set in i-1 containing L and it forms an edge of ^k(n,p). Such an edge contributes at most k-ℓj-ℓ-1 to Li. 
+ 
+ ",O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+6936,extended word," \rm
+ Given a word $\mathbf{x} \in \mathcal{X}^k_m$, form the \emph{extended word} of length $(k+1)m$ $$\overline{\mathbf{x}} = (\mathbf{x})(m-1)(\mathbf{x}-1)(m-2)\ldots(\mathbf{x}-m+1)(0).$$   That is, for any $1\leq i \leq (k+1)$, the entries in positions $i, (k+1)+i, 2(k+1)+i, \ldots (m-1)(k+1)+i$ are cyclically decreasing by $1$.  Let $\phi(\overline{\mathbf{x}})$ be defined by cyclically rotating $\overline{\mathbf{x}}$ left so that its leftmost $0$ appears as its rightmost character.  This induces an action $\phi$ on $\mathcal{X}^k_m$ by restricting the resulting word to its first $k$ letters.
+",/home/shufan/que_tex/7.19.CSOTSS.tex,definition + \emph{}," Given a word 𝐱∈𝒳^k_m, form the extended word of length (k+1)m 
+    𝐱 = (𝐱)(m-1)(𝐱-1)(m-2)…(𝐱-m+1)(0).
+   That is, for any 1≤ i ≤ (k+1), the entries in positions i, (k+1)+i, 2(k+1)+i, … (m-1)(k+1)+i are cyclically decreasing by 1.  Let ϕ(𝐱) be defined by cyclically rotating 𝐱 left so that its leftmost 0 appears as its rightmost character.  This induces an action ϕ on 𝒳^k_m by restricting the resulting word to its first k letters.
+",extended word," Given a word 𝐱∈𝒳^k_m, form the B_MATH_TERM I_MATH_TERM of length (k+1)m 
+    𝐱 = (𝐱)(m-1)(𝐱-1)(m-2)…(𝐱-m+1)(0).
+   That is, for any 1≤ i ≤ (k+1), the entries in positions i, (k+1)+i, 2(k+1)+i, … (m-1)(k+1)+i are cyclically decreasing by 1.  Let ϕ(𝐱) be defined by cyclically rotating 𝐱 left so that its leftmost 0 appears as its rightmost character.  This induces an action ϕ on 𝒳^k_m by restricting the resulting word to its first k letters.
+",O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+6944,proper colouring;panchromatic simplex---that,"[Sperner's Lemma]\label{sperner}
+Let $T$ be a triangulation of $\Delta^n$.  Let $\lambda:V(T)\rightarrow \ext(\Delta^n)$ be a label function with the property that for all $x = (x_1,\ldots,x_{n+1}) \in V(T)$, for all $1 \leq i \leq n+1$, if $x_i = 0$, then $\lambda(x)\neq e_i$ (such a $\lambda$ is sometimes called a \emph{proper colouring} ).  Then $T$ contains a \emph{panchromatic simplex}---that is, a simplex $\sigma$ such that $\{\lambda(v):v \in V(\sigma)\} = \{e_1,\ldots,e_{n+1}\}$.
+",/home/shufan/que_tex/topologyarxiv.tex,theorem + \emph{},"[Sperner's Lemma]
+Let T be a triangulation of Δ^n.  Let λ:V(T)→(Δ^n) be a label function with the property that for all x = (x_1,…,x_n+1) ∈ V(T), for all 1 ≤ i ≤ n+1, if x_i = 0, then λ(x)≠ e_i (such a λ is sometimes called a proper colouring ).  Then T contains a panchromatic simplex—that is, a simplex σ such that {λ(v):v ∈ V(σ)} = {e_1,…,e_n+1}.
+",proper colouring;panchromatic simplex—that,"[Sperner's Lemma]
+Let T be a triangulation of Δ^n.  Let λ:V(T)→(Δ^n) be a label function with the property that for all x = (x_1,…,x_n+1) ∈ V(T), for all 1 ≤ i ≤ n+1, if x_i = 0, then λ(x)≠ e_i (such a λ is sometimes called a B_MATH_TERM I_MATH_TERM ).  Then T contains a B_MATH_TERM I_MATH_TERM is, a simplex σ such that {λ(v):v ∈ V(σ)} = {e_1,…,e_n+1}.
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O
+7355,(a);(i);(ii);(b),"\label{IB_Freezing}
+{Let $k\geq 3$. There exists  $0<\epsilon_q=o_q(1)$ and positive integer $\cols_0$ so that the following is true}. Suppose that either $\cols\geq 3$ and $c<(\cols^{\unif-1}-1)\ln \cols$, or $\cols\geq \cols_0$ and $c<c_\text{cond}-\epsilon_q$. {For a random $\cols$-colouring  $\sigma$ of $\hyp\in\cH(n,k,cn)$ } there exists $\gamma>0$ such that
+\begin{enumerate}
+\item[ \emph{(a)} ] If $c>c_{\rm r}$ then \whp$ $ the core is of size $\Upsilon(q,k,c)\cdot n+o(n)$ and 
+\begin{enumerate}
+\item[ \emph{(i)} ]   all but ${O(1)}$ vertices inside the core are  $\gamma n$-frozen with respect to $\sigma$;
+\item[ \emph{(ii)} ] at most $o(n)$ vertices outside of the core are {$1$}-frozen  with respect to $\sigma$.
+\end{enumerate}
+\item[ \emph{(b)} ]{ If $c<c_{\rm r}$ then \whp$ $ at most $o(n)$ vertices
+	are  $1$-frozen with respect to $\sigma$. }
+\end{enumerate}
+",/home/shufan/que_tex/1808.04060.tex,theorem + \emph{},"
+Let k≥ 3. There exists  0<ϵ_q=o_q(1) and positive integer _0 so that the following is true. Suppose that either ≥ 3 and c<(^-1-1)ln, or ≥_0 and c<c_cond-ϵ_q. For a random -colouring  σ of ∈(n,k,cn)  there exists γ>0 such that
+
+
+   (a)  If c>c_ r then  the core is of size Υ(q,k,c)· n+o(n) and 
+
+
+   (i)    all but O(1) vertices inside the core are  γ n-frozen with respect to σ;
+
+   (ii)  at most o(n) vertices outside of the core are 1-frozen  with respect to σ.
+
+
+   (b)  If c<c_ r then  at most o(n) vertices
+	are  1-frozen with respect to σ. 
+
+",(a);(i);(ii);(b),"
+Let k≥ 3. There exists  0<ϵ_q=o_q(1) and positive integer _0 so that the following is true. Suppose that either ≥ 3 and c<(^-1-1)ln, or ≥_0 and c<c_cond-ϵ_q. For a random -colouring  σ of ∈(n,k,cn)  there exists γ>0 such that
+
+
+   B_MATH_TERM  If c>c_ r then  the core is of size Υ(q,k,c)· n+o(n) and 
+
+
+   B_MATH_TERM    all but O(1) vertices inside the core are  γ n-frozen with respect to σ;
+
+   B_MATH_TERM  at most o(n) vertices outside of the core are 1-frozen  with respect to σ.
+
+
+   B_MATH_TERM  If c<c_ r then  at most o(n) vertices
+	are  1-frozen with respect to σ. 
+
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O
+7481,$k$-total;$k$-total,"\quad
+\label{def:k-total}
+\begin{enumerate}[(1)]
+\item  
+For each $k \in \Z$,  the \emph{$k$-total} intersection poset of $\A(G)$ is defined by
+  \begin{equation*}
+ \label{eq:subposet-equiv}
+ L[k]= \{\scC \in L \mid \textbf{1} \in E_k(\scC)\}.
+ \end{equation*}
+\item 
+The \emph{$k$-total} characteristic polynomial of $\A( G)$ is defined by 
+$$\chi_{\A( G)}^{\textrm{\textit{k}-tot}}(t):= \sum_{\scC \in L[k]} \mu(T^\scC, \scC)t^{\mathrm{dim}(\scC)}.$$ 
+\end{enumerate}
+",/home/shufan/que_tex/Constituent09.tex,definition + \emph{},"  
+
+
+  * For each k ∈,  the k-total intersection poset of (G) is defined by
+  
+    L[k]= {∈ L |1∈ E_k()}.
+
+
+  * The k-total characteristic polynomial of ( G) is defined by 
+
+    χ_( G)^k-tot(t):= ∑_∈ L[k]μ(T^, )t^dim().
+ 
+
+",k-total;k-total,"  
+
+
+  * For each k ∈,  the B_MATH_TERM intersection poset of (G) is defined by
+  
+    L[k]= {∈ L |1∈ E_k()}.
+
+
+  * The B_MATH_TERM characteristic polynomial of ( G) is defined by 
+
+    χ_( G)^k-tot(t):= ∑_∈ L[k]μ(T^, )t^dim().
+ 
+
+",O O O O O O B_MATH_TERM O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O
+7482,$k$-partial;$k$-partial,"\quad
+\label{def:k-partial}
+\begin{enumerate}[(1)]
+\item  
+For each $k\in \Z$, the \emph{$k$-partial} intersection poset of $\A(G)$ is defined by
+ \begin{equation*}
+ \label{eq:par-subposet}
+L^{\part}[k]:= \{\scC \in L^{\part} \mid \textbf{1} \in E_k(\scC)\}.
+ \end{equation*}
+\item 
+The \emph{$k$-partial} characteristic polynomial of $\A( G)$ is defined by 
+$$\chi_{\A( G)}^{\textrm{\textit{k}-par}}(t):= \sum_{\scC \in L^{\part}[k]} \mu(T^\scC, \scC)t^{\mathrm{dim}(\scC)}.$$ 
+\end{enumerate}
+",/home/shufan/que_tex/Constituent09.tex,definition + \emph{},"  
+
+
+  * For each k∈, the k-partial intersection poset of (G) is defined by
+ 
+    L^
+    
+    PART: 
+    [k]:= {∈ L^
+    
+    PART: 
+    |1∈ E_k()}.
+
+
+  * The k-partial characteristic polynomial of ( G) is defined by 
+
+    χ_( G)^k-par(t):= ∑_∈ L^
+    
+    PART: 
+    [k]μ(T^, )t^dim().
+ 
+
+",k-partial;k-partial,"  
+
+
+  * For each k∈, the B_MATH_TERM intersection poset of (G) is defined by
+ 
+    L^
+    
+    PART: 
+    [k]:= {∈ L^
+    
+    PART: 
+    |1∈ E_k()}.
+
+
+  * The B_MATH_TERM characteristic polynomial of ( G) is defined by 
+
+    χ_( G)^k-par(t):= ∑_∈ L^
+    
+    PART: 
+    [k]μ(T^, )t^dim().
+ 
+
+",O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O
+7684,sub;abacus," A {\bf $\textit{sub}$}-{\bf $\textit{abacus}$} ${\mathcal S}'$ of an $s$-abacus ${\mathcal S}$ is a set of $s$-abacus positions $(i,j)$ that obey the property that if $(i,j)\in {\mathcal S}'$, then $(i,j)\in {\mathcal S}.$ 
+",/home/shufan/que_tex/1610.01686.tex,definition + \textit{}," A sub-abacus 𝒮' of an s-abacus 𝒮 is a set of s-abacus positions (i,j) that obey the property that if (i,j)∈𝒮', then (i,j)∈𝒮. 
+",sub;abacus," A B_MATH_TERM-B_MATH_TERM 𝒮' of an s-abacus 𝒮 is a set of s-abacus positions (i,j) that obey the property that if (i,j)∈𝒮', then (i,j)∈𝒮. 
+",O O O O O O O O O O O O O O O O O O O O O O O
+7783,scw,"\label{th2}
+The generating function for the number of smooth cyclic words of length $n$ over an alphabet of $k$ letters
+is given by
+$$\textit{scw}_k(x)=1+\frac{kx(1+3x)}{(1+x)(1-3x)}-\frac{2(k+1)x}{(1+x)(1-3x)}\frac{U_{k-1}\left(\frac{1-x}{2x}\right)}{U_k\left(\frac{1-x}{2x}\right)}.$$
+",/home/shufan/que_tex/0809.0551.tex,theorem + \textit{},"
+The generating function for the number of smooth cyclic words of length n over an alphabet of k letters
+is given by
+
+    scw_k(x)=1+kx(1+3x)/(1+x)(1-3x)-2(k+1)x/(1+x)(1-3x)U_k-1(1-x/2x)/U_k(1-x/2x).
+
+",scw,"
+The generating function for the number of smooth cyclic words of length n over an alphabet of k letters
+is given by
+
+    B_MATH_TERM_k(x)=1+kx(1+3x)/(1+x)(1-3x)-2(k+1)x/(1+x)(1-3x)U_k-1(1-x/2x)/U_k(1-x/2x).
+
+",O O O O O O O O O O O O O O O O O O O O O O O
+7934,propagator,"[The propagator]\label{def-prop}
+ We define the \emph{propagator} $$p(z,q):=\frac{1}{4\pi^2}\wp(z,q)+\frac{1}{12}E_2(q^2)$$ in terms of the Weierstra\ss{}-P-function $\wp$ and the Eisenstein series $$E_2(q):=1-24\sum_{d=1}^\infty \sigma(d)q^d.$$ Here, $\sigma=\sigma_1$ denotes the sum-of-divisors function $\sigma(d)=\sigma_1(d)=\sum_{m|d}m$.
+",/home/shufan/que_tex/mirrorsymmEP1.tex,definition + \emph{},"[The propagator]
+ We define the propagator 
+    p(z,q):=1/4π^2℘(z,q)+1/12E_2(q^2)
+ in terms of the Weierstraß-P-function ℘ and the Eisenstein series 
+    E_2(q):=1-24∑_d=1^∞σ(d)q^d.
+ Here, σ=σ_1 denotes the sum-of-divisors function σ(d)=σ_1(d)=∑_m|dm.
+",propagator,"[The propagator]
+ We define the B_MATH_TERM 
+    p(z,q):=1/4π^2℘(z,q)+1/12E_2(q^2)
+ in terms of the Weierstraß-P-function ℘ and the Eisenstein series 
+    E_2(q):=1-24∑_d=1^∞σ(d)q^d.
+ Here, σ=σ_1 denotes the sum-of-divisors function σ(d)=σ_1(d)=∑_m|dm.
+",O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O
+7951,closed intersecting family,"
+Let $\mathcal{F}$ be a uniform family with $\uk{\mathcal{F}}=k$ and $\tr{\mathcal{F}}=t$. $\mathcal{F}$ is said to be a \emph{closed intersecting family} (in short CIF) if $\tr{\mathcal{F}}\leq\uk{\mathcal{F}}-1$ and $\mathcal{F}=(\mathcal{F}\sqcup\mathcal{F}^{\top})^{\top}$. We use $\CIF{k,t}$ as a generic name for CIF's $\mathcal{F}$ with $\uk{\mathcal{F}}=k$ and $\tr{\mathcal{F}}=t$. Note that any closed intersecting family is necessarily an intersecting family.
+",/home/shufan/que_tex/1411.1480.tex,definition + \emph{},"
+Let ℱ be a uniform family with ℱ=k and ℱ=t. ℱ is said to be a closed intersecting family (in short CIF) if ℱ≤ℱ-1 and ℱ=(ℱ⊔ℱ^⊤)^⊤. We use k,t as a generic name for CIF's ℱ with ℱ=k and ℱ=t. Note that any closed intersecting family is necessarily an intersecting family.
+",closed intersecting family,"
+Let ℱ be a uniform family with ℱ=k and ℱ=t. ℱ is said to be a B_MATH_TERM I_MATH_TERM I_MATH_TERM (in short CIF) if ℱ≤ℱ-1 and ℱ=(ℱ⊔ℱ^⊤)^⊤. We use k,t as a generic name for CIF's ℱ with ℱ=k and ℱ=t. Note that any closed intersecting family is necessarily an intersecting family.
+",O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+8269,discrete logarithmic function,"
+Let $v_0 \in V(\Lambda)$ and let $\tilde{\Lambda}_{v_0}$ be the corresponding branched covering of $\Lambda$. The \textit{discrete logarithmic function} on $V(\tilde{\Lambda}_{v_0})$ is given by \[\log(\tilde{v};v_0):=\frac{1}{2\pi i}\int\limits_{C_{\tilde{v}}} \frac{\log(\lambda)}{2 \lambda}\textnormal{e}(\lambda,v;v_0) d\lambda,\] where $C_{\tilde{v}}$ is a collection of counterclockwise oriented loops going once around each pole of $\textnormal{e}(\cdot,v;v_0)$, $v \in V(\Lambda)$ being the projection of $\tilde{v}\in V(\tilde{\Lambda}_{v_0})$. The arguments of all poles shall lie in $(\theta_{\tilde{v}}-\pi,\theta_{\tilde{v}}+\pi)$.
+",/home/shufan/que_tex/Discrete_complex_analysis.tex,definition + \textit{},"
+Let v_0 ∈ V(Λ) and let Λ̃_v_0 be the corresponding branched covering of Λ. The discrete logarithmic function on V(Λ̃_v_0) is given by 
+    log(ṽ;v_0):=1/2π i∫_C_ṽlog(λ)/2 λe(λ,v;v_0) dλ,
+ where C_ṽ is a collection of counterclockwise oriented loops going once around each pole of e(·,v;v_0), v ∈ V(Λ) being the projection of ṽ∈ V(Λ̃_v_0). The arguments of all poles shall lie in (θ_ṽ-π,θ_ṽ+π).
+",discrete logarithmic function,"
+Let v_0 ∈ V(Λ) and let Λ̃_v_0 be the corresponding branched covering of Λ. The B_MATH_TERM I_MATH_TERM I_MATH_TERM on V(Λ̃_v_0) is given by 
+    log(ṽ;v_0):=1/2π i∫_C_ṽlog(λ)/2 λe(λ,v;v_0) dλ,
+ where C_ṽ is a collection of counterclockwise oriented loops going once around each pole of e(·,v;v_0), v ∈ V(Λ) being the projection of ṽ∈ V(Λ̃_v_0). The arguments of all poles shall lie in (θ_ṽ-π,θ_ṽ+π).
+",O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+8516,modified," 
+A \emph{modified} de Bruijn sequence of order $ n $ is a sequence of length$  $ $ 2^{n}-1 $ obtained from a de Bruijn sequence of order $ n $ by removing one zero from the tuple of $ n $ consecutive zeros. 
+",/home/shufan/que_tex/1710.09556.tex,definition + \emph{}," 
+A modified de Bruijn sequence of order n is a sequence of length 2^n-1 obtained from a de Bruijn sequence of order n by removing one zero from the tuple of n consecutive zeros. 
+",modified," 
+A B_MATH_TERM de Bruijn sequence of order n is a sequence of length 2^n-1 obtained from a de Bruijn sequence of order n by removing one zero from the tuple of n consecutive zeros. 
+",O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+8523,(finite) free filtration;\FFSAp,"\label{def:FFSA}
+Let $\A$ be a free $\ell$-arrangement and $\tilde{\A} \subseteq \A$ a free sub\-arrangement.
+A strictly decreasing sequence of free arrangements
+\begin{equation*}
+\A = \A_0 \supsetneq \A_1 \supsetneq \ldots \supsetneq \A_{n-1} \supsetneq \A_n = \tilde{\A}
+\end{equation*}
+is called a \emph{(finite) free filtration} from $\A$ to $\tilde{\A}$ if $\Betrag{\A_i} = \Betrag{\A}-i$ for each $i$.
+If there exists a (finite) free filtration from $\A$ to $\tilde{\A}$, 
+we call $\tilde{\A}$ a \emph{\FFSAp} .
+",/home/shufan/que_tex/1512.00867.tex,definition + \emph{},"
+Let  be a free ℓ-arrangement and ⊆ a free sub­arrangement.
+A strictly decreasing sequence of free arrangements
+
+    = _0 ⊋_1 ⊋…⊋_n-1⊋_n =
+
+is called a (finite) free filtration from  to  if _i = -i for each i.
+If there exists a (finite) free filtration from  to , 
+we call  a  .
+",(finite) free filtration;,"
+Let  be a free ℓ-arrangement and ⊆ a free sub­arrangement.
+A strictly decreasing sequence of free arrangements
+
+    = _0 ⊋_1 ⊋…⊋_n-1⊋_n =
+
+is called a B_MATH_TERM I_MATH_TERM I_MATH_TERM from  to  if _i = -i for each i.
+If there exists a (finite) free filtration from  to , 
+we call  a B_MATH_TERM .
+",O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O
+8811,"$(\delta,t)$-quasirandom;\textbf{Q0-\textbf{Q5}}","\label{def_quasi}
+ Let $\delta >0$. We say that $\varPhi$ is \emph{$(\delta,t)$-quasirandom} if \emph{\textbf{Q0}-\textbf{Q5}} are satisfied. 
+",/home/shufan/que_tex/1602.08519.tex,definition + \emph{},"
+ Let δ >0. We say that  is (δ,t)-quasirandom if Q0-Q5 are satisfied. 
+","(δ,t)-quasirandom;Q0-Q5","
+ Let δ >0. We say that  is B_MATH_TERM if B_MATH_TERM are satisfied. 
+",O O O O O O O B_MATH_TERM O B_MATH_TERM O O
+9168,$d$-good---or;$d$-good,"[$d$-good set system]
+Let $\mathcal{L}\subseteq 2^N$ be a lattice and $\mathcal{F}\subseteq \mathcal{L}$. We say that the tuple $(\mathcal{F}, \mathcal{L})$ is \emph{$d$-good}---or simply that $\mathcal{F}$ is \emph{$d$-good} if $\mathcal{L}$ is clear from context---if for any submodular function $f\colon\mathcal{L} \rightarrow \mathbb{Z}$, and any minimizer $S^*$ of $\min\{f(S) \mid S\in \mathcal{F}\}$, there exists a set $A\subseteq S^*$ with $|A|\leq d$ satisfying 
+\begin{equation*}
+f(S) \geq f(S^*) \quad \forall S\in \mathcal{L} \text{ with } A\subseteq S \subseteq S^*\enspace.
+\end{equation*}
+",/home/shufan/que_tex/1707.06212.tex,definition + \emph{},"[d-good set system]
+Let ℒ⊆ 2^N be a lattice and ℱ⊆ℒ. We say that the tuple (ℱ, ℒ) is d-good—or simply that ℱ is d-good if ℒ is clear from context—if for any submodular function fℒ→ℤ, and any minimizer S^* of min{f(S) | S∈ℱ}, there exists a set A⊆ S^* with |A|≤ d satisfying 
+
+    f(S) ≥ f(S^*)   ∀ S∈ℒ with  A⊆ S ⊆ S^*.
+
+",d-good—or;d-good,"[d-good set system]
+Let ℒ⊆ 2^N be a lattice and ℱ⊆ℒ. We say that the tuple (ℱ, ℒ) is B_MATH_TERM simply that ℱ is B_MATH_TERM if ℒ is clear from context—if for any submodular function fℒ→ℤ, and any minimizer S^* of min{f(S) | S∈ℱ}, there exists a set A⊆ S^* with |A|≤ d satisfying 
+
+    f(S) ≥ f(S^*)   ∀ S∈ℒ with  A⊆ S ⊆ S^*.
+
+",O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+9196,Type;special edge,"\label{definition4} Let $q+1$ be an odd integer. An edge-coloring $\varsigma \colon E(K_{q+1}-uv) \rightarrow [q-1]$ is of \emph{Type} $\cal C$, if we obtain $\varsigma$ in the following way: Let $G$ be the graph (isomorphic to $K_{q}$) obtained deleting the vertex $u$ and all the $uV(K_{q})$-edges. Let $\varsigma_1$ be an edge-coloring of Type $\cal M$ of $G$, for every $e\in E(K_{q+1}-uv)$ we define $\varsigma(e) := \varsigma_1(e)$ if $ e\in E(G) $ and $ \varsigma(uw) := \varsigma_1(vw)$ for all $ w\in V(G)-v $. The edge $uv$ is called the \emph{special edge} of $K_{q+1}$ (see Figure \ref{Fig2}). ",/home/shufan/que_tex/ArXivConPseu20170327.tex,definition + \emph{}," Let q+1 be an odd integer. An edge-coloring ς E(K_q+1-uv) → [q-1] is of Type C, if we obtain ς in the following way: Let G be the graph (isomorphic to K_q) obtained deleting the vertex u and all the uV(K_q)-edges. Let ς_1 be an edge-coloring of Type M of G, for every e∈ E(K_q+1-uv) we define ς(e) := ς_1(e) if e∈ E(G) and ς(uw) := ς_1(vw) for all w∈ V(G)-v. The edge uv is called the special edge of K_q+1 (see Figure <ref>). ",Type;special edge," Let q+1 be an odd integer. An edge-coloring ς E(K_q+1-uv) → [q-1] is of B_MATH_TERM C, if we obtain ς in the following way: Let G be the graph (isomorphic to K_q) obtained deleting the vertex u and all the uV(K_q)-edges. Let ς_1 be an edge-coloring of Type M of G, for every e∈ E(K_q+1-uv) we define ς(e) := ς_1(e) if e∈ E(G) and ς(uw) := ς_1(vw) for all w∈ V(G)-v. The edge uv is called the B_MATH_TERM I_MATH_TERM of K_q+1 (see Figure <ref>). ",O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O
+9197,Type 1,"\label{definition5}(Auxiliary definition) Let $q+1$ be an odd integer, and let $M$ be a maximum matching of $K_{q+1}$. We give an edge-coloring $\varsigma : E(K_{q+1}-M) \rightarrow [q]$ of \emph{Type 1} , as follows: Let $G$ be the graph (isomorphic to $K_{q+2}$) obtained from $K_{q+1}-M$ adding a new vertex $u$, the edges of $M$ and all the $uV(K_{q+1}-M)$-edges. Let $\varsigma_1\colon E(G)\rightarrow [q+1]$ be an edge-coloring of Type $\cal M$ of $G$, such that $M\cup \{uv\}$ is an edge-color class, where $v$ is the vertex of $K_{q+1}$ which is not a vertex of $M$. For every $e\in E(K_{q+1}-M)$, $\varsigma(e) := \varsigma_1(e)$ (see Figure \ref{Fig3}).",/home/shufan/que_tex/ArXivConPseu20170327.tex,definition + \emph{},"(Auxiliary definition) Let q+1 be an odd integer, and let M be a maximum matching of K_q+1. We give an edge-coloring ς : E(K_q+1-M) → [q] of Type 1 , as follows: Let G be the graph (isomorphic to K_q+2) obtained from K_q+1-M adding a new vertex u, the edges of M and all the uV(K_q+1-M)-edges. Let ς_1 E(G)→ [q+1] be an edge-coloring of Type M of G, such that M∪{uv} is an edge-color class, where v is the vertex of K_q+1 which is not a vertex of M. For every e∈ E(K_q+1-M), ς(e) := ς_1(e) (see Figure <ref>).",Type 1,"(Auxiliary definition) Let q+1 be an odd integer, and let M be a maximum matching of K_q+1. We give an edge-coloring ς : E(K_q+1-M) → [q] of B_MATH_TERM I_MATH_TERM , as follows: Let G be the graph (isomorphic to K_q+2) obtained from K_q+1-M adding a new vertex u, the edges of M and all the uV(K_q+1-M)-edges. Let ς_1 E(G)→ [q+1] be an edge-coloring of Type M of G, such that M∪{uv} is an edge-color class, where v is the vertex of K_q+1 which is not a vertex of M. For every e∈ E(K_q+1-M), ς(e) := ς_1(e) (see Figure <ref>).",O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+9198,Type 2;special vertex,"\label{definition6} Let $q+1$ be an odd integer, $K_{q+1}$ the complete graph of order $q+1$ with the set of vertices $\{v,u_1,u_1',\dots,u_{q/2},u_{q/2}'\}$, $M=\{u_1u_1',\dots,u_{q/2}u_{q/2}\}$ a maximum matching of $K_{q+1}$, and let $G$ be the graph obtained adding a new vertex $u$ and the set of edges $\{uu_1,\dots,uu_{q/2}\}$. An edge-coloring $\varsigma : E(G) \rightarrow [q]$ is of \emph{Type 2} , if is obtaining in the following way: Let $\varsigma_1\colon E(K_{q+1}-M)\rightarrow [q]$ be an edge-coloring of Type 1 of the subgraph $K_{q+1}-M$ of $G$. For every $e\in E(K_{q+1})-M$, $\varsigma(e) := \varsigma_1(e)$. If $c_i$ is the missing color of $u_i$ and $c_i'$ is the missing color of $u_i'$ (for all $i\in[q/2]$) let $\varsigma(uu_i)=c_i$ and $\varsigma(u_iu_i')=c_i'$. The vertex $u$ is called the \emph{special vertex} of $G$ (see Figure \ref{Fig3}).",/home/shufan/que_tex/ArXivConPseu20170327.tex,definition + \emph{}," Let q+1 be an odd integer, K_q+1 the complete graph of order q+1 with the set of vertices {v,u_1,u_1',…,u_q/2,u_q/2'}, M={u_1u_1',…,u_q/2u_q/2} a maximum matching of K_q+1, and let G be the graph obtained adding a new vertex u and the set of edges {uu_1,…,uu_q/2}. An edge-coloring ς : E(G) → [q] is of Type 2 , if is obtaining in the following way: Let ς_1 E(K_q+1-M)→ [q] be an edge-coloring of Type 1 of the subgraph K_q+1-M of G. For every e∈ E(K_q+1)-M, ς(e) := ς_1(e). If c_i is the missing color of u_i and c_i' is the missing color of u_i' (for all i∈[q/2]) let ς(uu_i)=c_i and ς(u_iu_i')=c_i'. The vertex u is called the special vertex of G (see Figure <ref>).",Type 2;special vertex," Let q+1 be an odd integer, K_q+1 the complete graph of order q+1 with the set of vertices {v,u_1,u_1',…,u_q/2,u_q/2'}, M={u_1u_1',…,u_q/2u_q/2} a maximum matching of K_q+1, and let G be the graph obtained adding a new vertex u and the set of edges {uu_1,…,uu_q/2}. An edge-coloring ς : E(G) → [q] is of B_MATH_TERM I_MATH_TERM , if is obtaining in the following way: Let ς_1 E(K_q+1-M)→ [q] be an edge-coloring of Type 1 of the subgraph K_q+1-M of G. For every e∈ E(K_q+1)-M, ς(e) := ς_1(e). If c_i is the missing color of u_i and c_i' is the missing color of u_i' (for all i∈[q/2]) let ς(uu_i)=c_i and ς(u_iu_i')=c_i'. The vertex u is called the B_MATH_TERM I_MATH_TERM of G (see Figure <ref>).",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O
+9344,right Eisenstein quasigroups;left Eisenstein quasigroups,"\label{Def:EisQgps}
+The variety of \emph{right Eisenstein quasigroups} , denoted $\mathbf{RE}$, is generated by \eqref{IL}-\eqref{SR} and
+\begin{align}
+    (yx\cdot x)x&=y. \label{Eq:Order3RDiv}
+\end{align}
+The variety $\mathbf{LE}$ of \emph{left Eisenstein quasigroups} is defined by \eqref{IL}-\eqref{SR}, and 
+\begin{align}
+    x(x\cdot xy)=y. \label{Eq:Order3LDiv}
+\end{align}
+",/home/shufan/que_tex/1908.04966.tex,definition + \emph{},"
+The variety of right Eisenstein quasigroups , denoted 𝐑𝐄, is generated by (<ref>)-(<ref>) and
+
+    (yx· x)x   =y.
+
+The variety 𝐋𝐄 of left Eisenstein quasigroups is defined by (<ref>)-(<ref>), and 
+
+    x(x· xy)=y.
+
+",right Eisenstein quasigroups;left Eisenstein quasigroups,"
+The variety of B_MATH_TERM I_MATH_TERM I_MATH_TERM , denoted 𝐑𝐄, is generated by (<ref>)-(<ref>) and
+
+    (yx· x)x   =y.
+
+The variety 𝐋𝐄 of B_MATH_TERM I_MATH_TERM I_MATH_TERM is defined by (<ref>)-(<ref>), and 
+
+    x(x· xy)=y.
+
+",O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O
+9977,(P1);(P2);(P4)--\emph{(P8)}$\}$;(P3),"
+\thmlabel{CH}
+The system
+$\mathcal{C} = \{$\emph{(P1)} , \emph{(P2)} , \emph{(P4)}--\emph{(P8)}$\}$
+is a basis of independent identities for the variety of nearlattices. In particular,
+the identities $\mathcal{C}$ imply \emph{(P3)} .
+",/home/shufan/que_tex/1007.3120.tex,theorem + \emph{},"
+CH
+The system
+𝒞 = {(P1) , (P2) , (P4)–(P8)}
+is a basis of independent identities for the variety of nearlattices. In particular,
+the identities 𝒞 imply (P3) .
+",(P1);(P2);(P4)–(P8)};(P3),"
+CH
+The system
+𝒞 = {B_MATH_TERM , B_MATH_TERM , B_MATH_TERM
+is a basis of independent identities for the variety of nearlattices. In particular,
+the identities 𝒞 imply B_MATH_TERM .
+",O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O O B_MATH_TERM O
+10261,quasiorder;minimal;well-quasiorder,"
+\label{qo}A \emph{quasiorder} $\precsim$ on a set $X$ is a binary relation
+that is reflexive ($x\precsim x)$ and transitive:%
+\[
+x\precsim y,y\precsim z\implies x\precsim z.
+\]
+
+
+We write $x\prec y$ if $x\precsim y$ holds but $y\precsim x$ does not hold. We
+say that $x$ is $\precsim$-\emph{minimal} if there is no $y$ in $X$ such
+$y\prec x$, equivalently if for all $y\in X$
+\[
+y\precsim x\implies x\precsim y.
+\]
+
+
+We write $X_{\prec}$ for the set of $\precsim$-minimal elements of $X$. We say
+that $\precsim$ is a \emph{well}-quasiorder (wqo) if there does not exist an
+infinite descending chain%
+\[
+\cdots\prec x_{n}\prec\cdots\prec x_{2}\prec x_{1}.
+\]
+
+",/home/shufan/que_tex/1512.04637.tex,definition + \emph{},"
+A quasiorder ≾ on a set X is a binary relation
+that is reflexive (x≾ x) and transitive:
+
+    x≾ y,y≾ z x≾ z.
+
+
+
+We write x≺ y if x≾ y holds but y≾ x does not hold. We
+say that x is ≾-minimal if there is no y in X such
+y≺ x, equivalently if for all y∈ X
+
+    y≾ x x≾ y.
+
+
+
+We write X_≺ for the set of ≾-minimal elements of X. We say
+that ≾ is a well-quasiorder (wqo) if there does not exist an
+infinite descending chain
+
+    ⋯≺ x_n≺⋯≺ x_2≺ x_1.
+
+
+",quasiorder;minimal;well-quasiorder,"
+A B_MATH_TERM ≾ on a set X is a binary relation
+that is reflexive (x≾ x) and transitive:
+
+    x≾ y,y≾ z x≾ z.
+
+
+
+We write x≺ y if x≾ y holds but y≾ x does not hold. We
+say that x is ≾-B_MATH_TERM if there is no y in X such
+y≺ x, equivalently if for all y∈ X
+
+    y≾ x x≾ y.
+
+
+
+We write X_≺ for the set of ≾-minimal elements of X. We say
+that ≾ is a B_MATH_TERM (wqo) if there does not exist an
+infinite descending chain
+
+    ⋯≺ x_n≺⋯≺ x_2≺ x_1.
+
+
+",O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O
+10278,homogeneous boolean factorization;homogeneous boolean rank,"\label{def:rankhomogeneous}
+A \emph{homogeneous boolean factorization} of size $k$ of the slack matrix $S_n$ of an $n$-gon is a boolean factorization of the type $C_{n \times k}\times D^T_{n \times k}$ where the rows of $C$ have precisely $\floor{\frac{k}{2}}$ ones and those of $D$ precisely $\ceil{\frac{k}{2}}-1$ ones.
+The \emph{homogeneous boolean rank} of $S_n$, $\rankh(S_n)$, is the smallest $k$ for which such a factorization exists.
+",/home/shufan/que_tex/arxivversion.tex,definition + \emph{},"
+A homogeneous boolean factorization of size k of the slack matrix S_n of an n-gon is a boolean factorization of the type C_n × k× D^T_n × k where the rows of C have precisely k/2 ones and those of D precisely k/2-1 ones.
+The homogeneous boolean rank of S_n, (S_n), is the smallest k for which such a factorization exists.
+",homogeneous boolean factorization;homogeneous boolean rank,"
+A B_MATH_TERM I_MATH_TERM I_MATH_TERM of size k of the slack matrix S_n of an n-gon is a boolean factorization of the type C_n × k× D^T_n × k where the rows of C have precisely k/2 ones and those of D precisely k/2-1 ones.
+The B_MATH_TERM I_MATH_TERM I_MATH_TERM of S_n, (S_n), is the smallest k for which such a factorization exists.
+",O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O
+10476,weight," Given a partition $\mu$ with parts $\mu_j=2^{k_j}\cdot m_j$, where $m_j$ odd, the \textit{weight} of the partition is $wt(\mu)=\ds \sum_{j=1}^{\ell(\mu)} (2^{k_j}-1)$.
+",/home/shufan/que_tex/1803.06394.tex,definition + \textit{}," Given a partition μ with parts μ_j=2^k_j· m_j, where m_j odd, the weight of the partition is wt(μ)=∑_j=1^ℓ(μ) (2^k_j-1).
+",weight," Given a partition μ with parts μ_j=2^k_j· m_j, where m_j odd, the B_MATH_TERM of the partition is wt(μ)=∑_j=1^ℓ(μ) (2^k_j-1).
+",O O O O O O O O O O O O B_MATH_TERM O O O O O O
+10971,grid-connected;grid-starconvex;grid-unimodal," Let $\BB\subset[n_1-1]\times\dots \times [n_d-1]$ represent a union of $(2d-1)$-simplices in $\TT$ or, equivalently, of $d$-cubes in $\RR$.
+\label{defi:grid_convexity_d}
+\begin{enumerate}
+\item We say that $\BB$ is \emph{grid-connected} if we can go from any ${I}\in \BB$ to any ${I'}\in \BB$ moving always from a cube to an adjacent one.
+That is, if the dual graph of $\BB$ ($\BB$ as a sub complex of $\RR$) is connected.
+\item We say that $\BB$ is \emph{grid-starconvex} from a certain ${I}\in \BB$ if, for every ${I'}\in \BB$ and every $I''\in [I,I']$ we have ${I''}\in \BB$. Here we say that $I''\in [I,I']$ for vectors $I=(i_1,\dots, i_d)$, $I'=(i'_1,\dots, i'_d)$ and $I''=(i''_1,\dots, i''_d)$ if
+$i''_k\in [i_k,i'_k]$ for every $k\in [d]$.
+\item We say that $\BB$ is \emph{grid-unimodal} if it is grid-connected and $\BB\cap ([n_1-1]\times\dots\times [n_{d_1-1}-1]\times\{i\}\times[n_{d_1+1}-1]\times\dots\times [n_d-1])$ is grid-unimodal, for every $1\leq d_1\leq d$ and every $i\in[n_{d_1}-1]$.
+\end{enumerate}
+",/home/shufan/que_tex/HighDimNonSim_submit.tex,definition + \emph{}," Let ⊂[n_1-1]×…× [n_d-1] represent a union of (2d-1)-simplices in  or, equivalently, of d-cubes in .
+
+
+
+  * We say that  is grid-connected if we can go from any I∈ to any I'∈ moving always from a cube to an adjacent one.
+That is, if the dual graph of  ( as a sub complex of ) is connected.
+
+  * We say that  is grid-starconvex from a certain I∈ if, for every I'∈ and every I”∈ [I,I'] we have I”∈. Here we say that I”∈ [I,I'] for vectors I=(i_1,…, i_d), I'=(i'_1,…, i'_d) and I”=(i”_1,…, i”_d) if
+i”_k∈ [i_k,i'_k] for every k∈ [d].
+
+  * We say that  is grid-unimodal if it is grid-connected and ∩ ([n_1-1]×…× [n_d_1-1-1]×{i}×[n_d_1+1-1]×…× [n_d-1]) is grid-unimodal, for every 1≤ d_1≤ d and every i∈[n_d_1-1].
+
+",grid-connected;grid-starconvex;grid-unimodal," Let ⊂[n_1-1]×…× [n_d-1] represent a union of (2d-1)-simplices in  or, equivalently, of d-cubes in .
+
+
+
+  * We say that  is B_MATH_TERM if we can go from any I∈ to any I'∈ moving always from a cube to an adjacent one.
+That is, if the dual graph of  ( as a sub complex of ) is connected.
+
+  * We say that  is B_MATH_TERM from a certain I∈ if, for every I'∈ and every I”∈ [I,I'] we have I”∈. Here we say that I”∈ [I,I'] for vectors I=(i_1,…, i_d), I'=(i'_1,…, i'_d) and I”=(i”_1,…, i”_d) if
+i”_k∈ [i_k,i'_k] for every k∈ [d].
+
+  * We say that  is B_MATH_TERM if it is grid-connected and ∩ ([n_1-1]×…× [n_d_1-1-1]×{i}×[n_d_1+1-1]×…× [n_d-1]) is grid-unimodal, for every 1≤ d_1≤ d and every i∈[n_d_1-1].
+
+",O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O
+11385,bijectivization;graded pseudomonoid algebra;equivalent;nonzero;nonzero,"
+A \emph{bijectivization} of an algebra $\U/I$ is an algebra $\U/J$ such that $I \subseteq J$ and
+%\emph{graded pseudomonoid algebra}
+$J$ is generated by monomials (i.e. words in  $\U$) and binomials of the form $\e{v}-\e{w}$, where  $\e{v}$ and $\e{w}$ are words of the same length.
+To any bijectivization  $\U/J$, we associate the following equivalence relation:
+two words $\e{v}$ and $\e{w}$ of  $\U$ are \emph{equivalent} if $\e{v}-\e{w} \in J$.
+We also say that a word is \emph{nonzero} if it does not belong to $J$ and that an equivalence class of words is \emph{nonzero} if all of its elements are nonzero.
+",/home/shufan/que_tex/ncnoSchurposOct14.tex,definition + \emph{},"
+A bijectivization of an algebra /I is an algebra /J such that I ⊆ J and
+
+J is generated by monomials (i.e. words in  ) and binomials of the form v-w, where  v and w are words of the same length.
+To any bijectivization  /J, we associate the following equivalence relation:
+two words v and w of   are equivalent if v-w∈ J.
+We also say that a word is nonzero if it does not belong to J and that an equivalence class of words is nonzero if all of its elements are nonzero.
+",bijectivization;graded pseudomonoid algebra;equivalent;nonzero;nonzero,"
+A B_MATH_TERM of an algebra /I is an algebra /J such that I ⊆ J and
+
+J is generated by monomials (i.e. words in  ) and binomials of the form v-w, where  v and w are words of the same length.
+To any bijectivization  /J, we associate the following equivalence relation:
+two words v and w of   are B_MATH_TERM if v-w∈ J.
+We also say that a word is B_MATH_TERM if it does not belong to J and that an equivalence class of words is B_MATH_TERM if all of its elements are nonzero.
+",O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O
+11531,bicolored;bipartite;proper bicoloring---a," A \emph{bicolored} graph is a graph where each vertex is colored with one of two colors (say, red or blue) such that no two vertices of the same color are adjacent. A \emph{bipartite} graph is a graph that admits a \emph{proper bicoloring}---a graph whose vertices can be colored with red or blue to produce a bicolored graph. See Figures \ref{fig:bipartite} and \ref{fig:bicolored}.",/home/shufan/que_tex/1312.0542.tex,definition + \emph{}," A bicolored graph is a graph where each vertex is colored with one of two colors (say, red or blue) such that no two vertices of the same color are adjacent. A bipartite graph is a graph that admits a proper bicoloring—a graph whose vertices can be colored with red or blue to produce a bicolored graph. See Figures <ref> and <ref>.",bicolored;bipartite;proper bicoloring—a," A B_MATH_TERM graph is a graph where each vertex is colored with one of two colors (say, red or blue) such that no two vertices of the same color are adjacent. A B_MATH_TERM graph is a graph that admits a B_MATH_TERM I_MATH_TERM graph whose vertices can be colored with red or blue to produce a bicolored graph. See Figures <ref> and <ref>.",O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+11542,virtual species;additive inverse," Let $\s{F}$ and $\s{G}$ be species. Then we define the \emph{virtual species} $\s{F}-\s{G}$ as the element $(\s{F},\s{G})$ in $\{(\s{A},\s{B}) : \s{A}\text{ and } \s{B} \text{ are species }\}/\sim$, where $\sim$ is the equivalence relation \[(\s{A},\s{B})\sim (\s{C},\s{D}) \iff \s{A}+\s{D} \equiv \s{B}+\s{C}.\] The \emph{additive inverse} of $\s{F}$, denoted $-\s{F}$, is given as $-\s{F} = \mathbf{0} - \s{F}$.
+",/home/shufan/que_tex/1312.0542.tex,definition + \emph{}," Let F and G be species. Then we define the virtual species F-G as the element (F,G) in {(A,B) : A and B are species }/∼, where ∼ is the equivalence relation 
+    (A,B)∼ (C,D) A+D≡B+C.
+ The additive inverse of F, denoted -F, is given as -F = 0 - F.
+",virtual species;additive inverse," Let F and G be species. Then we define the B_MATH_TERM I_MATH_TERM F-G as the element (F,G) in {(A,B) : A and B are species }/∼, where ∼ is the equivalence relation 
+    (A,B)∼ (C,D) A+D≡B+C.
+ The B_MATH_TERM I_MATH_TERM of F, denoted -F, is given as -F = 0 - F.
+",O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O
+11878,left-;right-outcome functions,"\label{def:outcomes} 
+Let $G\in \U \subseteq \Omega$ and consider given maps $\nu_L:\A\rightarrow \s$ and $\nu_R:\A\rightarrow \s$, where $S$ is a totally ordered set. The \textit{left}- and \textit{right-outcome functions} are $o_L:\Omega \rightarrow \s, o_R:\Omega\rightarrow \s$, 
+where$$o_L(G) = \begin{cases} 
+\nu_L(\ell) & \textrm{if  $G = \langle \emptyset^\ell\mid \GR\rangle$,} \\
+ \max_L\{o_R(G^L)\} & \textrm{otherwise} 
+\end{cases}
+$$
+
+$$o_R(G) = \begin{cases} 
+\nu_R(r) & \textrm{if  $G = \langle \GL\mid \emptyset^r \rangle$,} \\
+ \min_R\{o_L(G^R)\} & \textrm{otherwise,} 
+\end{cases}
+$$
+where the $\max_L$ ($\min_R$) ranges over all Left (Right) options.
+",/home/shufan/que_tex/CATSept7.tex,definition + \textit{}," 
+Let G∈⊆Ω and consider given maps ν_L:→ and ν_R:→, where S is a totally ordered set. The left- and right-outcome functions are o_L:Ω→, o_R:Ω→, 
+where
+    o_L(G) = ν_L(ℓ)    if  G = ⟨∅^ℓ|⟩,
+    max_L{o_R(G^L)}   otherwise
+
+
+
+    o_R(G) = ν_R(r)    if  G = ⟨|∅^r ⟩,
+    min_R{o_L(G^R)}   otherwise,
+
+where the max_L (min_R) ranges over all Left (Right) options.
+",left-;right-outcome functions," 
+Let G∈⊆Ω and consider given maps ν_L:→ and ν_R:→, where S is a totally ordered set. The B_MATH_TERM and B_MATH_TERM I_MATH_TERM are o_L:Ω→, o_R:Ω→, 
+where
+    o_L(G) = ν_L(ℓ)    if  G = ⟨∅^ℓ|⟩,
+    max_L{o_R(G^L)}   otherwise
+
+
+
+    o_R(G) = ν_R(r)    if  G = ⟨|∅^r ⟩,
+    min_R{o_L(G^R)}   otherwise,
+
+where the max_L (min_R) ranges over all Left (Right) options.
+",O O O O O O O O O O O O O O O O O B_MATH_TERM O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+12294,tree decomposition;bags;width;treewidth;path decomposition;pathwidth,"
+A \emph{tree decomposition} of a graph $G=(V,E)$ is 
+    a pair $(T,\mathcal{B}=\{B_x\}_{x\in V(T)})$ 
+    where $T$ is a tree and for all $x\in V(T)$, $B_x\subseteq V$ which are called \emph{bags} , 	
+    satisfying the following three conditions:
+\begin{enumerate}
+\item[(T1)] $V=\bigcup_{x\in V(T)}B_x$.
+\item[(T2)] For every edge $uv$ of $G$, there exists a vertex $x$ of $T$ such that $u$, $v\in B_x$.
+\item[(T3)] For every vertex $v$ in $G$, the bags containing $v$ induce a subtree in $T$.
+\end{enumerate}
+	The \emph{width} of a tree decomposition $(T,\mathcal{B})$ is $\max\{ \abs{B_x}-1:x\in V(T)\}$. 
+	The \emph{treewidth} of $G$, denoted by $\tw(G)$, is the minimum width of all tree decompositions of $G$. 
+	A \emph{path decomposition} of a graph $G$ is a tree decomposition $(T,\mathcal{B})$ where $T$ is a path. 
+	The \emph{pathwidth} of $G$, denoted by $\pw(G)$, is the minimum width of all path decompositions of $G$.
+	",/home/shufan/que_tex/vartw_revised.tex,definition + \emph{},"
+A tree decomposition of a graph G=(V,E) is 
+    a pair (T,ℬ={B_x}_x∈ V(T)) 
+    where T is a tree and for all x∈ V(T), B_x⊆ V which are called bags , 	
+    satisfying the following three conditions:
+
+
+  (T1) V=⋃_x∈ V(T)B_x.
+
+  (T2) For every edge uv of G, there exists a vertex x of T such that u, v∈ B_x.
+
+  (T3) For every vertex v in G, the bags containing v induce a subtree in T.
+
+	The width of a tree decomposition (T,ℬ) is max{B_x-1:x∈ V(T)}. 
+	The treewidth of G, denoted by (G), is the minimum width of all tree decompositions of G. 
+	A path decomposition of a graph G is a tree decomposition (T,ℬ) where T is a path. 
+	The pathwidth of G, denoted by (G), is the minimum width of all path decompositions of G.
+	",tree decomposition;bags;width;treewidth;path decomposition;pathwidth,"
+A B_MATH_TERM I_MATH_TERM of a graph G=(V,E) is 
+    a pair (T,ℬ={B_x}_x∈ V(T)) 
+    where T is a tree and for all x∈ V(T), B_x⊆ V which are called B_MATH_TERM , 	
+    satisfying the following three conditions:
+
+
+  (T1) V=⋃_x∈ V(T)B_x.
+
+  (T2) For every edge uv of G, there exists a vertex x of T such that u, v∈ B_x.
+
+  (T3) For every vertex v in G, the bags containing v induce a subtree in T.
+
+	The B_MATH_TERM of a tree decomposition (T,ℬ) is max{B_x-1:x∈ V(T)}. 
+	The B_MATH_TERM of G, denoted by (G), is the minimum width of all tree decompositions of G. 
+	A B_MATH_TERM I_MATH_TERM of a graph G is a tree decomposition (T,ℬ) where T is a path. 
+	The B_MATH_TERM of G, denoted by (G), is the minimum width of all path decompositions of G.
+	",O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O
+12754,continuous,"[\textbf{\cite{Gromov:SingularitiesExpandersTopologyOfMaps2-2010}}]
+\label{thm:Gromov-Simplex-Selection}
+For an arbitrary \emph{continuous} map $T \colon \Delta^{n-1} \rightarrow \R^d$, there exists a point in $\R^d$ that is contained in the $T$-images of at least $\ctop_d \cdot \binom{n}{d+1}-O(n^d)$  many $d$-faces of $\Delta^{n-1}$, where $\ctop_d>0$ is a constant that depends only on $d$.
+",/home/shufan/que_tex/g.tex,theorem + \emph{},"[<cit.>]
+
+For an arbitrary continuous map T Δ^n-1→^d, there exists a point in ^d that is contained in the T-images of at least _d ·nd+1-O(n^d)  many d-faces of Δ^n-1, where _d>0 is a constant that depends only on d.
+",continuous,"[<cit.>]
+
+For an arbitrary B_MATH_TERM map T Δ^n-1→^d, there exists a point in ^d that is contained in the T-images of at least _d ·nd+1-O(n^d)  many d-faces of Δ^n-1, where _d>0 is a constant that depends only on d.
+",O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+13013,"$\langle \d \rangle$-regular;$\langle \d \rangle$-regular relative to a $\langle \d \rangle$-good $(k-1)$ partition $\P$ on $(\Vside^1,\ldots,\Vside^k)$","[$\langle\d\rangle$-regular partition]\label{def:k-reg}
+	Let $H$ be a $k$-partite $k$-graph on vertex classes $(V_1,\ldots,V_k)$
+	and $\P$ be a $\langle \d \rangle$-good $(k-1)$-partition with $\P^{(1)} \prec \{V_1,\ldots,V_k\}$.
+	We say that $\P$ is a \emph{$\langle \d \rangle$}-regular partition of $H$ if
+	for every $1 \le i \le k$,
+	$E_i(\P) \cup V_i(\P)$ is a $\langle \d \rangle$-regular partition of $G_H^i$.
+	%$\P^{(k-1)}_i \cup \P^{(1)}_i$ is a $\langle \d \rangle$-regular partition of $G_H^i$.
+	%
+%	the following holds for every $1 \le i \le k$;	setting $\P_i=\P[\prod_{j \neq i} \Vside^j] \cup \P[\Vside^i]$, the bipartite graph $G_{H}^i$ is $\langle \d \rangle$-regular relative to $\P_i$.
+%	
+%letting $P$ be the complete $k$-partite $(k-1)$-graph on $(\Vside^1,\ldots,\Vside^k)$ and $\P_i=\P[\prod_{\substack{1 \le j \le k\colon\\j \neq i}} \Vside^j] \cup \P[\Vside^i]$, the bipartite graph $G_{H,P}^i$ is $\langle \d \rangle$-regular relative to $\P_i$.\footnote{Thus, the vertex classes of $G_{H,P}^i$ are $(\Vside^1\times\cdots\Vside^{i-1}\times\Vside^{i+1}\times\Vside^{k},\,\Vside^i)$.}
+%
+% (Here, $G_{H}^i=G_{H,P}^i$ with the polyad $P$ being the complete $k$-partite $(k-1)$-graph on $(\Vside^1,\ldots,\Vside^k)$; that is, the vertex classes of $G_{F}^i$ are $(\Vside^1\times\cdots\Vside^{i-1}\times\Vside^{i+1}\times\Vside^{k},\,\Vside^i)$.)
+	%
+	%	We say that $H$ is \emph{$\langle \d \rangle$-regular relative to a $\langle \d \rangle$-good $(k-1)$ partition $\P$ on $(\Vside^1,\ldots,\Vside^k)$} if for every $1 \le i \le k$, the bipartite graph $G_{H}^i$ is $\langle \d \rangle$-regular relative to the partition $\P[\prod_{\substack{1 \le j \le k\colon\\j \neq i}} \Vside^j] \cup \P[\Vside^i]$.
+	%
+	%	one can add/remove at most $\d\cdot e(H)$ edges of $H$ to obtain a $k$-graph $H'$ such that
+	%	for every $1 \le r \le k$, the bipartite graph $G_{H'}^i$ is perfectly $\langle \d \rangle$-regular relative to the partition $\P[\prod_{\substack{1 \le h \le k\colon\\h \neq r}} \Vside^h] \cup \P[\Vside^r]$.
+",/home/shufan/que_tex/1804.05513.tex,definition + \emph{},"[⟨⟩̣-regular partition]
+	Let H be a k-partite k-graph on vertex classes (V_1,…,V_k)
+	and  be a ⟨⟩̣-good (k-1)-partition with ^(1)≺{V_1,…,V_k}.
+	We say that  is a ⟨⟩̣-regular partition of H if
+	for every 1 ≤ i ≤ k,
+	E_i() ∪ V_i() is a ⟨⟩̣-regular partition of G_H^i.
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+","⟨⟩̣-regular;⟨⟩̣-regular relative to a ⟨⟩̣-good (k-1) partition  on (^1,…,^k)","[⟨⟩̣-regular partition]
+	Let H be a k-partite k-graph on vertex classes (V_1,…,V_k)
+	and  be a ⟨⟩̣-good (k-1)-partition with ^(1)≺{V_1,…,V_k}.
+	We say that  is a B_MATH_TERM I_MATH_TERM I_MATH_TERM partition of H if
+	for every 1 ≤ i ≤ k,
+	E_i() ∪ V_i() is a ⟨⟩̣-regular partition of G_H^i.
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+",O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+13014,"$(\e,d)$-regular---or;$\e$-regular---in","[$\e$-regular $k$-graph]\label{def:e-reg}
+	A $k$-partite $k$-graph $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in a $k$-polyad $P$ with $H \sub \K(P)$
+	%on the same vertex classes
+	if for every $S \sub P$ with $|\K(S)| \ge \e|\K(P)|$ we have $d_H(S) = d \pm \e$.%\footnote{This implies $d_H(S) = d_H(P) \pm 2\e$. RS (Dfn 6) use the term $\e$-regular to mean $(\e,d_H(P))$-regular, whereas we use it to mean $(\e,d)$-regular for some $d$, which is essentially equivalent.}
+",/home/shufan/que_tex/1804.05513.tex,definition + \emph{},"[-regular k-graph]
+	A k-partite k-graph H is (,d)-regular—or simply -regular—in a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.
+","(,d)-regular—or;-regular—in","[-regular k-graph]
+	A k-partite k-graph H is B_MATH_TERM simply B_MATH_TERM a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.
+",O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+13023,"$(\e,d)$-regular---or;$\e$-regular---in;$(\e,d)$-regular---or;$\e$-regular---in;$(\e,d)$-regular---or;$\e$-regular---in;$(\e,d)$-regular---or;$\e$-regular---in;$(\e,d)$-regular---or;$\e$-regular---in;$(\e,d)$-regular;$\e$-regular;$\e$-regular in $P$;$(\e,d_2,\ldots,d_k)$-regular","[$\e$-regular $k$-graph]\label{def:e-reg}
+	A $k$-partite $k$-graph $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in a $k$-polyad $P$ with $H \sub \K(P)$
+	%on the same vertex classes
+	if for every $S \sub P$ with $|\K(S)| \ge \e|\K(P)|$ we have $d_H(S) = d \pm \e$.\footnote{This implies $d_H(S) = d_H(P) \pm 2\e$. RS (Dfn 6) use the term $\e$-regular to mean $(\e,d_H(P))$-regular, whereas we use it to mean $(\e,d)$-regular for some $d$, which is essentially equivalent.}
+	%	Moreover, a $k$-polyad $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in a $k$-partite $(k-2)$-graph $F$ on the same vertex classes if for every $I \sub [k]$ with $|I|=k-1$ we have that $H_I$ is $(\e,d)$-regular in $F_I$.
+	%Moreover, a $(k+1)$-polyad $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in a $(k+1)$-partite $(k-1)$-graph $F$ on the same vertex classes if for every $I \sub [k]$ with $|I|=k$, the $k$-partite $k$-graph $H_I$ is $(\e,d)$-regular in the $k$-polyad $F_I$.
+	%
+	%	More generally, an $\ell$-partite $k$-graph $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in an $\ell$-partite $(k-1)$-graph $F$ on the same vertex classes if for every $I \sub [\ell]$ with $|I|=k$, the $k$-partite $k$-graph $H_I$ is $(\e,d)$-regular in the $k$-polyad $F_I$.\footnote{RS (Dfn 7) use the notation $H[\Lambda]=H[\bigcup_{\lambda \in \Lambda} V_\lambda]$ for $\Lambda \in [\ell]^k$, where $H$ is $k$-uniform.}
+	%	
+	%	More generally, for a $k$-graph $H$ and $(k-1)$-graph $F$ that are $\ell$-partite on the same vertex classes,
+	%	$H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in $F$ if for every $I \sub [\ell]$ with $|I|=k$, the $k$-partite $k$-graph $H_I$ is $(\e,d)$-regular in the $k$-polyad $F_I$.
+	%	% we have that $H_I$ is $(\e,d)$-regular in $F_I$.
+	%	
+	%	an $\ell$-partite $k$-graph $H$ %$(\ell \ge k)$
+	%	is \emph{$(\e,d)$-regular} , or simply \emph{$\e$-regular} , in an $\ell$-partite $(k-1)$-graph $F$ if for every $I \sub [\ell]$ with $|I|=k$ we have that $H_I$ is $(\e,d)$-regular in $F_I$.\footnote{RS (Dfn 7) use the notation $H[\Lambda]=H[\bigcup_{\lambda \in \Lambda} V_\lambda]$ for $\Lambda \in [\ell]^k$, where $H$ is $k$-uniform.}
+	%	More generally, a multipartite $k$-graph $H \sub \K(P)$ %$(\ell \ge k)$
+	%	 on vertex classes $(V_1,\ldots,V_\ell)$ is \emph{$\e$-regular in $P$} if for every $I \sub [\ell]$ with $|I|=k$ we have that $H[\bigcup_{i \in I} V_i]$ is $\e$-regular in $P[\bigcup_{i \in I} V_i]$.\\
+	%
+	%	More generally yet, a multipartite rank-$k$ hypergraph $P$ is \emph{$(\e,d_2,\ldots,d_k)$-regular} if for every $2 \le i \le k$ we have that $P^{(i)} \sub \K(P^{(i-1)})$ and $P^{(i)}$ is $(\e,d_i)$-regular in $P^{(i-1)}$.
+",/home/shufan/que_tex/1804.05513.tex,definition + \emph{},"[-regular k-graph]
+	A k-partite k-graph H is (,d)-regular—or simply -regular—in a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.[This implies d_H(S) = d_H(P) ± 2. RS (Dfn 6) use the term -regular to mean (,d_H(P))-regular, whereas we use it to mean (,d)-regular for some d, which is essentially equivalent.]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+","(,d)-regular—or;-regular—in;(,d)-regular—or;-regular—in;(,d)-regular—or;-regular—in;(,d)-regular—or;-regular—in;(,d)-regular—or;-regular—in;(,d)-regular;-regular;-regular in P;(,d_2,…,d_k)-regular","[-regular k-graph]
+	A k-partite k-graph H is B_MATH_TERM simply B_MATH_TERM a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.[This implies d_H(S) = d_H(P) ± 2. RS (Dfn 6) use the term -regular to mean (,d_H(P))-regular, whereas we use it to mean (,d)-regular for some d, which is essentially equivalent.]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+",O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+13055,strongly regular;$d$-cell;regularity;intersection;combinatorial sphere,"[{combinatorial sphere, compare \cite[Def. 2.1]{BZ17}}]
+ For $d\in\mathbb{N}$, a \emph{strongly regular} \emph{$d$}-cell complex $\mathcal{C}$ is a finite $d$-dimensional $CW$-complex, that is, a collection of $k$-cells  for $k\leq d$, such that the following two properties hold:
+ \begin{enumerate}
+  \item \emph{regularity}: the attaching maps of all cells are homeomorphisms also on the boundary.
+  \item \emph{intersection}: the intersection of two cells in $\mathcal{C}$ is again a cell in $\mathcal{C}$ (possibly empty). 
+  \end{enumerate}
+ A strongly regular $d$-cell complex is called a \emph{combinatorial sphere} if it is homeomorphic to $S^d$. 
+",/home/shufan/que_tex/class9poly.tex,definition + \emph{},"[combinatorial sphere, compare <cit.>]
+ For d∈ℕ, a strongly regular d-cell complex 𝒞 is a finite d-dimensional CW-complex, that is, a collection of k-cells  for k≤ d, such that the following two properties hold:
+ 
+  
+  * regularity: the attaching maps of all cells are homeomorphisms also on the boundary.
+  
+  * intersection: the intersection of two cells in 𝒞 is again a cell in 𝒞 (possibly empty). 
+  
+ A strongly regular d-cell complex is called a combinatorial sphere if it is homeomorphic to S^d. 
+",strongly regular;d-cell;regularity;intersection;combinatorial sphere,"[combinatorial sphere, compare <cit.>]
+ For d∈ℕ, a B_MATH_TERM I_MATH_TERM B_MATH_TERM complex 𝒞 is a finite d-dimensional CW-complex, that is, a collection of k-cells  for k≤ d, such that the following two properties hold:
+ 
+  
+  * B_MATH_TERM: the attaching maps of all cells are homeomorphisms also on the boundary.
+  
+  * B_MATH_TERM: the intersection of two cells in 𝒞 is again a cell in 𝒞 (possibly empty). 
+  
+ A strongly regular d-cell complex is called a B_MATH_TERM I_MATH_TERM if it is homeomorphic to S^d. 
+",O O O O O O O B_MATH_TERM I_MATH_TERM B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O
+13576,"\bf\em ($\delta,t)$-quasirandom","\label{Def_reasonable}
+Let $\delta>0$.
+We say that $\Phi$ is \emph{\bf\em ($\delta,t)$-quasirandom} if  {\bf Q0}--{\bf Q4}  in Figure~\ref{Fig_reasonable}
+are satisfied.
+",/home/shufan/que_tex/1007.1328.tex,definition + \emph{},"
+Let δ>0.
+We say that Φ is (δ,t)-quasirandom if  Q0–Q4  in Figure <ref>
+are satisfied.
+","(δ,t)-quasirandom","
+Let δ>0.
+We say that Φ is B_MATH_TERM I_MATH_TERM if  Q0–Q4  in Figure <ref>
+are satisfied.
+",O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O
+13845,\reflectbox{\emph{L;Le-diagram,"
+	Let $d$ and $m$ be positive integers, and let $Y_\lambda$ be the Young diagram associated to a given partition $\lambda$ contained in a $d \times m$ rectangle. A \emph{\reflectbox{\emph{L}}-diagram} (or \emph{Le-diagram} ) $L$ of shape $\lambda$ and type $(d,d+m)$ is obtained by filling the boxes of $Y_\lambda$ with zeros and pluses so that no zero entry has simultaneously a plus entry above it in the same column and a plus entry to its left in the same row.
+",/home/shufan/que_tex/Positroids_Induced_by_Rational_Dyck_Paths.tex,definition + \emph{},"
+	Let d and m be positive integers, and let Y_λ be the Young diagram associated to a given partition λ contained in a d × m rectangle. A L-diagram (or Le-diagram ) L of shape λ and type (d,d+m) is obtained by filling the boxes of Y_λ with zeros and pluses so that no zero entry has simultaneously a plus entry above it in the same column and a plus entry to its left in the same row.
+",L;Le-diagram,"
+	Let d and m be positive integers, and let Y_λ be the Young diagram associated to a given partition λ contained in a d × m rectangle. A B_MATH_TERM-diagram (or B_MATH_TERM ) L of shape λ and type (d,d+m) is obtained by filling the boxes of Y_λ with zeros and pluses so that no zero entry has simultaneously a plus entry above it in the same column and a plus entry to its left in the same row.
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+13904,"$\langle \d \rangle$-regular;$\langle \d \rangle$-regular relative to a $\langle \d \rangle$-good $(k-1)$ partition $\P$ on $(\Vside^1,\ldots,\Vside^k)$","[$\langle\d\rangle$-regular partition]\label{def:k-reg}
+	Let $H$ be a $k$-partite $k$-graph on vertex classes $(V_1,\ldots,V_k)$
+	and $\P$ be a $\langle \d \rangle$-good $(k-1)$-partition with $\P^{(1)} \prec \{V_1,\ldots,V_k\}$.
+	We say that $\P$ is a \emph{$\langle \d \rangle$}-regular partition of $H$ if
+	for every $1 \le i \le k$,
+	$E_i(\P) \cup V_i(\P)$ is a $\langle \d \rangle$-regular partition of $G_H^i$.
+	%$\P^{(k-1)}_i \cup \P^{(1)}_i$ is a $\langle \d \rangle$-regular partition of $G_H^i$.
+	%
+%	the following holds for every $1 \le i \le k$;	setting $\P_i=\P[\prod_{j \neq i} \Vside^j] \cup \P[\Vside^i]$, the bipartite graph $G_{H}^i$ is $\langle \d \rangle$-regular relative to $\P_i$.
+%	
+%letting $P$ be the complete $k$-partite $(k-1)$-graph on $(\Vside^1,\ldots,\Vside^k)$ and $\P_i=\P[\prod_{\substack{1 \le j \le k\colon\\j \neq i}} \Vside^j] \cup \P[\Vside^i]$, the bipartite graph $G_{H,P}^i$ is $\langle \d \rangle$-regular relative to $\P_i$.\footnote{Thus, the vertex classes of $G_{H,P}^i$ are $(\Vside^1\times\cdots\Vside^{i-1}\times\Vside^{i+1}\times\Vside^{k},\,\Vside^i)$.}
+%
+% (Here, $G_{H}^i=G_{H,P}^i$ with the polyad $P$ being the complete $k$-partite $(k-1)$-graph on $(\Vside^1,\ldots,\Vside^k)$; that is, the vertex classes of $G_{F}^i$ are $(\Vside^1\times\cdots\Vside^{i-1}\times\Vside^{i+1}\times\Vside^{k},\,\Vside^i)$.)
+	%
+	%	We say that $H$ is \emph{$\langle \d \rangle$-regular relative to a $\langle \d \rangle$-good $(k-1)$ partition $\P$ on $(\Vside^1,\ldots,\Vside^k)$} if for every $1 \le i \le k$, the bipartite graph $G_{H}^i$ is $\langle \d \rangle$-regular relative to the partition $\P[\prod_{\substack{1 \le j \le k\colon\\j \neq i}} \Vside^j] \cup \P[\Vside^i]$.
+	%
+	%	one can add/remove at most $\d\cdot e(H)$ edges of $H$ to obtain a $k$-graph $H'$ such that
+	%	for every $1 \le r \le k$, the bipartite graph $G_{H'}^i$ is perfectly $\langle \d \rangle$-regular relative to the partition $\P[\prod_{\substack{1 \le h \le k\colon\\h \neq r}} \Vside^h] \cup \P[\Vside^r]$.
+",/home/shufan/que_tex/1907.07639.tex,definition + \emph{},"[⟨⟩̣-regular partition]
+	Let H be a k-partite k-graph on vertex classes (V_1,…,V_k)
+	and  be a ⟨⟩̣-good (k-1)-partition with ^(1)≺{V_1,…,V_k}.
+	We say that  is a ⟨⟩̣-regular partition of H if
+	for every 1 ≤ i ≤ k,
+	E_i() ∪ V_i() is a ⟨⟩̣-regular partition of G_H^i.
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+","⟨⟩̣-regular;⟨⟩̣-regular relative to a ⟨⟩̣-good (k-1) partition  on (^1,…,^k)","[⟨⟩̣-regular partition]
+	Let H be a k-partite k-graph on vertex classes (V_1,…,V_k)
+	and  be a ⟨⟩̣-good (k-1)-partition with ^(1)≺{V_1,…,V_k}.
+	We say that  is a B_MATH_TERM I_MATH_TERM I_MATH_TERM partition of H if
+	for every 1 ≤ i ≤ k,
+	E_i() ∪ V_i() is a ⟨⟩̣-regular partition of G_H^i.
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+",O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+13905,"$(\e,d)$-regular---or;$\e$-regular---in","[$\e$-regular $k$-graph]\label{def:e-reg}
+	A $k$-partite $k$-graph $H$ is \emph{$(\e,d)$-regular}---or simply \emph{$\e$-regular}---in a $k$-polyad $P$ with $H \sub \K(P)$
+	%on the same vertex classes
+	if for every $S \sub P$ with $|\K(S)| \ge \e|\K(P)|$ we have $d_H(S) = d \pm \e$.%\footnote{This implies $d_H(S) = d_H(P) \pm 2\e$. RS (Dfn 6) use the term $\e$-regular to mean $(\e,d_H(P))$-regular, whereas we use it to mean $(\e,d)$-regular for some $d$, which is essentially equivalent.}
+",/home/shufan/que_tex/1907.07639.tex,definition + \emph{},"[-regular k-graph]
+	A k-partite k-graph H is (,d)-regular—or simply -regular—in a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.
+","(,d)-regular—or;-regular—in","[-regular k-graph]
+	A k-partite k-graph H is B_MATH_TERM simply B_MATH_TERM a k-polyad P with H (P)
+	
+	if for every S  P with |(S)| ≥|(P)| we have d_H(S) = d ±.
+",O O O O O O O B_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O
+13911,early win,"
+In the achievement game played on a hypergraph $\hhh$, Player 1 has an \emph{early win} if he builds some $e\in E(\hhh)$, say in $n$ moves, such that there is no $m\leq n$ for which Player 2 had $\abs{e}-1$ points of a set $e\in E(\hhh)$ on his $m$th turn, and on which Player 1 had no point on his $m$th turn.
+",/home/shufan/que_tex/1101.4420.tex,definition + \emph{},"
+In the achievement game played on a hypergraph , Player 1 has an early win if he builds some e∈ E(), say in n moves, such that there is no m≤ n for which Player 2 had e-1 points of a set e∈ E() on his mth turn, and on which Player 1 had no point on his mth turn.
+",early win,"
+In the achievement game played on a hypergraph , Player 1 has an B_MATH_TERM I_MATH_TERM if he builds some e∈ E(), say in n moves, such that there is no m≤ n for which Player 2 had e-1 points of a set e∈ E() on his mth turn, and on which Player 1 had no point on his mth turn.
+",O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+14066,Maru\v{s," 
+\label{defn:ms}
+\rm
+Let $a > 1$ be an integer, $m>1$ a divisor of $2^a-1$, $S=-S$ a (possibly empty) symmetric subset of $\mathbb{Z}_m^\ast$, $U$ a subset of $\mathbb{Z}_m$, and $w$ a primitive element of $\GF(2^a)$. The \textit{Maru\v{s}i\v{c}-Scapellato graph} $\Gamma = \Gamma(a,m,S,U)$ is the graph with vertex set 
+\begin{equation*}
+V(\Gamma) := \PG(1,2^a)\times \mathbb{Z}_m\quad \mbox{(with $\PG(1,2^a)$ identified to $\GF(2^a)\cup \{\infty\}$)}
+\end{equation*}
+such that $(\infty,r)\in V(\Gamma)$ has neighbourhood
+$$
+\Gamma((\infty,r)) := \{(\infty,r+s): s\in S\}\cup\{(x,r+u): x\in \GF(2^a), u\in U\}
+$$
+and $(x,r)\in V(\Gamma)$ (where $x\in \GF(2^a)$) has neighbourhood
+$$
+\Gamma((x,r)) := \{(x,r+s): s\in S\}\cup\{(\infty,r-u): u\in U\}\cup  
+\{(x+w^i,-r+u+2i): i\in \mathbb{Z}_{2^a-1}, u\in U\}.
+$$
+",/home/shufan/que_tex/1611.06267.tex,definition + \textit{}," 
+
+Let a > 1 be an integer, m>1 a divisor of 2^a-1, S=-S a (possibly empty) symmetric subset of ℤ_m^∗, U a subset of ℤ_m, and w a primitive element of (2^a). The Marušič-Scapellato graph Γ = Γ(a,m,S,U) is the graph with vertex set 
+
+    V(Γ) := (1,2^a)×ℤ_m
+
+such that (∞,r)∈ V(Γ) has neighbourhood
+
+    Γ((∞,r)) := {(∞,r+s): s∈ S}∪{(x,r+u): x∈(2^a), u∈ U}
+
+and (x,r)∈ V(Γ) (where x∈(2^a)) has neighbourhood
+
+    Γ((x,r)) := {(x,r+s): s∈ S}∪{(∞,r-u): u∈ U}∪{(x+w^i,-r+u+2i): i∈ℤ_2^a-1, u∈ U}.
+
+",Maruš," 
+
+Let a > 1 be an integer, m>1 a divisor of 2^a-1, S=-S a (possibly empty) symmetric subset of ℤ_m^∗, U a subset of ℤ_m, and w a primitive element of (2^a). The B_MATH_TERMič-Scapellato graph Γ = Γ(a,m,S,U) is the graph with vertex set 
+
+    V(Γ) := (1,2^a)×ℤ_m
+
+such that (∞,r)∈ V(Γ) has neighbourhood
+
+    Γ((∞,r)) := {(∞,r+s): s∈ S}∪{(x,r+u): x∈(2^a), u∈ U}
+
+and (x,r)∈ V(Γ) (where x∈(2^a)) has neighbourhood
+
+    Γ((x,r)) := {(x,r+s): s∈ S}∪{(∞,r-u): u∈ U}∪{(x+w^i,-r+u+2i): i∈ℤ_2^a-1, u∈ U}.
+
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+14280,non-\emph{%;regular,"
+\RM We say that an elementary path $i_{0}...i_{p}$ is \emph{non}-\emph{%
+regular} if $i_{k-1}=i_{k}$ for some $k=1,...,p$, and \emph{regular}
+otherwise.
+",/home/shufan/que_tex/dforms.tex,definition + \emph{},"
+We say that an elementary path i_0...i_p is non-
+regular if i_k-1=i_k for some k=1,...,p, and regular
+otherwise.
+",non-,"
+We say that an elementary path i_0...i_p is B_MATH_TERM
+regular if i_k-1=i_k for some k=1,...,p, and B_MATH_TERM
+otherwise.
+",O O O O O O O O B_MATH_TERM O O O O O O O B_MATH_TERM O
+14445,atoms;supp(p)-\{p_1\}\in\mathcal{S}_{P}$;supp,"\label{sect5-1t}
+Let $P$ be a finite atomic lattice. Then $P$ is super-atomic if and only if for any $p\in P-\emph{atoms}(P)\bigcup\{0\}$, there exist two atoms $ p_1,  p_2$ in $P$ such that $p= p_1\vee p_2$ satisfying that $\emph{supp(p)}-\{p_1\}\in\mathcal{S}_{P}$ and $\emph{supp}(p)-\{p_2\}\in\mathcal{S}_{P}$.
+",/home/shufan/que_tex/1610.03405.tex,theorem + \emph{},"
+Let P be a finite atomic lattice. Then P is super-atomic if and only if for any p∈ P-atoms(P)⋃{0}, there exist two atoms p_1,  p_2 in P such that p= p_1∨ p_2 satisfying that supp(p)-{p_1}∈𝒮_P and supp(p)-{p_2}∈𝒮_P.
+",atoms;supp(p)-{p_1}∈𝒮_P;supp,"
+Let P be a finite atomic lattice. Then P is super-atomic if and only if for any p∈ P-B_MATH_TERM(P)⋃{0}, there exist two atoms p_1,  p_2 in P such that p= p_1∨ p_2 satisfying that B_MATH_TERM andB_MATH_TERM(p)-{p_2}∈𝒮_P.",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O
+14485,ME-equivalence),"\label{DefMEequivalence}
+Suppose $\Sigma$ is an ordered alphabet and $w,w'\in\Sigma^*$.
+\begin{enumerate}
+\item We say that $w$ is {\it $1$-equivalent} to $w'$ if and only if $w'$ can be obtained from $w$ by finitely many applications of Rule $E1$.
+\item We say that $w$ is {\it ME-equivalent}\footnote{The term elementary matrix equivalence ( \textit{ME}-equivalence) was first introduced in \cite{aS10}.} to $w'$ if and only if $w'$ can be obtained from $w$ by finitely many applications of Rule $E1$ and $E2$.
+\end{enumerate}
+",/home/shufan/que_tex/1807.06171.tex,definition + \textit{},"
+Suppose Σ is an ordered alphabet and w,w'∈Σ^*.
+
+
+  * We say that w is 1-equivalent to w' if and only if w' can be obtained from w by finitely many applications of Rule E1.
+
+  * We say that w is ME-equivalent[The term elementary matrix equivalence ( ME-equivalence) was first introduced in <cit.>.] to w' if and only if w' can be obtained from w by finitely many applications of Rule E1 and E2.
+
+",ME-equivalence),"
+Suppose Σ is an ordered alphabet and w,w'∈Σ^*.
+
+
+  * We say that w is 1-equivalent to w' if and only if w' can be obtained from w by finitely many applications of Rule E1.
+
+  * We say that w is ME-equivalent[The term elementary matrix equivalence ( B_MATH_TERM was first introduced in <cit.>.] to w' if and only if w' can be obtained from w by finitely many applications of Rule E1 and E2.
+
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O
+14523,directed path decomposition;bags;width,"
+	Let $D$ be a digraph, $P$ a directed path and $\beta\colon\Fkt{V}{P}\rightarrow 2^{\Fkt{V}{D}}$.
+	For a directed subpath $P'$ of $P$, we use the notation $\Fkt{\beta}{P'}=\bigcup_{t\in V(P')}\Fkt{\beta}{t}$.
+	
+	The tuple $\Brace{P,\beta}$ is called a \emph{directed path decomposition} for $D$ if
+	\begin{enumerate}
+		
+		\item $\bigcup_{t\in V(P)}\Fkt{\beta}{t}=\Fkt{V}{D}$,
+		
+		\item  $\Brace{\Fkt{\beta}{Pt},\Fkt{\beta}{t'P}}$ is a directed separation of $D$ for every $\Brace{t,t'}\in\Fkt{E}{P}$, and
+		
+		\item $B_v\coloneqq \CondSet{t\in\Fkt{V}{P}}{v\in\Fkt{\beta}{t}}$ induces a subpath of $P$.
+		
+	\end{enumerate}
+	
+	We call $\Fkt{\beta}{t}$ the \emph{bags} of $\Brace{P,\beta}$.
+	The \emph{width} of $\Brace{P,\beta}$ is $\Fkt{\operatorname{width}}{P,\beta}=\max_{t\in V(P)}\Abs{\Fkt{\beta}{t}}-1$.
+	The directed pathwidth of $D$, denoted by $\dpw{D}$, is the minimum width of a directed path decomposition for $D$.
+	
+	The task here is to determine the directed pathwidth of a given digraph $D$ and find a directed path decomposition of minimum width while doing so.
+	
+	\ProblemDefLabelled{Directed Pathwidth}{DPW}{prob:DPW}
+	{A digraph $D$.}
+	{Find a directed path decomposition of minimum width for $D$.}
+	
+	\begin{theorem} \label{FPTDPW}
+		There exists an algorithm that given a digraph $D$ as input, outputs a directed path decomposition for $D$ of minimum width.
+		The algorithm runs in time $\Fkt{\mathcal{O}}{\omega n^3+\omega^3 2^{\omega^2} n}$, where $n\coloneqq\Abs{\Fkt{V}{D}}$ and $\omega\coloneqq\Fkt{\dmw}{D}$.
+	\end{theorem}
+	
+",/home/shufan/que_tex/DMW.tex,definition + \emph{},"
+	Let D be a digraph, P a directed path and βVP→ 2^VD.
+	For a directed subpath P' of P, we use the notation βP'=⋃_t∈ V(P')βt.
+	
+	The tuple P,β is called a directed path decomposition for D if
+	
+		
+		
+  * ⋃_t∈ V(P)βt=VD,
+		
+		
+  * βPt,βt'P is a directed separation of D for every t,t'∈EP, and
+		
+		
+  * B_vt∈VPv∈βt induces a subpath of P.
+		
+	
+	
+	We call βt the bags of P,β.
+	The width of P,β is widthP,β=max_t∈ V(P)βt-1.
+	The directed pathwidth of D, denoted by D, is the minimum width of a directed path decomposition for D.
+	
+	The task here is to determine the directed pathwidth of a given digraph D and find a directed path decomposition of minimum width while doing so.
+	
+	Directed PathwidthDPWprob:DPW
+	A digraph D.
+	Find a directed path decomposition of minimum width for D.
+	
+	 
+		There exists an algorithm that given a digraph D as input, outputs a directed path decomposition for D of minimum width.
+		The algorithm runs in time 𝒪ω n^3+ω^3 2^ω^2 n, where nVD and ωD.
+	
+	
+",directed path decomposition;bags;width,"
+	Let D be a digraph, P a directed path and βVP→ 2^VD.
+	For a directed subpath P' of P, we use the notation βP'=⋃_t∈ V(P')βt.
+	
+	The tuple P,β is called a B_MATH_TERM I_MATH_TERM I_MATH_TERM for D if
+	
+		
+		
+  * ⋃_t∈ V(P)βt=VD,
+		
+		
+  * βPt,βt'P is a directed separation of D for every t,t'∈EP, and
+		
+		
+  * B_vt∈VPv∈βt induces a subpath of P.
+		
+	
+	
+	We call βt the B_MATH_TERM of P,β.
+	The B_MATH_TERM of P,β is widthP,β=max_t∈ V(P)βt-1.
+	The directed pathwidth of D, denoted by D, is the minimum width of a directed path decomposition for D.
+	
+	The task here is to determine the directed pathwidth of a given digraph D and find a directed path decomposition of minimum width while doing so.
+	
+	Directed PathwidthDPWprob:DPW
+	A digraph D.
+	Find a directed path decomposition of minimum width for D.
+	
+	 
+		There exists an algorithm that given a digraph D as input, outputs a directed path decomposition for D of minimum width.
+		The algorithm runs in time 𝒪ω n^3+ω^3 2^ω^2 n, where nVD and ωD.
+	
+	
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+14655,lattice path,"
+A \emph{lattice path}  of length $n$ is a sequence $(\gamma_0, \ldots, \gamma_{n})$ of points $\gamma_i$ in the plan $\Z\times\Z$ for all $0\leq i\leq n$ and such that $\gamma_{i+1}-\gamma_i=(1,0)$ (east-step) or $(0,1)$ (north-step) for $1\leq i\leq n-1$. 
+",/home/shufan/que_tex/1112.4026.tex,definition + \emph{},"
+A lattice path  of length n is a sequence (γ_0, …, γ_n) of points γ_i in the plan × for all 0≤ i≤ n and such that γ_i+1-γ_i=(1,0) (east-step) or (0,1) (north-step) for 1≤ i≤ n-1. 
+",lattice path,"
+A B_MATH_TERM I_MATH_TERM  of length n is a sequence (γ_0, …, γ_n) of points γ_i in the plan × for all 0≤ i≤ n and such that γ_i+1-γ_i=(1,0) (east-step) or (0,1) (north-step) for 1≤ i≤ n-1. 
+",O B_MATH_TERM I_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+14740,MSE-equivalent,"\label{StrongMButNotMSE}
+Suppose $\Sigma=\{a,b,c\}$ and $w,w'\in\Sigma^*$. Let $w=w_0\beta_1w_1\beta_2\cdots \beta_tw_t$ for some $t\ge 1$ such that $w_i\in\Sigma^*$ for every $0\le i\le t$ and
+\vspace{-0.3em}\begin{equation*}
+\beta_k =\begin{cases}
+ab x_k ba &\text{for } 1\leq k \leq t'\\
+ba x_k ab &\text{for } t'+1\leq k\leq t,
+\end{cases}
+\end{equation*} satisfying conditions as in Theorem \ref{Strong2tTransformation}. In addition, suppose that $|x_k|_c\le 1$ for every $1\le k\le t$, $|x_k|_c=1$ for some $1\le k\le t$, and $|w_i|_c\le 1$ for every $0\le i\le t$.
+
+Let $w'$ be the word obtained by (simultaneously) swapping every $ab$ with $ba$ in $w$. Then $w\overset{s}{\underset{(2\cdot t)}{\longrightarrow}}w'$ but $w$ is not \textit{MSE}-equivalent to $w'$.
+",/home/shufan/que_tex/1702.03647.tex,theorem + \textit{},"
+Suppose Σ={a,b,c} and w,w'∈Σ^*. Let w=w_0β_1w_1β_2⋯β_tw_t for some t≥ 1 such that w_i∈Σ^* for every 0≤ i≤ t and
+
+
+    β_k =
+    ab x_k ba    for  1≤ k ≤ t'
+    
+    ba x_k ab    for  t'+1≤ k≤ t,
+ satisfying conditions as in Theorem <ref>. In addition, suppose that |x_k|_c≤ 1 for every 1≤ k≤ t, |x_k|_c=1 for some 1≤ k≤ t, and |w_i|_c≤ 1 for every 0≤ i≤ t.
+
+Let w' be the word obtained by (simultaneously) swapping every ab with ba in w. Then ws(2· t)⟶w' but w is not MSE-equivalent to w'.
+",MSE-equivalent,"
+Suppose Σ={a,b,c} and w,w'∈Σ^*. Let w=w_0β_1w_1β_2⋯β_tw_t for some t≥ 1 such that w_i∈Σ^* for every 0≤ i≤ t and
+
+
+    β_k =
+    ab x_k ba    for  1≤ k ≤ t'
+    
+    ba x_k ab    for  t'+1≤ k≤ t,
+ satisfying conditions as in Theorem <ref>. In addition, suppose that |x_k|_c≤ 1 for every 1≤ k≤ t, |x_k|_c=1 for some 1≤ k≤ t, and |w_i|_c≤ 1 for every 0≤ i≤ t.
+
+Let w' be the word obtained by (simultaneously) swapping every ab with ba in w. Then ws(2· t)⟶w' but w is not B_MATH_TERM to w'.
+",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B_MATH_TERM O O
+14748,"almost strongly elementarily matrix equivalent;MSAE-equivalent),","\label{DefineMSAE}
+Suppose $\Sigma=\{a,b,c\}$ and $w,w'\in\Sigma^*$. We say that $w$ and $w'$ are \textit{almost strongly elementarily matrix equivalent} ( \textit{MSAE}-equivalent), denoted by $w\equiv_{{\it MSAE}}w'$, if and only if there exist $w_0,w_1,\ldots , w_n\in\Sigma^*$ such that $w=w_0\overset{\Omega_1}{\longrightarrow}w_1\overset{\Omega_2}{\longrightarrow}w_2\overset{\Omega_3}{\longrightarrow}\cdots \overset{\Omega_n}{\longrightarrow}w_n=w'$ for some counters $\Omega_i,1\le i\le n,$ satisfying $\sum_{i=1}^{n}\Omega_i=(0,0,0)$.
+",/home/shufan/que_tex/1702.03647.tex,definition + \textit{},"
+Suppose Σ={a,b,c} and w,w'∈Σ^*. We say that w and w' are almost strongly elementarily matrix equivalent ( MSAE-equivalent), denoted by w≡_ MSAEw', if and only if there exist w_0,w_1,… , w_n∈Σ^* such that w=w_0Ω_1⟶w_1Ω_2⟶w_2Ω_3⟶⋯Ω_n⟶w_n=w' for some counters Ω_i,1≤ i≤ n, satisfying ∑_i=1^nΩ_i=(0,0,0).
+","almost strongly elementarily matrix equivalent;MSAE-equivalent),","
+Suppose Σ={a,b,c} and w,w'∈Σ^*. We say that w and w' are B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM ( B_MATH_TERM denoted by w≡_ MSAEw', if and only if there exist w_0,w_1,… , w_n∈Σ^* such that w=w_0Ω_1⟶w_1Ω_2⟶w_2Ω_3⟶⋯Ω_n⟶w_n=w' for some counters Ω_i,1≤ i≤ n, satisfying ∑_i=1^nΩ_i=(0,0,0).
+",O O O O O O O O O O O B_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM I_MATH_TERM O B_MATH_TERM O O O O O O O O O O O O O O O O O O O O O O O O
