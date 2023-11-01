@@ -49,8 +49,8 @@ Transformer's native evaluation of our experiments can be found in [finetuning_r
 Our fine-tuned models are available here:
 
 - [Fine-tuned roberta-base](https://huggingface.co/InriaValda/roberta-base_definiendum)
-- [Fine-tune cc_math_roberta_ep01](https://huggingface.co/InriaValda/cc_math_roberta_ep01_definiendum)
-- [Fine-tune cc_math_roberta_ep10](https://huggingface.co/InriaValda/cc_math_roberta_ep10_definiendum)
+- [Fine-tuned cc_math_roberta_ep01](https://huggingface.co/InriaValda/cc_math_roberta_ep01_definiendum)
+- [Fine-tuned cc_math_roberta_ep10](https://huggingface.co/InriaValda/cc_math_roberta_ep10_definiendum)
 
 
 
