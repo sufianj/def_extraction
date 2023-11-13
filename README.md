@@ -2,7 +2,7 @@
 
 
 
-This repository containes the datasets, codes and experimental results of our paper: "Extracting Definienda in Mathematical Scholarly Articles with~Transformers" (Accepted by the [2nd Workshop on Information Extraction from Scientific Publications at IJCNLP-AACL 2023](https://ui.adsabs.harvard.edu/WIESP/), link of the PDF to be appeared).
+This repository containes the datasets, codes and experimental results of our paper: [Extracting Definienda in Mathematical Scholarly Articles with~Transformers](https://pierre.senellart.com/publications/jiang2023extracting.pdf) (Accepted by the [2nd Workshop on Information Extraction from Scientific Publications at IJCNLP-AACL 2023](https://ui.adsabs.harvard.edu/WIESP/)).
 
 
 An 8 minutes' video about our work:
